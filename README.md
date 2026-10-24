@@ -56,6 +56,30 @@ Open **[http://localhost:4173](http://localhost:4173)**. Keep the terminal windo
 
 Do not open `public/index.html` by double-clicking it: the application uses a local HTTP server.
 
+## Publish to GitHub Pages
+
+The repository includes [.github/workflows/pages.yml](.github/workflows/pages.yml). It builds a static site from `public/` into `dist/pages`, then deploys that artifact. The Node.js server is used only for local development; the hosted editor runs in the browser.
+
+1. Push the project files, including the workflow, to the repository's **main** branch.
+2. Open **Settings → Pages → Build and deployment → Source** and select **GitHub Actions**.
+3. Open **Actions → Deploy GitHub Pages**. If the first run happened before Pages was enabled, select **Run workflow** on `main`.
+4. Wait for both the **build** and **deploy** jobs to finish. The published URL appears in **Settings → Pages** and in the deployment summary.
+
+For `mtslarper/mtc-custom-loadout-manager`, the expected URL is <https://mtslarper.github.io/mtc-custom-loadout-manager/>.
+
+The workflow obtains the site's base path from GitHub Pages. Local builds default to `/mtc-custom-loadout-manager/`; script, font, image, catalog, and Next.js runtime paths are adapted in the generated files. Source files under `public/` keep their localhost paths. `.nojekyll` is included, and backup files are excluded.
+
+To check the hosted layout locally:
+
+```sh
+npm run build:pages
+npm run preview:pages
+```
+
+Open <http://localhost:4177/mtc-custom-loadout-manager/>. For a different repository path, use `npm run build:pages -- --base-path /repository-name`. A root-domain build uses `--base-path /`. Set `PAGES_BASE_PATH` to the same value when previewing a custom path.
+
+Browser saves from localhost are separate from saves on the published site. Transfer loadouts using exported JSON. Published share links use the site's URL automatically. Files and data needed by the application are hosted together; existing source attribution and distribution terms still apply.
+
 ## Usage
 
 ### Load a built-in preset
@@ -132,6 +156,8 @@ Run all commands from the project folder.
 | Command | Purpose |
 | --- | --- |
 | `npm start` | Start the local server. |
+| `npm run build:pages` | Build `dist/pages` for GitHub Pages without modifying `public/`. |
+| `npm run preview:pages` | Preview the generated site at its repository URL prefix. |
 | `npm test` | Check imports, share links, copying, and server protections. |
 | `npm run check:vehicles` | Validate the catalog, images, and consistency with source data. |
 | `npm run scan:secrets` | Scan for known token/key formats and literal passwords. |

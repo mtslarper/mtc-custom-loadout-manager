@@ -12,9 +12,14 @@
       "sha256": "615db73d079a28c0f40bf698241aca54fb6a13330115475b0696ec409fc6ba16"
     },
     {
+      "file": ".github/workflows/pages.yml",
+      "bytes": 1535,
+      "sha256": "af401efc79125c644f20a1ea25b13072121036e7b170e51e9d19c48f8cb30039"
+    },
+    {
       "file": ".gitignore",
-      "bytes": 193,
-      "sha256": "dd49a08d649e89e2895861f6f8056301f20ef406341de3df637111162db66444"
+      "bytes": 199,
+      "sha256": "0cd4deb62e5860a7dae3a4898da156213f6431d232782100f5b91aa31a24f608"
     },
     {
       "file": "NOTICE.md",
@@ -23,13 +28,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 10963,
-      "sha256": "c73127e0954f5e72e953043beed716df96566c45ad69bb02b3425a77bc24aef5"
+      "bytes": 12999,
+      "sha256": "1f354f26a1f00288c84378ed5c13cc025fdfcd5255dbba0eb5f0727e0a51a8dd"
     },
     {
       "file": "README.ru.md",
-      "bytes": 17822,
-      "sha256": "8826e5b379249350bd5c9218a2591d8ad29f9d8dee24a4f4097d19e693b943eb"
+      "bytes": 20842,
+      "sha256": "eb13e445794dae3f3e6d55e7c0f04a4ae44a7cc183bfe6e2973fba426434c095"
     },
     {
       "file": "Start.cmd",
@@ -43,8 +48,8 @@
     },
     {
       "file": "package.json",
-      "bytes": 563,
-      "sha256": "5419e1dd05152d0b89d6a08093175abcd4c353feefc99a05e91f741e01b31f2f"
+      "bytes": 665,
+      "sha256": "ba2cb1e0b8b9e837cd9a360db8a4dc306c43f9651cb6f2d3427b2b5acf274f84"
     },
     {
       "file": "public/_next/static/OQyeeP3xfvEDs6ZEPsTl_/_buildManifest.js",
@@ -2172,9 +2177,19 @@
       "sha256": "4337591e3e02b1f30f2fa3a22401831cf967454a2e99bc6720a36b2f7030077d"
     },
     {
+      "file": "tests/pages.test.mjs",
+      "bytes": 5419,
+      "sha256": "508691aabb987d255a37edaf47ebda394d107a3f01bf45701d5bf5d935dcbf87"
+    },
+    {
       "file": "tests/security.test.mjs",
       "bytes": 7135,
       "sha256": "223ce479af6f30937d232d84783e9b9e9d275edb4f80ca6ebe462064572999e3"
+    },
+    {
+      "file": "tools/build-pages.mjs",
+      "bytes": 5524,
+      "sha256": "f0ecaf0d09a4450716eb576369bb9d3a727d657f237c4c57b6d4afeb88842093"
     },
     {
       "file": "tools/check-vehicle-info.mjs",
@@ -2215,6 +2230,11 @@
       "file": "tools/prepare-release.mjs",
       "bytes": 3150,
       "sha256": "aaf06a5efb6a81fba8052593fef923537c201125aa60ded73975a25fc004e88a"
+    },
+    {
+      "file": "tools/preview-pages.mjs",
+      "bytes": 1635,
+      "sha256": "ce2a36ba077e9836ee3c34489fb9a7e0d320d4a0288924faff023e093bc96310"
     },
     {
       "file": "tools/scan-secrets.mjs",
@@ -2268,8 +2288,8 @@
     }
   ],
   "secretScan": {
-    "scanned": 49,
+    "scanned": 53,
     "findings": 0
   },
-  "updatedAt": "2026-10-24T16:23:02.006558+00:00"
+  "updatedAt": "2026-10-24T17:00:16.265350+00:00"
 }
