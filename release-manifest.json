@@ -23,18 +23,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 10672,
-      "sha256": "1ebaaeeceb7fc3cb8c919f363e41f03ce555d73791330d572c23c1657dc82e00"
+      "bytes": 10963,
+      "sha256": "c73127e0954f5e72e953043beed716df96566c45ad69bb02b3425a77bc24aef5"
     },
     {
       "file": "README.ru.md",
-      "bytes": 17212,
-      "sha256": "5a4cff97ec516689cf22bc8aae43b6aaff970e40bca1ebfefbc63e47bbebadd8"
-    },
-    {
-      "file": "SECURITY.md",
-      "bytes": 5378,
-      "sha256": "d3ff0e3e736d34755dbe9b60533cabba5cbcb6e4d3b6898250ebfdc78b35084a"
+      "bytes": 17822,
+      "sha256": "8826e5b379249350bd5c9218a2591d8ad29f9d8dee24a4f4097d19e693b943eb"
     },
     {
       "file": "Start.cmd",
@@ -88,8 +83,8 @@
     },
     {
       "file": "public/_next/static/chunks/pages/index-211ecad247b1f53d.js",
-      "bytes": 80111,
-      "sha256": "17964da620cb1b081e6b66dfcae26c0b0def35d89ce57c527f0ef1749db4e26b"
+      "bytes": 81597,
+      "sha256": "94d4046bfec95ad03733f8681513af752215f294d83151c4246a0cb0b5c7c7f0"
     },
     {
       "file": "public/_next/static/chunks/polyfills-42372ed130431b0a.js",
@@ -2133,8 +2128,8 @@
     },
     {
       "file": "public/data/vehicle-info.json",
-      "bytes": 881426,
-      "sha256": "ed79c1ffaa6db3410428369f0b43cbd762cba3b4eb860856a6c8d15c5429f832"
+      "bytes": 995455,
+      "sha256": "3f7a308232c764d1bcd652abe4aef6c75d23b888f8d80220aec04532d32cf5e3"
     },
     {
       "file": "public/favicon.ico",
@@ -2142,14 +2137,19 @@
       "sha256": "eab0a692f62d904ce0460baff91c92e238fd3b2d2e9fe31d3b4b0e3ed5604dd2"
     },
     {
+      "file": "public/i18n.js",
+      "bytes": 14522,
+      "sha256": "af5e9c2fde75d444ee96633f5d10f28486491910d4abd8f9c876382f1c08d007"
+    },
+    {
       "file": "public/index.html",
-      "bytes": 467620,
-      "sha256": "6654dfbeb0e3efda66006b26f974bd2d78ba6ef6608c1083f9be67bde3197a6d"
+      "bytes": 467658,
+      "sha256": "b3710654a345b882b81abfadb3f666ffc8bca220f920a048bb6f8586821734bb"
     },
     {
       "file": "public/loadout-io.js",
-      "bytes": 10028,
-      "sha256": "bd2f427022c6129ffafa3c0eb7a4167b86af830a063ee261770624c6c710d97a"
+      "bytes": 10086,
+      "sha256": "48d1bbe5346401025db10b49d2266a1d983ae3ab042c77aba7aed79214c8d8ae"
     },
     {
       "file": "public/vehicle-hover.css",
@@ -2158,13 +2158,18 @@
     },
     {
       "file": "public/vehicle-hover.js",
-      "bytes": 16407,
-      "sha256": "6e1bf7aed00172b3955430fefd828caf09d67778897e882e118b3c0a12588068"
+      "bytes": 14512,
+      "sha256": "f54068784db2bbda83f205fbdfd7c1af9ea677663c75c27785161060bcb7986c"
     },
     {
       "file": "server.mjs",
       "bytes": 4234,
       "sha256": "b37deb3c4432dc40246d8f00b8e322db525b53532518c22b8efb22481861722c"
+    },
+    {
+      "file": "tests/i18n.test.mjs",
+      "bytes": 4418,
+      "sha256": "4337591e3e02b1f30f2fa3a22401831cf967454a2e99bc6720a36b2f7030077d"
     },
     {
       "file": "tests/security.test.mjs",
@@ -2182,14 +2187,19 @@
       "sha256": "c885da9f32114d6b843f46ed1d7ddab8e3b5aabd91ae26b0ff10f1c3569eefff"
     },
     {
+      "file": "tools/install-i18n.mjs",
+      "bytes": 4491,
+      "sha256": "592e857c8a263485b4983eed8f28f0bfafc08ca5deb98e0e75d49cd858e18d48"
+    },
+    {
       "file": "tools/install-vehicle-hover.mjs",
       "bytes": 1369,
       "sha256": "d76d137b2ca6cb9d5d5f2b0064d3f66cc51ecc642173e03548a7fbe5e8e842e0"
     },
     {
       "file": "tools/lib/vehicle-modifications.mjs",
-      "bytes": 12515,
-      "sha256": "ce1cd115e5bdd9a9f49013fa1eb4d5b3044160aa362f0bde6cf8d942c2fd4792"
+      "bytes": 17214,
+      "sha256": "32b1fed633b5a826051c711f35269bf9a6a7abc1276d666d13ebb9125ca7b0d4"
     },
     {
       "file": "tools/mirror.mjs",
@@ -2198,8 +2208,8 @@
     },
     {
       "file": "tools/patch-import.mjs",
-      "bytes": 6500,
-      "sha256": "5f2bf84eb229031bb820cc9039fe1286efbdb8d638863dff0067daa364d1e9ab"
+      "bytes": 6536,
+      "sha256": "a2ccfb7655e5caba8c55ac0d010433dfeb54bfbd3a8fd4b5896472397d734d87"
     },
     {
       "file": "tools/prepare-release.mjs",
@@ -2244,7 +2254,7 @@
     {
       "file": "verification/vehicle-image-sources.json",
       "bytes": 57260,
-      "sha256": "8358daadafc1ce1b1b25fe673da881af19b408c420c54c2841a5c1dc4fbc3649"
+      "sha256": "0fb646549a118ba0e1d8a0cb14e5e794f23e9f0fa4ea8ee663dbc219819c6848"
     },
     {
       "file": "verification/vehicle-info-report.json",
@@ -2258,8 +2268,8 @@
     }
   ],
   "secretScan": {
-    "scanned": 47,
+    "scanned": 49,
     "findings": 0
   },
-  "updatedAt": "2026-10-24T00:12:15.490701+00:00"
+  "updatedAt": "2026-10-24T16:23:02.006558+00:00"
 }

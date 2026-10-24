@@ -17,6 +17,7 @@ This project is based on the published browser build of [Loadout Editor](https:/
 - Select multiple items with **Shift + left click** and copy them by dragging.
 - Hover over vehicles to view images, in-game stats, armament, and available descriptions.
 - Browse modifications, including costs, eras, explanations, and published stat changes.
+- Switch between English and Russian using **EN / RU** immediately after **Manage**. English is the default; your browser remembers the choice.
 
 ## Requirements
 
@@ -112,7 +113,7 @@ Use **MTC / RV** to switch between available data versions. Some vehicles also h
 
 Stats describe the in-game base configuration. Missing values are not filled in with guesses. Modification explanations identify their source: an in-game description, published module changes, or an interpretation of the name. **Viewing modifications does not apply them to the exported JSON.**
 
-Vehicle card labels and modification explanations are currently in Russian. Original descriptions retain their source language.
+The **EN / RU** button changes the editor, vehicle card labels, and generated modification explanations without resetting the current loadout. Original game/wiki descriptions and equipment names retain their source language. Language selection does not change exported JSON.
 
 ## Data and limitations
 

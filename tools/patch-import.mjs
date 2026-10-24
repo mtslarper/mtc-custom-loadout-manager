@@ -48,3 +48,4 @@ console.log('patched');
 // Reapplying import/multi-select patches must preserve vehicle cards as well.
 await import('./install-vehicle-hover.mjs');
 await import('./harden-build.mjs');
+await import('./install-i18n.mjs');

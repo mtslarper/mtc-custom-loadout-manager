@@ -109,7 +109,9 @@
   }
   async function readFile(file) {
     if (!Number.isFinite(file.size) || file.size > MAX_BYTES) fail('File exceeds 4 MiB');
-    let raw = JSON.parse(await file.text()); inspect(raw);
+    let raw;
+    try { raw = JSON.parse(await file.text()); } catch { fail('Invalid JSON file'); }
+    inspect(raw);
     const name = typeof raw?.name === 'string' ? raw.name : file.name.replace(/\.editor\.json$|\.json$/i, '');
     if (raw?.save && !raw.columns) raw = raw.save;
     const save = raw?.WeaponClasses && raw?.Vehicles ? fromGame(raw) : validateEditor(raw);

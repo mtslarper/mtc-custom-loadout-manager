@@ -1,19 +1,19 @@
 {
-  "120s": {
-    "local": "/assets/vehicles/120s.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/120s/perspective.png?w=640&q=80"
-  },
-  "2s43": {
-    "local": "/assets/vehicles/2s43.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/2s43/perspective.png?w=640&q=80"
+  "2s14-zhalo-s": {
+    "local": "/assets/vehicles/2s14-zhalo-s.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/2s14-zhalo-s/perspective.png?w=640&q=80"
   },
   "2s19-msta-s": {
     "local": "/assets/vehicles/2s19-msta-s.webp",
     "source": "https://img.astrid.ovh/public-stats-images/2s19-msta-s/perspective.png?w=640&q=80"
   },
-  "2s14-zhalo-s": {
-    "local": "/assets/vehicles/2s14-zhalo-s.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/2s14-zhalo-s/perspective.png?w=640&q=80"
+  "2s43": {
+    "local": "/assets/vehicles/2s43.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/2s43/perspective.png?w=640&q=80"
+  },
+  "120s": {
+    "local": "/assets/vehicles/120s.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/120s/perspective.png?w=640&q=80"
   },
   "2s38": {
     "local": "/assets/vehicles/2s38.webp",
@@ -35,6 +35,10 @@
     "local": "/assets/vehicles/90mm-gmc-super-hellcat.webp",
     "source": "https://img.astrid.ovh/public-stats-images/90mm-gmc-super-hellcat/perspective.png?w=640&q=80"
   },
+  "abandoned-tank-hull": {
+    "local": "/assets/vehicles/abandoned-tank-hull.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/abandoned-tank-hull/perspective.png?w=640&q=80"
+  },
   "abandoned-ifv-hull": {
     "local": "/assets/vehicles/abandoned-ifv-hull.webp",
     "source": "https://img.astrid.ovh/public-stats-images/abandoned-ifv-hull/perspective.png?w=640&q=80"
@@ -43,17 +47,9 @@
     "local": "/assets/vehicles/a331-assault-tank.webp",
     "source": "https://img.astrid.ovh/public-stats-images/a331-assault-tank/perspective.png?w=640&q=80"
   },
-  "abandoned-tank-hull": {
-    "local": "/assets/vehicles/abandoned-tank-hull.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/abandoned-tank-hull/perspective.png?w=640&q=80"
-  },
   "a7v": {
     "local": "/assets/vehicles/a7v.webp",
     "source": "https://img.astrid.ovh/public-stats-images/a7v/perspective.png?w=640&q=80"
-  },
-  "abrams-x": {
-    "local": "/assets/vehicles/abrams-x.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/abrams-x/perspective.png?w=640&q=80"
   },
   "achzarit-mk2-rcws-30": {
     "local": "/assets/vehicles/achzarit-mk2-rcws-30.webp",
@@ -62,6 +58,10 @@
   "ah-64d": {
     "local": "/assets/vehicles/ah-64d.webp",
     "source": "https://img.astrid.ovh/public-stats-images/ah-64d/perspective.png?w=640&q=80"
+  },
+  "abrams-x": {
+    "local": "/assets/vehicles/abrams-x.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/abrams-x/perspective.png?w=640&q=80"
   },
   "aft-10": {
     "local": "/assets/vehicles/aft-10.webp",
@@ -83,17 +83,13 @@
     "local": "/assets/vehicles/al-khalid.webp",
     "source": "https://img.astrid.ovh/public-stats-images/al-khalid/perspective.png?w=640&q=80"
   },
-  "ariete-c1": {
-    "local": "/assets/vehicles/ariete-c1.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/ariete-c1/perspective.png?w=640&q=80"
-  },
-  "begleitpanzer-57": {
-    "local": "/assets/vehicles/begleitpanzer-57.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/begleitpanzer-57/perspective.png?w=640&q=80"
-  },
   "asu-57": {
     "local": "/assets/vehicles/asu-57.webp",
     "source": "https://img.astrid.ovh/public-stats-images/asu-57/perspective.png?w=640&q=80"
+  },
+  "ariete-c1": {
+    "local": "/assets/vehicles/ariete-c1.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/ariete-c1/perspective.png?w=640&q=80"
   },
   "aw-149": {
     "local": "/assets/vehicles/aw-149.webp",
@@ -102,6 +98,10 @@
   "black-night": {
     "local": "/assets/vehicles/black-night.webp",
     "source": "https://img.astrid.ovh/public-stats-images/black-night/perspective.png?w=640&q=80"
+  },
+  "begleitpanzer-57": {
+    "local": "/assets/vehicles/begleitpanzer-57.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/begleitpanzer-57/perspective.png?w=640&q=80"
   },
   "bm-bulat": {
     "local": "/assets/vehicles/bm-bulat.webp",
@@ -119,13 +119,13 @@
     "local": "/assets/vehicles/bmd-1.webp",
     "source": "https://img.astrid.ovh/public-stats-images/bmd-1/perspective.png?w=640&q=80"
   },
-  "bmd-4m": {
-    "local": "/assets/vehicles/bmd-4m.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/bmd-4m/perspective.png?w=640&q=80"
-  },
   "bmd-2": {
     "local": "/assets/vehicles/bmd-2.webp",
     "source": "https://img.astrid.ovh/public-stats-images/bmd-2/perspective.png?w=640&q=80"
+  },
+  "bmd-4m": {
+    "local": "/assets/vehicles/bmd-4m.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/bmd-4m/perspective.png?w=640&q=80"
   },
   "bmp-1": {
     "local": "/assets/vehicles/bmp-1.webp",
@@ -163,14 +163,6 @@
     "local": "/assets/vehicles/bmp-3m-arena.webp",
     "source": "https://img.astrid.ovh/public-stats-images/bmp-3m-arena/perspective.png?w=640&q=80"
   },
-  "bmpt-spyridon": {
-    "local": "/assets/vehicles/bmpt-spyridon.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/bmpt-terminator/perspective.png?w=640&q=80"
-  },
-  "borsuk": {
-    "local": "/assets/vehicles/borsuk.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/borsuk/perspective.png?w=640&q=80"
-  },
   "brdm-2": {
     "local": "/assets/vehicles/brdm-2.webp",
     "source": "https://img.astrid.ovh/public-stats-images/brdm-2/perspective.png?w=640&q=80"
@@ -178,6 +170,10 @@
   "bt-5": {
     "local": "/assets/vehicles/bt-5.webp",
     "source": "https://img.astrid.ovh/public-stats-images/bt-5/perspective.png?w=640&q=80"
+  },
+  "bmpt-spyridon": {
+    "local": "/assets/vehicles/bmpt-spyridon.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/bmpt-terminator/perspective.png?w=640&q=80"
   },
   "bt-42": {
     "local": "/assets/vehicles/bt-42.webp",
@@ -191,6 +187,10 @@
     "local": "/assets/vehicles/btr-55.webp",
     "source": "https://img.astrid.ovh/public-stats-images/btr-55/perspective.png?w=640&q=80"
   },
+  "borsuk": {
+    "local": "/assets/vehicles/borsuk.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/borsuk/perspective.png?w=640&q=80"
+  },
   "btr-60pb": {
     "local": "/assets/vehicles/btr-60pb.webp",
     "source": "https://img.astrid.ovh/public-stats-images/btr-60pb/perspective.png?w=640&q=80"
@@ -198,10 +198,6 @@
   "btr-90": {
     "local": "/assets/vehicles/btr-90.webp",
     "source": "https://img.astrid.ovh/public-stats-images/btr-90/perspective.png?w=640&q=80"
-  },
-  "btr-82a": {
-    "local": "/assets/vehicles/btr-82a.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/btr-82a/perspective.png?w=640&q=80"
   },
   "bumpee": {
     "local": "/assets/vehicles/bumpee.webp",
@@ -211,13 +207,17 @@
     "local": "/assets/vehicles/burlak.webp",
     "source": "https://img.astrid.ovh/public-stats-images/burlak/perspective.png?w=640&q=80"
   },
-  "cattb": {
-    "local": "/assets/vehicles/cattb.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/cattb/perspective.png?w=640&q=80"
+  "btr-82a": {
+    "local": "/assets/vehicles/btr-82a.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/btr-82a/perspective.png?w=640&q=80"
   },
   "centurion-mk10": {
     "local": "/assets/vehicles/centurion-mk10.webp",
     "source": "https://img.astrid.ovh/public-stats-images/centurion-mk10/perspective.png?w=640&q=80"
+  },
+  "cattb": {
+    "local": "/assets/vehicles/cattb.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/cattb/perspective.png?w=640&q=80"
   },
   "centurion-mk5-avre": {
     "local": "/assets/vehicles/centurion-mk5-avre.webp",
@@ -251,10 +251,6 @@
     "local": "/assets/vehicles/chieftain-mk12.webp",
     "source": "https://img.astrid.ovh/public-stats-images/chieftain-mk12/perspective.png?w=640&q=80"
   },
-  "churchill-avre": {
-    "local": "/assets/vehicles/churchill-avre.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/churchill-avre/perspective.png?w=640&q=80"
-  },
   "churchill-vii": {
     "local": "/assets/vehicles/churchill-vii.webp",
     "source": "https://img.astrid.ovh/public-stats-images/churchill-vii/perspective.png?w=640&q=80"
@@ -262,6 +258,10 @@
   "class-3p": {
     "local": "/assets/vehicles/class-3p.webp",
     "source": "https://img.astrid.ovh/public-stats-images/class-3p/perspective.png?w=640&q=80"
+  },
+  "churchill-avre": {
+    "local": "/assets/vehicles/churchill-avre.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/churchill-avre/perspective.png?w=640&q=80"
   },
   "comet-mk1": {
     "local": "/assets/vehicles/comet-mk1.webp",
@@ -311,21 +311,21 @@
     "local": "/assets/vehicles/ersatz-m10.webp",
     "source": "https://img.astrid.ovh/public-stats-images/ersatz-m10/perspective.png?w=640&q=80"
   },
-  "fv4005": {
-    "local": "/assets/vehicles/fv4005.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/fv4005/perspective.png?w=640&q=80"
-  },
-  "fv510-warrior": {
-    "local": "/assets/vehicles/fv510-warrior.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/fv510-warrior/perspective.png?w=640&q=80"
-  },
   "fox-milan": {
     "local": "/assets/vehicles/fox-milan.webp",
     "source": "https://img.astrid.ovh/public-stats-images/fox-milan/perspective.png?w=640&q=80"
   },
+  "fv4005": {
+    "local": "/assets/vehicles/fv4005.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/fv4005/perspective.png?w=640&q=80"
+  },
   "fv721-fox": {
     "local": "/assets/vehicles/fv721-fox.webp",
     "source": "https://img.astrid.ovh/public-stats-images/fv721-fox/perspective.png?w=640&q=80"
+  },
+  "fv510-warrior": {
+    "local": "/assets/vehicles/fv510-warrior.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/fv510-warrior/perspective.png?w=640&q=80"
   },
   "hetzer": {
     "local": "/assets/vehicles/hetzer.webp",
@@ -367,29 +367,29 @@
     "local": "/assets/vehicles/isu-152.webp",
     "source": "https://img.astrid.ovh/public-stats-images/isu-152/perspective.png?w=640&q=80"
   },
-  "is-6": {
-    "local": "/assets/vehicles/is-6.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/is-6/perspective.png?w=640&q=80"
-  },
   "isu-152bm": {
     "local": "/assets/vehicles/isu-152bm.webp",
     "source": "https://img.astrid.ovh/public-stats-images/isu-152bm/perspective.png?w=640&q=80"
   },
-  "it-1": {
-    "local": "/assets/vehicles/it-1.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/it-1/perspective.png?w=640&q=80"
+  "is-6": {
+    "local": "/assets/vehicles/is-6.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/is-6/perspective.png?w=640&q=80"
   },
   "jagdpanther": {
     "local": "/assets/vehicles/jagdpanther.webp",
     "source": "https://img.astrid.ovh/public-stats-images/jagdpanther/perspective.png?w=640&q=80"
   },
-  "jagdtiger": {
-    "local": "/assets/vehicles/jagdtiger.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/jagdtiger/perspective.png?w=640&q=80"
+  "it-1": {
+    "local": "/assets/vehicles/it-1.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/it-1/perspective.png?w=640&q=80"
   },
   "joint-light-tactical-vehicle": {
     "local": "/assets/vehicles/joint-light-tactical-vehicle.webp",
     "source": "https://img.astrid.ovh/public-stats-images/joint-light-tactical-vehicle/perspective.png?w=640&q=80"
+  },
+  "jagdtiger": {
+    "local": "/assets/vehicles/jagdtiger.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/jagdtiger/perspective.png?w=640&q=80"
   },
   "k1a1": {
     "local": "/assets/vehicles/k1a1.webp",
@@ -423,13 +423,13 @@
     "local": "/assets/vehicles/kornet-d-gaz-tigr.webp",
     "source": "https://img.astrid.ovh/public-stats-images/kornet-d-gaz-tigr/perspective.png?w=640&q=80"
   },
-  "kpz-70": {
-    "local": "/assets/vehicles/kpz-70.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/kpz-70/perspective.png?w=640&q=80"
-  },
   "kv-1e": {
     "local": "/assets/vehicles/kv-1e.webp",
     "source": "https://img.astrid.ovh/public-stats-images/kv-1e/perspective.png?w=640&q=80"
+  },
+  "kpz-70": {
+    "local": "/assets/vehicles/kpz-70.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/kpz-70/perspective.png?w=640&q=80"
   },
   "kurganets-25": {
     "local": "/assets/vehicles/kurganets-25.webp",
@@ -459,6 +459,10 @@
     "local": "/assets/vehicles/lav-ad.webp",
     "source": "https://img.astrid.ovh/public-stats-images/lav-ad/perspective.png?w=640&q=80"
   },
+  "leclerc-s21": {
+    "local": "/assets/vehicles/leclerc-s21.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/leclerc-s21/perspective.png?w=640&q=80"
+  },
   "lada": {
     "local": "/assets/vehicles/lada.webp",
     "source": "https://img.astrid.ovh/public-stats-images/lada/perspective.png?w=640&q=80"
@@ -467,17 +471,9 @@
     "local": "/assets/vehicles/lav-at.webp",
     "source": "https://img.astrid.ovh/public-stats-images/lav-at/perspective.png?w=640&q=80"
   },
-  "leclerc-s21": {
-    "local": "/assets/vehicles/leclerc-s21.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/leclerc-s21/perspective.png?w=640&q=80"
-  },
   "leopard-1a5": {
     "local": "/assets/vehicles/leopard-1a5.webp",
     "source": "https://img.astrid.ovh/public-stats-images/leopard-1a5/perspective.png?w=640&q=80"
-  },
-  "leopard-2-giraffe": {
-    "local": "/assets/vehicles/leopard-2-giraffe.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/leopard-2-giraffe/perspective.png?w=640&q=80"
   },
   "lav-25": {
     "local": "/assets/vehicles/lav-25.webp",
@@ -486,6 +482,10 @@
   "leopard-2a4": {
     "local": "/assets/vehicles/leopard-2a4.webp",
     "source": "https://img.astrid.ovh/public-stats-images/leopard-2a4/perspective.png?w=640&q=80"
+  },
+  "leopard-2-giraffe": {
+    "local": "/assets/vehicles/leopard-2-giraffe.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/leopard-2-giraffe/perspective.png?w=640&q=80"
   },
   "leopard-2a4-140mm": {
     "local": "/assets/vehicles/leopard-2a4-140mm.webp",
@@ -527,17 +527,13 @@
     "local": "/assets/vehicles/lvt-6-gator.webp",
     "source": "https://img.astrid.ovh/public-stats-images/lvt-6-gator/perspective.png?w=640&q=80"
   },
-  "m10-wolverine": {
-    "local": "/assets/vehicles/m10-wolverine.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/m10-wolverine/perspective.png?w=640&q=80"
-  },
   "m109": {
     "local": "/assets/vehicles/m109.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m109/perspective.png?w=640&q=80"
   },
-  "m109a6": {
-    "local": "/assets/vehicles/m109a6.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/m109a6/perspective.png?w=640&q=80"
+  "m10-wolverine": {
+    "local": "/assets/vehicles/m10-wolverine.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/m10-wolverine/perspective.png?w=640&q=80"
   },
   "m1117-asv": {
     "local": "/assets/vehicles/m1117-asv.webp",
@@ -547,6 +543,14 @@
     "local": "/assets/vehicles/m1126.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m1126/perspective.png?w=640&q=80"
   },
+  "m109a6": {
+    "local": "/assets/vehicles/m109a6.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/m109a6/perspective.png?w=640&q=80"
+  },
+  "m113-hvms": {
+    "local": "/assets/vehicles/m113-hvms.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/m113-hvms/perspective.png?w=640&q=80"
+  },
   "m1128-mgs": {
     "local": "/assets/vehicles/m1128-mgs.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m1128-mgs/perspective.png?w=640&q=80"
@@ -555,17 +559,13 @@
     "local": "/assets/vehicles/m113.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m113/perspective.png?w=640&q=80"
   },
-  "m113-hvms": {
-    "local": "/assets/vehicles/m113-hvms.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/m113-hvms/perspective.png?w=640&q=80"
+  "m163": {
+    "local": "/assets/vehicles/m163.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/m163/perspective.png?w=640&q=80"
   },
   "m14-jacob": {
     "local": "/assets/vehicles/m14-jacob.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m14-jacob/perspective.png?w=640&q=80"
-  },
-  "m163": {
-    "local": "/assets/vehicles/m163.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/m163/perspective.png?w=640&q=80"
   },
   "m17-whizbang": {
     "local": "/assets/vehicles/m17-whizbang.webp",
@@ -607,13 +607,13 @@
     "local": "/assets/vehicles/m2a1-bradley.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m2a1-bradley/perspective.png?w=640&q=80"
   },
-  "m2a4e1": {
-    "local": "/assets/vehicles/m2a4e1.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/m2a4e1/perspective.png?w=640&q=80"
-  },
   "m2a3": {
     "local": "/assets/vehicles/m2a3.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m2a3/perspective.png?w=640&q=80"
+  },
+  "m2a4e1": {
+    "local": "/assets/vehicles/m2a4e1.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/m2a4e1/perspective.png?w=640&q=80"
   },
   "m3-gmc": {
     "local": "/assets/vehicles/m3-gmc.webp",
@@ -655,13 +655,13 @@
     "local": "/assets/vehicles/m48a3-patton.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m48a3-patton/perspective.png?w=640&q=80"
   },
-  "m4a1-76-sherman": {
-    "local": "/assets/vehicles/m4a1-76-sherman.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/m4a1-76-sherman/perspective.png?w=640&q=80"
-  },
   "m4a1-sherman": {
     "local": "/assets/vehicles/m4a1-sherman.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m4a1-sherman/perspective.png?w=640&q=80"
+  },
+  "m4a1-76-sherman": {
+    "local": "/assets/vehicles/m4a1-76-sherman.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/m4a1-76-sherman/perspective.png?w=640&q=80"
   },
   "m4a2-sherman": {
     "local": "/assets/vehicles/m4a2-sherman.webp",
@@ -679,10 +679,6 @@
     "local": "/assets/vehicles/m4a3e2-75-jumbo.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m4a3e2-75-jumbo/perspective.png?w=640&q=80"
   },
-  "m4a3e2-76-jumbo": {
-    "local": "/assets/vehicles/m4a3e2-76-jumbo.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/m4a3e2-76-jumbo/perspective.png?w=640&q=80"
-  },
   "m4a3e8-sherman": {
     "local": "/assets/vehicles/m4a3e8-sherman.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m4a3e8-sherman/perspective.png?w=640&q=80"
@@ -691,13 +687,13 @@
     "local": "/assets/vehicles/m60a1-add-on-stabilization.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m60a1-add-on-stabilization/perspective.png?w=640&q=80"
   },
+  "m4a3e2-76-jumbo": {
+    "local": "/assets/vehicles/m4a3e2-76-jumbo.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/m4a3e2-76-jumbo/perspective.png?w=640&q=80"
+  },
   "m551-sheridan": {
     "local": "/assets/vehicles/m551-sheridan.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m551-sheridan/perspective.png?w=640&q=80"
-  },
-  "m50-ontos": {
-    "local": "/assets/vehicles/m50-ontos.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/m50-ontos/perspective.png?w=640&q=80"
   },
   "m60a1-rise-passive": {
     "local": "/assets/vehicles/m60a1-rise-passive.webp",
@@ -706,6 +702,10 @@
   "m60a2-starship": {
     "local": "/assets/vehicles/m60a2-starship.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m60a2-starship/perspective.png?w=640&q=80"
+  },
+  "m50-ontos": {
+    "local": "/assets/vehicles/m50-ontos.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/m50-ontos/perspective.png?w=640&q=80"
   },
   "m6a2": {
     "local": "/assets/vehicles/m6a2.webp",
@@ -743,21 +743,21 @@
     "local": "/assets/vehicles/marder-a1.webp",
     "source": "https://img.astrid.ovh/public-stats-images/marder-a1/perspective.png?w=640&q=80"
   },
-  "maus": {
-    "local": "/assets/vehicles/maus.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/maus/perspective.png?w=640&q=80"
-  },
-  "merkava-mk1b": {
-    "local": "/assets/vehicles/merkava-mk1b.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/merkava-mk1b/perspective.png?w=640&q=80"
-  },
   "merkava-mk4m": {
     "local": "/assets/vehicles/merkava-mk4m.webp",
     "source": "https://img.astrid.ovh/public-stats-images/merkava-mk4m/perspective.png?w=640&q=80"
   },
+  "maus": {
+    "local": "/assets/vehicles/maus.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/maus/perspective.png?w=640&q=80"
+  },
   "mh-6-little-bird": {
     "local": "/assets/vehicles/mh-6-little-bird.webp",
     "source": "https://img.astrid.ovh/public-stats-images/mh-6-little-bird/perspective.png?w=640&q=80"
+  },
+  "merkava-mk1b": {
+    "local": "/assets/vehicles/merkava-mk1b.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/merkava-mk1b/perspective.png?w=640&q=80"
   },
   "mi-24v": {
     "local": "/assets/vehicles/mi-24v.webp",
@@ -895,13 +895,13 @@
     "local": "/assets/vehicles/panther-ii.webp",
     "source": "https://img.astrid.ovh/public-stats-images/panther-ii/perspective.png?w=640&q=80"
   },
-  "pt-76e": {
-    "local": "/assets/vehicles/pt-76e.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/pt-76e/perspective.png?w=640&q=80"
-  },
   "porsche-tiger": {
     "local": "/assets/vehicles/porsche-tiger.webp",
     "source": "https://img.astrid.ovh/public-stats-images/porsche-tiger/perspective.png?w=640&q=80"
+  },
+  "pt-76e": {
+    "local": "/assets/vehicles/pt-76e.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/pt-76e/perspective.png?w=640&q=80"
   },
   "pt-76b": {
     "local": "/assets/vehicles/pt-76b.webp",
@@ -935,21 +935,21 @@
     "local": "/assets/vehicles/pzw42.webp",
     "source": "https://img.astrid.ovh/public-stats-images/pzw42/perspective.png?w=640&q=80"
   },
-  "qn506": {
-    "local": "/assets/vehicles/qn506.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/qn506/perspective.png?w=640&q=80"
-  },
-  "rbu-6000-mt-lb": {
-    "local": "/assets/vehicles/rbu-6000-mt-lb.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/rbu-6000-mt-lb/perspective.png?w=640&q=80"
-  },
   "rbt-5": {
     "local": "/assets/vehicles/rbt-5.webp",
     "source": "https://img.astrid.ovh/public-stats-images/rbt-5/perspective.png?w=640&q=80"
   },
+  "qn506": {
+    "local": "/assets/vehicles/qn506.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/qn506/perspective.png?w=640&q=80"
+  },
   "rdflt": {
     "local": "/assets/vehicles/rdflt.webp",
     "source": "https://img.astrid.ovh/public-stats-images/rdflt/perspective.png?w=640&q=80"
+  },
+  "rbu-6000-mt-lb": {
+    "local": "/assets/vehicles/rbu-6000-mt-lb.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/rbu-6000-mt-lb/perspective.png?w=640&q=80"
   },
   "rosomak": {
     "local": "/assets/vehicles/rosomak.webp",
@@ -967,6 +967,10 @@
     "local": "/assets/vehicles/sdkfz2344-pak-puma.webp",
     "source": "https://img.astrid.ovh/public-stats-images/sdkfz2344-pak-puma/perspective.png?w=640&q=80"
   },
+  "sherman-firefly": {
+    "local": "/assets/vehicles/sherman-firefly.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/sherman-firefly/perspective.png?w=640&q=80"
+  },
   "sdkfz2342-puma": {
     "local": "/assets/vehicles/sdkfz2342-puma.webp",
     "source": "https://img.astrid.ovh/public-stats-images/sdkfz2342-puma/perspective.png?w=640&q=80"
@@ -975,25 +979,17 @@
     "local": "/assets/vehicles/shturm-s.webp",
     "source": "https://img.astrid.ovh/public-stats-images/shturm-s/perspective.png?w=640&q=80"
   },
-  "sherman-firefly": {
-    "local": "/assets/vehicles/sherman-firefly.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/sherman-firefly/perspective.png?w=640&q=80"
-  },
   "soleiman-402": {
     "local": "/assets/vehicles/soleiman-402.webp",
     "source": "https://img.astrid.ovh/public-stats-images/soleiman-402/perspective.png?w=640&q=80"
   },
-  "sprut-sdm1": {
-    "local": "/assets/vehicles/sprut-sdm1.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/sprut-sdm1/perspective.png?w=640&q=80"
-  },
-  "strela-mlrs": {
-    "local": "/assets/vehicles/strela-mlrs.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/strela-mlrs/perspective.png?w=640&q=80"
-  },
   "strv-103c": {
     "local": "/assets/vehicles/strv-103c.webp",
     "source": "https://img.astrid.ovh/public-stats-images/strv-103c/perspective.png?w=640&q=80"
+  },
+  "sprut-sdm1": {
+    "local": "/assets/vehicles/sprut-sdm1.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/sprut-sdm1/perspective.png?w=640&q=80"
   },
   "strela-10": {
     "local": "/assets/vehicles/strela-10.webp",
@@ -1002,6 +998,10 @@
   "stug-iii-g": {
     "local": "/assets/vehicles/stug-iii-g.webp",
     "source": "https://img.astrid.ovh/public-stats-images/stug-iii-g/perspective.png?w=640&q=80"
+  },
+  "strela-mlrs": {
+    "local": "/assets/vehicles/strela-mlrs.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/strela-mlrs/perspective.png?w=640&q=80"
   },
   "sturmtiger": {
     "local": "/assets/vehicles/sturmtiger.webp",
@@ -1031,6 +1031,10 @@
     "local": "/assets/vehicles/t-10m.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-10m/perspective.png?w=640&q=80"
   },
+  "t-34-122": {
+    "local": "/assets/vehicles/t-34-122.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t-34-122/perspective.png?w=640&q=80"
+  },
   "t-14-armata": {
     "local": "/assets/vehicles/t-14-armata.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-14-armata/perspective.png?w=640&q=80"
@@ -1039,29 +1043,25 @@
     "local": "/assets/vehicles/t-15-armata.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-15-armata/perspective.png?w=640&q=80"
   },
-  "t-34-122": {
-    "local": "/assets/vehicles/t-34-122.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/t-34-122/perspective.png?w=640&q=80"
-  },
   "t-34": {
     "local": "/assets/vehicles/t-34.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-34/perspective.png?w=640&q=80"
-  },
-  "t-34-57": {
-    "local": "/assets/vehicles/t-34-57.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/t-34-57/perspective.png?w=640&q=80"
-  },
-  "t-34-85": {
-    "local": "/assets/vehicles/t-34-85.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/t-34-85/perspective.png?w=640&q=80"
   },
   "t-34e": {
     "local": "/assets/vehicles/t-34e.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-34e/perspective.png?w=640&q=80"
   },
+  "t-34-57": {
+    "local": "/assets/vehicles/t-34-57.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t-34-57/perspective.png?w=640&q=80"
+  },
   "t-44": {
     "local": "/assets/vehicles/t-44.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-44/perspective.png?w=640&q=80"
+  },
+  "t-34-85": {
+    "local": "/assets/vehicles/t-34-85.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t-34-85/perspective.png?w=640&q=80"
   },
   "t-44-100": {
     "local": "/assets/vehicles/t-44-100.webp",
@@ -1079,10 +1079,6 @@
     "local": "/assets/vehicles/t-55.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-55/perspective.png?w=640&q=80"
   },
-  "t-55ad-1": {
-    "local": "/assets/vehicles/t-55ad-1.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/t-55ad-1/perspective.png?w=640&q=80"
-  },
   "t-55am-1": {
     "local": "/assets/vehicles/t-55am-1.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-55am-1/perspective.png?w=640&q=80"
@@ -1090,6 +1086,10 @@
   "t-60": {
     "local": "/assets/vehicles/t-60.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-60/perspective.png?w=640&q=80"
+  },
+  "t-55ad-1": {
+    "local": "/assets/vehicles/t-55ad-1.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t-55ad-1/perspective.png?w=640&q=80"
   },
   "t-62": {
     "local": "/assets/vehicles/t-62.webp",
@@ -1127,6 +1127,10 @@
     "local": "/assets/vehicles/t-72a.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-72a/perspective.png?w=640&q=80"
   },
+  "t-72m2": {
+    "local": "/assets/vehicles/t-72m2.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t-72m2/perspective.png?w=640&q=80"
+  },
   "t-72b-1989": {
     "local": "/assets/vehicles/t-72b-1989.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-72b-1989/perspective.png?w=640&q=80"
@@ -1135,29 +1139,25 @@
     "local": "/assets/vehicles/t-72b1-2022.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-72b1-2022/perspective.png?w=640&q=80"
   },
-  "t-72m2": {
-    "local": "/assets/vehicles/t-72m2.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/t-72m2/perspective.png?w=640&q=80"
-  },
   "t-72b3": {
     "local": "/assets/vehicles/t-72b3.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-72b3/perspective.png?w=640&q=80"
-  },
-  "t-72m2e": {
-    "local": "/assets/vehicles/t-72m2e.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/t-72m2e/perspective.png?w=640&q=80"
-  },
-  "t-80b": {
-    "local": "/assets/vehicles/t-80b.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/t-80b/perspective.png?w=640&q=80"
   },
   "t-80u": {
     "local": "/assets/vehicles/t-80u.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-80u/perspective.png?w=640&q=80"
   },
+  "t-72m2e": {
+    "local": "/assets/vehicles/t-72m2e.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t-72m2e/perspective.png?w=640&q=80"
+  },
   "t-80bvm": {
     "local": "/assets/vehicles/t-80bvm.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-80bvm/perspective.png?w=640&q=80"
+  },
+  "t-80b": {
+    "local": "/assets/vehicles/t-80b.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t-80b/perspective.png?w=640&q=80"
   },
   "t-80u-e1": {
     "local": "/assets/vehicles/t-80u-e1.webp",
@@ -1183,17 +1183,13 @@
     "local": "/assets/vehicles/t-90a.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-90a/perspective.png?w=640&q=80"
   },
-  "t26e4-super-pershing": {
-    "local": "/assets/vehicles/t26e4-super-pershing.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/t26e4-super-pershing/perspective.png?w=640&q=80"
-  },
   "t-v": {
     "local": "/assets/vehicles/t-v.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-v/perspective.png?w=640&q=80"
   },
-  "t34-calliope": {
-    "local": "/assets/vehicles/t34-calliope.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/t34-calliope/perspective.png?w=640&q=80"
+  "t26e4-super-pershing": {
+    "local": "/assets/vehicles/t26e4-super-pershing.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t26e4-super-pershing/perspective.png?w=640&q=80"
   },
   "t29": {
     "local": "/assets/vehicles/t29.webp",
@@ -1202,6 +1198,10 @@
   "teledyne-ags": {
     "local": "/assets/vehicles/teledyne-ags.webp",
     "source": "https://img.astrid.ovh/public-stats-images/teledyne-ags/perspective.png?w=640&q=80"
+  },
+  "t34-calliope": {
+    "local": "/assets/vehicles/t34-calliope.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t34-calliope/perspective.png?w=640&q=80"
   },
   "tiger-i": {
     "local": "/assets/vehicles/tiger-i.webp",
@@ -1255,10 +1255,6 @@
     "local": "/assets/vehicles/uh-60m-blackhawk.webp",
     "source": "https://img.astrid.ovh/public-stats-images/uh-60m-blackhawk/perspective.png?w=640&q=80"
   },
-  "vk-1602-leopard": {
-    "local": "/assets/vehicles/vk-1602-leopard.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/vk-1602-leopard/perspective.png?w=640&q=80"
-  },
   "ural-375d": {
     "local": "/assets/vehicles/ural-375d.webp",
     "source": "https://img.astrid.ovh/public-stats-images/ural-375d/perspective.png?w=640&q=80"
@@ -1267,13 +1263,13 @@
     "local": "/assets/vehicles/vt1-2.webp",
     "source": "https://img.astrid.ovh/public-stats-images/vt1-2/perspective.png?w=640&q=80"
   },
+  "vk-1602-leopard": {
+    "local": "/assets/vehicles/vk-1602-leopard.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/vk-1602-leopard/perspective.png?w=640&q=80"
+  },
   "vt4": {
     "local": "/assets/vehicles/vt4.webp",
     "source": "https://img.astrid.ovh/public-stats-images/vt4/perspective.png?w=640&q=80"
-  },
-  "wiesel-1a2": {
-    "local": "/assets/vehicles/wiesel-1a2.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/wiesel-1a2/perspective.png?w=640&q=80"
   },
   "wiesel-1a0": {
     "local": "/assets/vehicles/wiesel-1a0.webp",
@@ -1283,21 +1279,21 @@
     "local": "/assets/vehicles/wiesel-1a4.webp",
     "source": "https://img.astrid.ovh/public-stats-images/wiesel-1a4/perspective.png?w=640&q=80"
   },
+  "wiesel-1a2": {
+    "local": "/assets/vehicles/wiesel-1a2.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/wiesel-1a2/perspective.png?w=640&q=80"
+  },
   "wz-122": {
     "local": "/assets/vehicles/wz-122.webp",
     "source": "https://img.astrid.ovh/public-stats-images/wz-122/perspective.png?w=640&q=80"
-  },
-  "xm1069": {
-    "local": "/assets/vehicles/xm1069.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/xm1069/perspective.png?w=640&q=80"
   },
   "willys-mb": {
     "local": "/assets/vehicles/willys-mb.webp",
     "source": "https://img.astrid.ovh/public-stats-images/willys-mb/perspective.png?w=640&q=80"
   },
-  "xm8": {
-    "local": "/assets/vehicles/xm8.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/xm8/perspective.png?w=640&q=80"
+  "xm1069": {
+    "local": "/assets/vehicles/xm1069.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/xm1069/perspective.png?w=640&q=80"
   },
   "zbd04a": {
     "local": "/assets/vehicles/zbd04a.webp",
@@ -1306,6 +1302,10 @@
   "zsu-57-2": {
     "local": "/assets/vehicles/zsu-57-2.webp",
     "source": "https://img.astrid.ovh/public-stats-images/zsu-57-2/perspective.png?w=640&q=80"
+  },
+  "xm8": {
+    "local": "/assets/vehicles/xm8.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/xm8/perspective.png?w=640&q=80"
   },
   "ztz99a": {
     "local": "/assets/vehicles/ztz99a.webp",
@@ -1343,17 +1343,21 @@
     "local": "/assets/vehicles/m4a3-105-sherman.webp",
     "source": "https://img.astrid.ovh/public-stats-images/m4a3-105/perspective.png?w=640&q=80"
   },
-  "m4a2-t34-calliope": {
-    "local": "/assets/vehicles/m4a2-t34-calliope.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/t34-calliope/perspective.png?w=640&q=80"
-  },
   "pziv-h": {
     "local": "/assets/vehicles/pziv-h.webp",
     "source": "https://img.astrid.ovh/public-stats-images/pz-iv-h/perspective.png?w=640&q=80"
   },
+  "m4a2-t34-calliope": {
+    "local": "/assets/vehicles/m4a2-t34-calliope.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t34-calliope/perspective.png?w=640&q=80"
+  },
   "sdkfz251": {
     "local": "/assets/vehicles/sdkfz251.webp",
     "source": "https://img.astrid.ovh/public-stats-images/sd-kfz-251/perspective.png?w=640&q=80"
+  },
+  "t1e1": {
+    "local": "/assets/vehicles/t1e1.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/m6a2/perspective.png?w=640&q=80"
   },
   "sherman-vc-firefly": {
     "local": "/assets/vehicles/sherman-vc-firefly.webp",
@@ -1362,10 +1366,6 @@
   "t-62m1": {
     "local": "/assets/vehicles/t-62m1.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-62m-1/perspective.png?w=640&q=80"
-  },
-  "t1e1": {
-    "local": "/assets/vehicles/t1e1.webp",
-    "source": "https://img.astrid.ovh/public-stats-images/m6a2/perspective.png?w=640&q=80"
   },
   "t48-gmc": {
     "local": "/assets/vehicles/t48-gmc.webp",

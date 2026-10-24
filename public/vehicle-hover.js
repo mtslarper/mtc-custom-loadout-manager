@@ -3,31 +3,16 @@
   'use strict';
   if (window.__vehicleHoverInstalled) return;
   window.__vehicleHoverInstalled = true;
+  const tr = (key, values) => window.LoadoutI18n.t(key, values);
   const card = document.createElement('aside');
   card.id = 'vehicle-hover-card';
   card.hidden = true;
   card.setAttribute('role', 'dialog');
-  card.setAttribute('aria-label', 'Информация о технике');
+  card.setAttribute('aria-label', tr("Vehicle information"));
   document.body.append(card);
 
-  const roles = {
-    'Main Battle Tank': 'Основной боевой танк', 'Prototype Main Battle Tank': 'Опытный основной танк',
-    'Heavy Tank': 'Тяжёлый танк', 'Super Heavy Tank': 'Сверхтяжёлый танк',
-    'Medium Tank': 'Средний танк', 'Light Tank': 'Лёгкий танк', 'Tankette': 'Танкетка',
-    'Tank Destroyer': 'Истребитель танков', 'Assault Gun': 'Штурмовое орудие',
-    'Infantry Fighting Vehicle': 'Боевая машина пехоты', 'Armoured Personnel Carrier': 'Бронетранспортёр',
-    'Self Propelled Howitzer': 'Самоходная гаубица', 'Self Propelled Anti Aircraft': 'Зенитная самоходная установка',
-    'Rocket Artillery': 'Реактивная артиллерия', 'Anti Tank Missile Carrier': 'Самоходный ПТРК',
-    'Attack Helicopter': 'Ударный вертолёт', 'Helicopter Gunship': 'Боевой вертолёт',
-    'Utility Helicopter': 'Многоцелевой вертолёт', 'Transport Vehicle': 'Транспорт',
-    'Supply Truck': 'Машина снабжения', 'Reconnaissance Vehicle': 'Разведывательная машина',
-    'Support Vehicle': 'Машина поддержки', 'Amphibious Vehicle': 'Машина-амфибия',
-    'Flamethrower Tank': 'Огнемётный танк', 'Fire Support Vehicle': 'Машина огневой поддержки',
-    'Pickup Truck': 'Пикап', 'Flatbed Truck': 'Грузовик',
-  };
-  const features = { amphibious: 'Амфибия', stabilizer: 'Стабилизатор', thermal: 'Тепловизор', fcs: 'СУО', lws: 'Лазерное оповещение', maws: 'Оповещение о ракетах', aps: 'Активная защита', ess: 'Дымовая завеса' };
-  const locomotions = { tracked: 'Гусеничная', wheeled: 'Колёсная', aerial: 'Авиация' };
-  const classes = { Crewman: 'Танкист', Infantry: 'Пехотинец', Engineer: 'Инженер' };
+  const features = { amphibious: 'Amphibious', stabilizer: 'Stabilizer', thermal: 'Thermal sight', fcs: 'Fire control system', lws: 'Laser warning system', maws: 'Missile warning system', aps: 'Active protection', ess: 'Smoke screen' };
+  const locomotions = { tracked: 'Tracked', wheeled: 'Wheeled', aerial: 'Aircraft' };
   let catalog, loadingError = false, anchor = null, showTimer, hideTimer, branch = 'mtc', era = '', view = 'overview';
   try { branch = localStorage.getItem('vehicle-info-branch') || 'mtc'; } catch {}
   const ready = fetch('/data/vehicle-info.json').then(response => {
@@ -49,7 +34,7 @@
     return a;
   }
   function number(value, suffix = '') {
-    return typeof value === 'number' && Number.isFinite(value) ? new Intl.NumberFormat('ru-RU', { maximumFractionDigits: 1 }).format(value) + suffix : null;
+    return typeof value === 'number' && Number.isFinite(value) ? new Intl.NumberFormat(window.LoadoutI18n.getLanguage() === 'ru' ? 'ru-RU' : 'en-US', { maximumFractionDigits: 1 }).format(value) + suffix : null;
   }
   function position() {
     if (!anchor?.isConnected || card.hidden) return;
@@ -79,36 +64,37 @@
   }
   function modificationList(data) {
     const section = el('section', 'vh-modifications');
-    section.append(el('p', 'vh-note', 'Просмотр модификаций не изменяет пресет. Стоимость указана по данным выбранной версии игры.'));
+    section.append(el('p', 'vh-note', tr("Viewing modifications does not change the loadout. Costs use the selected game version.")));
     const groups = [
-      ['Дополнительное оснащение', data.modifications || []],
-      ['Версии по эпохам', data.eraModifications || []],
+      [tr("Additional equipment"), data.modifications || []],
+      [tr("Era variants"), data.eraModifications || []],
     ];
     if (!groups.some(([, list]) => list.length)) {
-      section.append(el('p', 'vh-empty', 'В каталоге нет опубликованных модификаций для этой машины.'));
+      section.append(el('p', 'vh-empty', tr("No published modifications are available for this vehicle.")));
     }
     for (const [label, items] of groups) {
       if (!items.length) continue;
       section.append(el('div', 'vh-subtitle', label));
       for (const item of items) {
+        const localized = item.translations?.[window.LoadoutI18n.getLanguage()] || item;
         const details = el('details', 'vh-modification');
         const summary = el('summary', 'vh-mod-summary');
         const heading = el('span', 'vh-mod-heading');
         heading.append(el('span', 'vh-mod-name', item.name));
-        heading.append(el('span', 'vh-mod-cost', item.kind === 'era' ? 'Версия по эпохе'
-          : item.cost === null ? 'Стоимость не указана' : `Стоимость: ${number(item.cost)}`));
+        heading.append(el('span', 'vh-mod-cost', item.kind === 'era' ? tr("Era variant")
+          : item.cost === null ? tr("Cost unavailable") : tr('Cost: {cost}', { cost: number(item.cost) })));
         summary.append(heading);
         const content = el('div', 'vh-mod-content');
-        if (item.era && item.kind !== 'era') content.append(el('span', 'vh-chip', `Эпоха: ${item.era}`));
-        content.append(el('p', 'vh-description', item.description));
-        if (item.changes?.length) {
+        if (item.era && item.kind !== 'era') content.append(el('span', 'vh-chip', tr('Era: {era}', { era: item.era })));
+        content.append(el('p', 'vh-description', localized.description));
+        if (localized.changes?.length) {
           const list = el('ul', 'vh-mod-changes');
-          for (const change of item.changes) list.append(el('li', '', change));
+          for (const change of localized.changes) list.append(el('li', '', change));
           content.append(list);
         }
-        content.append(el('p', 'vh-mod-origin', item.descriptionSource === 'game' ? 'Описание из игры'
-          : item.descriptionSource === 'changes' ? 'Описание составлено по изменениям модулей игры'
-          : 'Пояснение составлено по названию; подробные изменения в выгрузке не описаны'));
+        content.append(el('p', 'vh-mod-origin', item.descriptionSource === 'game' ? tr("In-game description")
+          : item.descriptionSource === 'changes' ? tr("Description derived from published module changes")
+          : tr("Explanation inferred from the name; detailed changes are not published")));
         details.append(summary, content);
         details.addEventListener('toggle', position);
         section.append(details);
@@ -117,6 +103,7 @@
     return section;
   }
   function render() {
+    card.setAttribute('aria-label', tr('Vehicle information'));
     if (!anchor) return;
     const id = anchor.dataset.vehicleId;
     const record = catalog?.vehicles?.[id];
@@ -128,14 +115,14 @@
     const picture = el('div', 'vh-image-wrap');
     const body = el('div', 'vh-body');
     body.append(el('h2', 'vh-heading', record?.displayName || id));
-    if (data) body.append(el('div', 'vh-role', roles[data.role] || data.role || 'Техника'));
+    if (data) body.append(el('div', 'vh-role', tr(data.role || 'Vehicle')));
     if (base?.image) {
       const img = el('img', 'vh-image');
       img.alt = data.name || id;
       img.src = base.image;
-      img.addEventListener('error', () => picture.replaceChildren(el('div', 'vh-image-message', 'Изображение недоступно')), { once: true });
+      img.addEventListener('error', () => picture.replaceChildren(el('div', 'vh-image-message', tr("Image unavailable"))), { once: true });
       picture.append(img);
-    } else picture.append(el('div', 'vh-image-message', 'Изображение пока отсутствует'));
+    } else picture.append(el('div', 'vh-image-message', tr("Image not yet available")));
     if (places.length) {
       const controls = el('div', 'vh-controls');
       for (const key of places) {
@@ -151,8 +138,8 @@
       }
       if (Object.keys(base?.eras || {}).length) {
         const select = el('select');
-        select.setAttribute('aria-label', 'Версия техники по эпохе');
-        const option = el('option', '', 'Базовая версия'); option.value = ''; select.append(option);
+        select.setAttribute('aria-label', tr("Vehicle era"));
+        const option = el('option', '', tr("Base version")); option.value = ''; select.append(option);
         for (const name of Object.keys(base.eras)) { const option = el('option', '', name); option.value = name; select.append(option); }
         select.value = era;
         select.addEventListener('change', () => { era = select.value; render(); });
@@ -160,15 +147,15 @@
       }
       body.append(controls);
       const context = el('div', 'vh-context');
-      if (anchor.dataset.vehicleTier !== undefined) context.append(el('span', 'vh-chip vh-chip-tier', `Тир ${anchor.dataset.vehicleTier}`));
+      if (anchor.dataset.vehicleTier !== undefined) context.append(el('span', 'vh-chip vh-chip-tier', tr('Tier {tier}', { tier: anchor.dataset.vehicleTier })));
       if (data.team) context.append(el('span', 'vh-chip', data.team));
-      if (data.locomotion) context.append(el('span', 'vh-chip', locomotions[data.locomotion] || data.locomotion));
-      for (const value of data.classes || []) context.append(el('span', 'vh-chip', classes[value] || value));
+      if (data.locomotion) context.append(el('span', 'vh-chip', tr(locomotions[data.locomotion] || data.locomotion)));
+      for (const value of data.classes || []) context.append(el('span', 'vh-chip', tr(value)));
       body.append(context);
       const tabs = el('div', 'vh-tabs');
-      tabs.setAttribute('role', 'tablist'); tabs.setAttribute('aria-label', 'Разделы карточки техники');
+      tabs.setAttribute('role', 'tablist'); tabs.setAttribute('aria-label', tr("Vehicle card sections"));
       const modificationCount = (base.modifications?.length || 0) + (base.eraModifications?.length || 0);
-      for (const [key, label] of [['overview', 'Обзор'], ['modifications', `Модификации (${modificationCount})`]]) {
+      for (const [key, label] of [['overview', tr("Overview")], ['modifications', tr('Modifications ({count})', { count: modificationCount })]]) {
         const tab = el('button', '', label); tab.type = 'button';
         tab.setAttribute('role', 'tab'); tab.setAttribute('aria-selected', String(view === key));
         tab.addEventListener('click', () => { view = key; render(); });
@@ -176,54 +163,54 @@
       }
       body.append(tabs);
       if (view === 'overview') {
-        body.append(el('div', 'vh-subtitle', 'Игровые ТТХ · без дополнительных модулей'));
+        body.append(el('div', 'vh-subtitle', tr("In-game stats · base configuration")));
         const stats = el('dl', 'vh-stats');
         const values = [
-          ['Скорость вперёд', number(data.speed, ' км/ч')],
-          ['Задний ход', number(data.reverseSpeed, ' км/ч')],
-          ['Масса', number(data.mass, ' т')],
-          ['Мест в машине', number(data.seats)],
-          ['Мощность', number(data.horsepower, ' л.с.')],
-          ['Удельная мощность', data.mass > 0 ? number(data.horsepower / data.mass, ' л.с./т') : null],
+          [tr("Forward speed"), number(data.speed, tr(" km/h"))],
+          [tr("Reverse speed"), number(data.reverseSpeed, tr(" km/h"))],
+          [tr("Mass"), number(data.mass, tr(" t"))],
+          [tr("Seats"), number(data.seats)],
+          [tr("Power"), number(data.horsepower, tr(" hp"))],
+          [tr("Power-to-weight ratio"), data.mass > 0 ? number(data.horsepower / data.mass, tr(" hp/t")) : null],
         ];
         for (const [label, value] of values) {
           if (value === null) continue;
           const cell = el('div', 'vh-stat'); cell.append(el('dt', '', label), el('dd', '', value)); stats.append(cell);
         }
         if (stats.childElementCount) body.append(stats);
-        else body.append(el('p', 'vh-note', 'Числовые характеристики для этой машины не опубликованы.'));
-        if (data.engine) body.append(el('p', 'vh-note', `Двигатель: ${data.engine}`));
+        else body.append(el('p', 'vh-note', tr("Numeric stats have not been published for this vehicle.")));
+        if (data.engine) body.append(el('p', 'vh-note', tr('Engine: {engine}', { engine: data.engine })));
         if (data.weapons?.length) {
-          body.append(el('div', 'vh-subtitle', 'Вооружение'));
+          body.append(el('div', 'vh-subtitle', tr("Armament")));
           const list = el('ul', 'vh-weapons');
           for (const weapon of data.weapons) {
             const row = el('li'); row.append(el('span', '', weapon.name));
-            const reload = number(weapon.reload, ' с');
-            if (reload) row.append(el('small', '', `перезар. ${reload}`));
+            const reload = number(weapon.reload, tr(" s"));
+            if (reload) row.append(el('small', '', tr('reload {time}', { time: reload })));
             list.append(row);
           }
           body.append(list);
         }
         if (data.features?.length) {
           const list = el('div', 'vh-features');
-          for (const feature of data.features) list.append(el('span', 'vh-chip', features[feature] || feature));
+          for (const feature of data.features) list.append(el('span', 'vh-chip', tr(features[feature] || feature)));
           body.append(list);
         }
         if (data.description) {
-          body.append(el('div', 'vh-subtitle', 'Описание из игры'), el('p', 'vh-description', data.description));
+          body.append(el('div', 'vh-subtitle', tr("In-game description")), el('p', 'vh-description', data.description));
         }
         if (data.article) {
-          body.append(el('div', 'vh-subtitle', 'Описание из вики'), el('p', 'vh-description', data.article));
+          body.append(el('div', 'vh-subtitle', tr("Wiki description")), el('p', 'vh-description', data.article));
         }
       } else body.append(modificationList(base));
       const source = el('div', 'vh-source');
       source.append(externalLink('MTC Wiki ↗', data.source), externalLink('CC BY-NC 4.0', catalog.attribution.licenseUrl));
-      if (base.imageSourceKind === 'roblox-spawner') source.append(el('span', '', 'Изображение: MTC Dev Tank Spawner'));
+      if (base.imageSourceKind === 'roblox-spawner') source.append(el('span', '', tr("Image: MTC Dev Tank Spawner")));
       body.append(source);
     } else {
       body.append(el('p', 'vh-note', loadingError
-        ? 'Не удалось загрузить локальный каталог техники. Проверьте наличие data/vehicle-info.json.'
-        : 'В официальном каталоге пока нет изображения и ТТХ для этого ID. Данные другой модификации не подставляются.'));
+        ? tr("Could not load the local vehicle catalog. Check data/vehicle-info.json.")
+        : tr("The official catalog has no image or stats for this ID yet. Data from other variants is not substituted.")));
     }
     card.append(picture, body);
     clearTimeout(hideTimer);
@@ -273,6 +260,7 @@
   });
   // Focusing an off-screen item scrolls it into view before the opening delay ends.
   document.addEventListener('scroll', event => { if (!card.hidden && !card.contains(event.target)) hide(); }, true);
+  window.addEventListener('loadout-language-change', render);
   window.addEventListener('resize', hide);
   window.addEventListener('blur', hide);
   new MutationObserver(() => { if (anchor && !anchor.isConnected) hide(); }).observe(document.body, { childList: true, subtree: true });
