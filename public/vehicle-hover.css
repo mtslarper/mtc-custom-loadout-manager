@@ -1,0 +1,81 @@
+#vehicle-hover-card {
+  --vh-border: #394456;
+  position: fixed;
+  z-index: 15000;
+  width: min(390px, calc(100vw - 24px));
+  max-height: min(720px, calc(100dvh - 24px));
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--vh-border);
+  border-radius: 14px;
+  background: #171c25;
+  color: #f3f5f9;
+  box-shadow: 0 16px 56px #0009, 0 2px 8px #0006;
+  font: 13px/1.45 Inter, system-ui, sans-serif;
+  text-align: left;
+  color-scheme: dark;
+  animation: vh-appear 130ms ease-out;
+}
+#vehicle-hover-card[hidden] { display: none; }
+#vehicle-hover-card * { box-sizing: border-box; }
+#vehicle-hover-card .vh-image-wrap {
+  position: relative;
+  flex-shrink: 0;
+  height: clamp(120px, 23dvh, 202px);
+  background: radial-gradient(ellipse at 50% 60%, #3a4654, #202833 60%, #171c25);
+  overflow: hidden;
+}
+#vehicle-hover-card .vh-image { width: 100%; height: 100%; object-fit: contain; padding: 4px 10px; }
+#vehicle-hover-card .vh-image-message { display: grid; place-items: center; height: 100%; color: #a8b3c4; font-size: 13px; }
+#vehicle-hover-card .vh-image-wrap:after {
+  content: ""; position: absolute; inset: auto 0 0; height: 30px;
+  background: linear-gradient(transparent, #171c25); pointer-events: none;
+}
+#vehicle-hover-card .vh-body { padding: 0 16px 14px; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; }
+#vehicle-hover-card .vh-heading { margin: 2px 0 3px; font-size: 20px; line-height: 1.25; font-weight: 700; overflow-wrap: anywhere; }
+#vehicle-hover-card .vh-role { color: #b3c0d2; font-size: 12px; margin-bottom: 10px; }
+#vehicle-hover-card .vh-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 9px 0; }
+#vehicle-hover-card button, #vehicle-hover-card select {
+  border: 1px solid var(--vh-border); border-radius: 6px; padding: 4px 9px;
+  background: #222b38; color: #d5ddeb; font: inherit; font-size: 11px; cursor: pointer;
+}
+#vehicle-hover-card button[aria-pressed="true"] { background: #3b3324; border-color: #c99643; color: #ffd48a; }
+#vehicle-hover-card button:focus-visible, #vehicle-hover-card select:focus-visible, #vehicle-hover-card a:focus-visible { outline: 2px solid #f0b951; outline-offset: 2px; }
+#vehicle-hover-card .vh-context { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
+#vehicle-hover-card .vh-chip { border-radius: 4px; background: #283342; color: #c8d5e6; font-size: 10px; padding: 2px 6px; }
+#vehicle-hover-card .vh-chip-tier { background: #443921; color: #ffd48a; }
+#vehicle-hover-card .vh-subtitle { font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: #8b9aaf; margin: 12px 0 7px; }
+#vehicle-hover-card .vh-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; border: 1px solid #303b4b; border-radius: 8px; overflow: hidden; background: #303b4b; margin: 0; }
+#vehicle-hover-card .vh-stat { display: flex; flex-direction: column; gap: 2px; background: #202834; padding: 8px 10px; min-width: 0; }
+#vehicle-hover-card .vh-stat dt { color: #a1afc2; font-size: 10px; }
+#vehicle-hover-card .vh-stat dd { margin: 0; color: #f3f5f9; font-size: 14px; font-weight: 600; overflow-wrap: anywhere; }
+#vehicle-hover-card .vh-description { margin: 0; font-size: 12px; line-height: 1.55; white-space: pre-line; overflow-wrap: anywhere; color: #cbd4e1; }
+#vehicle-hover-card .vh-weapons { margin: 0; padding: 0; list-style: none; }
+#vehicle-hover-card .vh-weapons li { display: flex; justify-content: space-between; gap: 10px; padding: 3px 0; font-size: 11px; color: #d5deeb; }
+#vehicle-hover-card .vh-weapons small { flex-shrink: 0; color: #93a3b9; }
+#vehicle-hover-card .vh-features { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 9px; }
+#vehicle-hover-card .vh-source { display: flex; justify-content: space-between; gap: 8px; border-top: 1px solid #303b4b; margin-top: 12px; padding-top: 8px; font-size: 10px; color: #8e9db0; }
+#vehicle-hover-card a { color: #b5c9e6; text-decoration: underline; text-underline-offset: 2px; }
+#vehicle-hover-card .vh-note { font-size: 11px; color: #9eacc0; margin: 8px 0 0; }
+#vehicle-hover-card .vh-tabs { display: flex; gap: 6px; border-bottom: 1px solid #303b4b; padding-bottom: 10px; margin: 10px 0; }
+#vehicle-hover-card .vh-tabs button { flex: 1; padding: 7px 9px; font-size: 12px; }
+#vehicle-hover-card .vh-tabs button[aria-selected="true"] { color: #ffd48a; border-color: #c99643; background: #3b3324; }
+#vehicle-hover-card .vh-modification { border: 1px solid #364254; border-radius: 8px; background: #202834; margin: 7px 0; overflow: hidden; }
+#vehicle-hover-card .vh-mod-summary { display: flex; align-items: center; gap: 9px; cursor: pointer; padding: 10px 12px; list-style: none; }
+#vehicle-hover-card .vh-mod-summary::-webkit-details-marker { display: none; }
+#vehicle-hover-card .vh-mod-summary:before { content: '›'; color: #e7bc76; font-size: 22px; line-height: 1; transition: transform 120ms; }
+#vehicle-hover-card .vh-modification[open] > summary:before { transform: rotate(90deg); }
+#vehicle-hover-card .vh-mod-summary:focus-visible { outline: 2px solid #f0b951; outline-offset: -2px; }
+#vehicle-hover-card .vh-mod-heading { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+#vehicle-hover-card .vh-mod-name { font-size: 13px; font-weight: 600; overflow-wrap: anywhere; }
+#vehicle-hover-card .vh-mod-cost { color: #b9a683; font-size: 10px; }
+#vehicle-hover-card .vh-mod-content { padding: 0 12px 12px; border-top: 1px solid #303b4b; }
+#vehicle-hover-card .vh-mod-content > .vh-chip { display: inline-block; margin-top: 9px; }
+#vehicle-hover-card .vh-mod-content .vh-description { margin-top: 9px; }
+#vehicle-hover-card .vh-mod-changes { padding-left: 16px; margin: 9px 0 0; color: #bdcde0; font-size: 11px; }
+#vehicle-hover-card .vh-mod-changes li { margin: 5px 0; }
+#vehicle-hover-card .vh-mod-origin { font-size: 10px; color: #91a0b4; margin: 9px 0 0; }
+#vehicle-hover-card .vh-empty { font-size: 12px; color: #bdcde0; padding: 14px 0; }
+@keyframes vh-appear { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { #vehicle-hover-card { animation: none; } }

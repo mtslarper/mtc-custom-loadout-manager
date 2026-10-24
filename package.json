@@ -1,0 +1,17 @@
+{
+  "name": "loadout-editor-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline snapshot of loadout-editor.multicrew.dev",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "scan:secrets": "node tools/scan-secrets.mjs",
+    "prepare:release": "node tools/prepare-release.mjs",
+    "sync:vehicles": "node tools/sync-vehicle-info.mjs",
+    "check:vehicles": "node tools/check-vehicle-info.mjs",
+    "patch": "node tools/patch-import.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

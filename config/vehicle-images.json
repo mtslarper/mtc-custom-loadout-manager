@@ -1,0 +1,646 @@
+[
+  {
+    "gameId": "AFV-16",
+    "name": "AFV-16",
+    "image": "/assets/vehicles/roblox-afv-16.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:00:42.706Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "Tiger II-ALT",
+    "name": "Tiger 2A4",
+    "image": "/assets/vehicles/roblox-tiger-2a4.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:00:57.692Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "LeJgPz",
+    "name": "LeichterJagdpanzer 201/3 Schwable",
+    "image": "/assets/vehicles/roblox-lejgpz.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:01:15.062Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "BMP-30M",
+    "name": "BMP-30M",
+    "image": "/assets/vehicles/roblox-bmp-30m.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:01:20.116Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "TP-2",
+    "name": "TP-2",
+    "image": "/assets/vehicles/roblox-tp-2.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:01:33.858Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "IFV-30",
+    "name": "IFV-30",
+    "image": "/assets/vehicles/roblox-ifv-30.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:01:44.403Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "OBT-2AM",
+    "name": "OBT-2AM",
+    "image": "/assets/vehicles/roblox-obt-2am.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:01:56.876Z",
+    "crop": {
+      "left": 505,
+      "top": 396,
+      "width": 218,
+      "height": 139
+    }
+  },
+  {
+    "gameId": "MBT-3",
+    "name": "MBT-3",
+    "image": "/assets/vehicles/roblox-mbt-3.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:02:11.900Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "MBT-3E",
+    "name": "MBT-3E",
+    "image": "/assets/vehicles/roblox-mbt-3e.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:02:11.907Z",
+    "crop": {
+      "left": 839,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "MBT-3H",
+    "name": "MBT-3H",
+    "image": "/assets/vehicles/roblox-mbt-3h.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:02:11.915Z",
+    "crop": {
+      "left": 1185,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "M1160 George",
+    "name": "M1160 George",
+    "image": "/assets/vehicles/roblox-m1160-george.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:02:21.829Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "SAU-2",
+    "name": "SAU-2",
+    "image": "/assets/vehicles/roblox-sau-2.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:02:32.132Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "OBT-2B",
+    "name": "OBT-2B",
+    "image": "/assets/vehicles/roblox-obt-2b.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:02:44.154Z",
+    "crop": {
+      "left": 1185,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "OBT-2U",
+    "name": "OBT-2U",
+    "image": "/assets/vehicles/roblox-obt-2u.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:02:50.535Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "OBT-2UM",
+    "name": "OBT-2UM",
+    "image": "/assets/vehicles/roblox-obt-2um.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:02:50.542Z",
+    "crop": {
+      "left": 839,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "OBT-2BV",
+    "name": "OBT-2BV",
+    "image": "/assets/vehicles/roblox-obt-2bv.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:03:01.937Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "PzSp",
+    "name": "Panzerspähwagen 201",
+    "image": "/assets/vehicles/roblox-pzsp.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:03:17.610Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "BMP-73",
+    "name": "BMP-73",
+    "image": "/assets/vehicles/roblox-bmp-73.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:03:27.809Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "LWV-30",
+    "name": "LWV-30",
+    "image": "/assets/vehicles/roblox-lwv-30.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:03:40.437Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "SRK-1",
+    "name": "SRK-1",
+    "image": "/assets/vehicles/roblox-srk-1.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:03:51.369Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "RSZO-2",
+    "name": "RSZO-2",
+    "image": "/assets/vehicles/roblox-rszo-2.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:04:01.979Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "BTR-2",
+    "name": "BTR-2",
+    "image": "/assets/vehicles/roblox-btr-2.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:04:15.599Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "BTR-2A",
+    "name": "BTR-2A",
+    "image": "/assets/vehicles/roblox-btr-2a.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:04:15.608Z",
+    "crop": {
+      "left": 839,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "Horse",
+    "name": "Horse",
+    "image": "/assets/vehicles/roblox-horse.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:04:27.440Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "Kettenkrad",
+    "name": "Kettenkrad",
+    "image": "/assets/vehicles/roblox-kettenkrad.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:05:06.719Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "APC-C",
+    "name": "APC-C",
+    "image": "/assets/vehicles/roblox-apc-c.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:05:17.492Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "PUMA IFV",
+    "name": "PUMA S0",
+    "image": "/assets/vehicles/roblox-puma-s0.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:05:27.727Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "Maus-M",
+    "name": "Maus-M",
+    "image": "/assets/vehicles/roblox-maus-m.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:05:39.828Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "Ariete PSO",
+    "name": "Ariete PSO",
+    "image": "/assets/vehicles/roblox-ariete-pso.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:06:02.025Z",
+    "crop": {
+      "left": 839,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "LUAZ-672",
+    "name": "LUAZ-672",
+    "image": "/assets/vehicles/roblox-luaz-672.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:06:15.269Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "BMP-2MD",
+    "name": "BMP-2MD",
+    "image": "/assets/vehicles/roblox-bmp-2md.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:06:38.429Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "BMP-30",
+    "name": "BMP-30",
+    "image": "/assets/vehicles/roblox-bmp-30.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:06:56.673Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "BMT-AA",
+    "name": "BMT-AA",
+    "image": "/assets/vehicles/roblox-bmt-aa.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:07:15.809Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "BMP-100",
+    "name": "BMP-100",
+    "image": "/assets/vehicles/roblox-bmp-100.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:07:29.371Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "T32",
+    "name": "T32",
+    "image": "/assets/vehicles/roblox-t32.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:07:40.249Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "T32E1",
+    "name": "T32E1",
+    "image": "/assets/vehicles/roblox-t32e1.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:07:40.266Z",
+    "crop": {
+      "left": 839,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "T26E2",
+    "name": "T26E2",
+    "image": "/assets/vehicles/roblox-t26e2.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:07:51.832Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "T26E5",
+    "name": "T26E5",
+    "image": "/assets/vehicles/roblox-t26e5.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:07:51.847Z",
+    "crop": {
+      "left": 1185,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "M24",
+    "name": "M24 Chaffee",
+    "image": "/assets/vehicles/roblox-m24.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:08:04.244Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "GTK Boxer FLW 200",
+    "name": "GTK Boxer FLW 200",
+    "image": "/assets/vehicles/roblox-gtk-boxer-flw-200.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:08:18.046Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "M60 AMBT",
+    "name": "M60 AMBT",
+    "image": "/assets/vehicles/roblox-m60-ambt.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:08:29.781Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "Panther A",
+    "name": "Panther A",
+    "image": "/assets/vehicles/roblox-panther-a.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:08:44.845Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "Daimler Mk.1",
+    "name": "Daimler Mk.1",
+    "image": "/assets/vehicles/roblox-daimler-mk1.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:08:56.967Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "T58",
+    "name": "T58",
+    "image": "/assets/vehicles/roblox-t58.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:09:11.350Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "M42",
+    "name": "M42",
+    "image": "/assets/vehicles/roblox-m42.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:09:25.670Z",
+    "crop": {
+      "left": 493,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  },
+  {
+    "gameId": "Rosomak-L",
+    "name": "Rosomak-L ZSSW-30",
+    "image": "/assets/vehicles/roblox-rosomak-l.webp",
+    "sourceKind": "roblox-spawner",
+    "source": "MTC Dev Tank Spawner",
+    "capturedAt": "2026-10-23T22:09:39.695Z",
+    "crop": {
+      "left": 839,
+      "top": 397,
+      "width": 242,
+      "height": 137
+    }
+  }
+]

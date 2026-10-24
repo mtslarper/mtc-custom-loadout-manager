@@ -1,0 +1,2265 @@
+{
+  "createdAt": "2026-10-23T22:13:42.653Z",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 190,
+      "sha256": "fe2d0aad656013bdbd8b203abed1e031d70c0145c9332623786f6221f68f73f0"
+    },
+    {
+      "file": ".github/workflows/checks.yml",
+      "bytes": 325,
+      "sha256": "615db73d079a28c0f40bf698241aca54fb6a13330115475b0696ec409fc6ba16"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 193,
+      "sha256": "dd49a08d649e89e2895861f6f8056301f20ef406341de3df637111162db66444"
+    },
+    {
+      "file": "NOTICE.md",
+      "bytes": 2489,
+      "sha256": "7febfc02752e9b802d084e75e6999dfa9f66bf67d8fe165cd250663caeacab04"
+    },
+    {
+      "file": "README.md",
+      "bytes": 10672,
+      "sha256": "1ebaaeeceb7fc3cb8c919f363e41f03ce555d73791330d572c23c1657dc82e00"
+    },
+    {
+      "file": "README.ru.md",
+      "bytes": 17212,
+      "sha256": "5a4cff97ec516689cf22bc8aae43b6aaff970e40bca1ebfefbc63e47bbebadd8"
+    },
+    {
+      "file": "SECURITY.md",
+      "bytes": 5378,
+      "sha256": "d3ff0e3e736d34755dbe9b60533cabba5cbcb6e4d3b6898250ebfdc78b35084a"
+    },
+    {
+      "file": "Start.cmd",
+      "bytes": 181,
+      "sha256": "23b250d9802a1516c70a73108d9a2c5231dfb2fd873ff97f16a18ac43eb1747e"
+    },
+    {
+      "file": "config/vehicle-images.json",
+      "bytes": 15696,
+      "sha256": "4c602fa3ccbc29fcc85bd5355e36a24e677f1776a1701553b89889aac900008c"
+    },
+    {
+      "file": "package.json",
+      "bytes": 563,
+      "sha256": "5419e1dd05152d0b89d6a08093175abcd4c353feefc99a05e91f741e01b31f2f"
+    },
+    {
+      "file": "public/_next/static/OQyeeP3xfvEDs6ZEPsTl_/_buildManifest.js",
+      "bytes": 652,
+      "sha256": "fc19da54e85f98d0c51c0c20b076fdfa35a07c9dead99cd2ae0f6256b069acc1"
+    },
+    {
+      "file": "public/_next/static/OQyeeP3xfvEDs6ZEPsTl_/_ssgManifest.js",
+      "bytes": 88,
+      "sha256": "a66383b381b46cccc8f600e19dedea91beedf07e06bb49f011fa7f7073ead591"
+    },
+    {
+      "file": "public/_next/static/chunks/910-0ff685c2b5d74630.js",
+      "bytes": 314211,
+      "sha256": "2371c323f57bacf16956eb9cf0cea4e5ef0fef67d7ebb48f759478821f056bd8"
+    },
+    {
+      "file": "public/_next/static/chunks/9180ddc8-1cf6451de3347a64.js",
+      "bytes": 45818,
+      "sha256": "dc0a5a9c5fb7990b1c0c43d6d1f593cacabc4149ef9676a50fd0dc09c7488a53"
+    },
+    {
+      "file": "public/_next/static/chunks/framework-82fce76e1725f96c.js",
+      "bytes": 139834,
+      "sha256": "2a7eea74e99dd3a0da153d48dffdb1e7d832696d4d74748d55e2a177d453015b"
+    },
+    {
+      "file": "public/_next/static/chunks/main-d6a78ce3f358332f.js",
+      "bytes": 134615,
+      "sha256": "fdc1f8edf359f9b0d4331cbbea423715001ce4e9d30d838bd3077d6971541a6b"
+    },
+    {
+      "file": "public/_next/static/chunks/pages/_app-bed855ee4bf389c8.js",
+      "bytes": 65501,
+      "sha256": "91e9f3e38dddb4ad30b21d0a0ed5cfbb61d9d6823e3e3fe19e3a6bebf4d78c66"
+    },
+    {
+      "file": "public/_next/static/chunks/pages/index-211ecad247b1f53d.js",
+      "bytes": 80111,
+      "sha256": "17964da620cb1b081e6b66dfcae26c0b0def35d89ce57c527f0ef1749db4e26b"
+    },
+    {
+      "file": "public/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "file": "public/_next/static/chunks/webpack-b4c0f9608a7d0640.js",
+      "bytes": 1890,
+      "sha256": "6406ab6262745fd831d9d23d20f55e62e631273a12af31d536445053c5f84635"
+    },
+    {
+      "file": "public/_next/static/css/6cbba9e26198f0b9.css",
+      "bytes": 2437,
+      "sha256": "076c20ea6b28dec09495e256616e1c521409b708f83e7f4005186341755f7119"
+    },
+    {
+      "file": "public/_next/static/media/inter-cyrillic-400-normal.4cc6e28c.woff",
+      "bytes": 10136,
+      "sha256": "bdfe29cb9995fd51d9bab8ea6bab675bae5b230d1f213ec916b87fdf680218f7"
+    },
+    {
+      "file": "public/_next/static/media/inter-cyrillic-400-normal.547767ef.woff2",
+      "bytes": 7712,
+      "sha256": "636d13aab05ed9fa49df19c57fdddbb6f3d084f463743ee5257549dbb7124005"
+    },
+    {
+      "file": "public/_next/static/media/inter-cyrillic-ext-400-normal.2440d5f8.woff2",
+      "bytes": 10216,
+      "sha256": "ef323d84e475d3c42c1a13921fc21ce67c89ffea3815e77f27c05d1ff25f2d42"
+    },
+    {
+      "file": "public/_next/static/media/inter-cyrillic-ext-400-normal.6e13bad4.woff",
+      "bytes": 14188,
+      "sha256": "772d96f9ecca0ce8efdf9e0c1ab4a3326f02bc687cbf8479842f51c9f459127e"
+    },
+    {
+      "file": "public/_next/static/media/inter-greek-400-normal.573bacd1.woff2",
+      "bytes": 7840,
+      "sha256": "150dc4391e5687826df4cdfc90cfec10c507191ca7aa90b682722054f3bbc0de"
+    },
+    {
+      "file": "public/_next/static/media/inter-greek-400-normal.d6adbb78.woff",
+      "bytes": 9960,
+      "sha256": "df48329221be9a7f1cacfd2c212fa1428acc2b82c14a2536d2431bab7670172e"
+    },
+    {
+      "file": "public/_next/static/media/inter-greek-ext-400-normal.f196e968.woff",
+      "bytes": 7144,
+      "sha256": "e7a9b7cc21b60a0e6c129fa4a16c32497220015cbee3e47b58180693c034180c"
+    },
+    {
+      "file": "public/_next/static/media/inter-greek-ext-400-normal.f8992900.woff2",
+      "bytes": 5232,
+      "sha256": "ab526cb34092970cf4290b6d3588bcbda0971493ec5abea5f5b572e0866017ec"
+    },
+    {
+      "file": "public/_next/static/media/inter-latin-400-normal.360a94a9.woff2",
+      "bytes": 23692,
+      "sha256": "dd05e326cf8eac3b55acecf29c842ed73e6e6dd06491cf47f7e8800680ab3e33"
+    },
+    {
+      "file": "public/_next/static/media/inter-latin-400-normal.38abad60.woff",
+      "bytes": 31196,
+      "sha256": "31656ddbb58d39790f910df827596106a5d91ce80dd4309a6aad91e08a90f9e4"
+    },
+    {
+      "file": "public/_next/static/media/inter-latin-ext-400-normal.732723e2.woff2",
+      "bytes": 30676,
+      "sha256": "941e03c632d7b1d832cf0b961e66791ac91f8e54e395c2b4b9bac78366bc8242"
+    },
+    {
+      "file": "public/_next/static/media/inter-latin-ext-400-normal.d1f6a5a2.woff",
+      "bytes": 42876,
+      "sha256": "1cdd9f707a8dbf0576733b9af9c66350dbc39873f469e84c59fb2f806955fd55"
+    },
+    {
+      "file": "public/_next/static/media/inter-vietnamese-400-normal.1411920a.woff",
+      "bytes": 6684,
+      "sha256": "8a7b2f72e8ef9cd75008b2d4f1b70dc8ec75327a8a792e2eabd1546bab1ce48c"
+    },
+    {
+      "file": "public/_next/static/media/inter-vietnamese-400-normal.de4fc44f.woff2",
+      "bytes": 4972,
+      "sha256": "547ad9fdaeb0ae43487f4b8a02e47c36553c0c0cb73c8aa98f93b7b615f6b55d"
+    },
+    {
+      "file": "public/assets/grid.svg",
+      "bytes": 4595,
+      "sha256": "29311e49f5a6dd983585f9a98b48268e898339c74e7252bcac27466f78760222"
+    },
+    {
+      "file": "public/assets/image.png",
+      "bytes": 162859,
+      "sha256": "eade43efe7b8ed308a493e14b4a630ff706780ba0c4d66a14dafc4dfb5cf142e"
+    },
+    {
+      "file": "public/assets/vehicles/120s.webp",
+      "bytes": 23164,
+      "sha256": "8248d28ad98b6d6860612e473423be0c0c66d5b7e7c9d440573cddd8ff296dff"
+    },
+    {
+      "file": "public/assets/vehicles/2s14-zhalo-s.webp",
+      "bytes": 22678,
+      "sha256": "bf990308065c8b7b2aa1338325925e2dfbbb65151e85ee0b5ac9055e53f5e18f"
+    },
+    {
+      "file": "public/assets/vehicles/2s19-msta-s.webp",
+      "bytes": 24300,
+      "sha256": "78ad37d7b7f21abac676cbc36847a89d9ca254a97e707538df37793f48ffad8b"
+    },
+    {
+      "file": "public/assets/vehicles/2s38.webp",
+      "bytes": 23900,
+      "sha256": "9c552668564910dd9c03831a3ab19a1dd0062e2f3ffa72bd0378fc7c2855e0ae"
+    },
+    {
+      "file": "public/assets/vehicles/2s43.webp",
+      "bytes": 21772,
+      "sha256": "4d87f4f2955c4fb18bfd3a6a773dad8bf503408c82b4ea848b89d0a5d8a22f8c"
+    },
+    {
+      "file": "public/assets/vehicles/2s6-tunguska.webp",
+      "bytes": 24212,
+      "sha256": "423c50f3a81c3a680317e62f55198e9b4e119acef83f9cd4ad3b40f4d38aeb1b"
+    },
+    {
+      "file": "public/assets/vehicles/2s7-pion.webp",
+      "bytes": 24550,
+      "sha256": "e060683e3bdd11a77922eeb4961137c64ced322fa562b3e328830f8b963daab6"
+    },
+    {
+      "file": "public/assets/vehicles/90mm-gmc-super-hellcat.webp",
+      "bytes": 23920,
+      "sha256": "13bfb0afd8c0c4e680ef11bd1bed5d3c7235e38afe5b25db696d7df825b4bbff"
+    },
+    {
+      "file": "public/assets/vehicles/9k720-iskander.webp",
+      "bytes": 21508,
+      "sha256": "313f95d2b401a87c15c6fcf9169581f5827febcc75669fbad3e4727fe4467d6a"
+    },
+    {
+      "file": "public/assets/vehicles/9p148.webp",
+      "bytes": 22272,
+      "sha256": "1d955e930b79d470329a398d63bad98afa7ece1761dacd09831c87f880b97626"
+    },
+    {
+      "file": "public/assets/vehicles/a331-assault-tank.webp",
+      "bytes": 23084,
+      "sha256": "a5cf1787d770c44ee6bcfa9c2d07ce4cade49a09de71e597c17640962d69ef61"
+    },
+    {
+      "file": "public/assets/vehicles/a7v.webp",
+      "bytes": 20690,
+      "sha256": "6d83218598fb7fa0561db5f11edcd229d340b40542d376ff767fe6dc6df84e76"
+    },
+    {
+      "file": "public/assets/vehicles/abandoned-ifv-hull.webp",
+      "bytes": 27840,
+      "sha256": "fa604cdf57dfea5ab695f54868ff2457d5bf83cf6b222c49088ab0df3f528e37"
+    },
+    {
+      "file": "public/assets/vehicles/abandoned-tank-hull.webp",
+      "bytes": 23848,
+      "sha256": "07f901c6bbda2bce2635a0fe02f4bceae4f3437f7acda4de6086026f3fd93cf3"
+    },
+    {
+      "file": "public/assets/vehicles/abrams-x.webp",
+      "bytes": 23744,
+      "sha256": "bc1117d599ba46f487bb67917e4918dccce5aab41a4882f43c85a1f34a08ddff"
+    },
+    {
+      "file": "public/assets/vehicles/achzarit-mk2-rcws-30.webp",
+      "bytes": 25504,
+      "sha256": "eefa07d0f1afcea9df910ec8fc5c323e552f7affbec3790041e726a0f5ea75ec"
+    },
+    {
+      "file": "public/assets/vehicles/aft-10.webp",
+      "bytes": 23612,
+      "sha256": "d36cbe2fea874e6eb20715ac34d15531d59dfab17bd126d6f9e63fcefd060fad"
+    },
+    {
+      "file": "public/assets/vehicles/ah-64d.webp",
+      "bytes": 25252,
+      "sha256": "27e4007468e53f40a5d8a1592689dc9ae5d7185a4722d0f282102c43c311e9e0"
+    },
+    {
+      "file": "public/assets/vehicles/air-defense-anti-tank-system.webp",
+      "bytes": 24190,
+      "sha256": "59e0e61fe831b044002f6296570dcb483ca743e09b90c99eb629d52cdee3cb09"
+    },
+    {
+      "file": "public/assets/vehicles/al-khalid.webp",
+      "bytes": 23550,
+      "sha256": "2dfb6e875c97e13f15342fdb0f88846663513718c9fdd35993a7d3024175645c"
+    },
+    {
+      "file": "public/assets/vehicles/amx-10rc.webp",
+      "bytes": 22892,
+      "sha256": "0c3cae51259fd09546786af1e97cf9c8f924946b7ce06b5c9dddb5188059376c"
+    },
+    {
+      "file": "public/assets/vehicles/amx-13.webp",
+      "bytes": 24188,
+      "sha256": "2ff85c750c60f85c9107d22c3383b1ef2d4bc81befc586e9c866ed22bdd68b9a"
+    },
+    {
+      "file": "public/assets/vehicles/ariete-c1.webp",
+      "bytes": 24444,
+      "sha256": "58f26f2b5adb0357663bcea8a63309ef6828ba75f17de33413c29689a8bf7b19"
+    },
+    {
+      "file": "public/assets/vehicles/asu-57.webp",
+      "bytes": 21788,
+      "sha256": "0d4a26d445bd5abdf4b3c11e1304152761d1211d77794a375d66079f37a03901"
+    },
+    {
+      "file": "public/assets/vehicles/aw-149.webp",
+      "bytes": 22612,
+      "sha256": "29baf6230763607125b7e9d1464aa8b6be809a2071afe416ff11ad522d1e44e3"
+    },
+    {
+      "file": "public/assets/vehicles/begleitpanzer-57.webp",
+      "bytes": 24104,
+      "sha256": "ecb758142f242f57229a6a1308240380ec18a9dbe86ae8d2443c0b5aa7d8b186"
+    },
+    {
+      "file": "public/assets/vehicles/black-night.webp",
+      "bytes": 24182,
+      "sha256": "43c38ff3b437cabd9ad7b04f1427515a9e893193c129717e33ebacb59cfa2445"
+    },
+    {
+      "file": "public/assets/vehicles/bm-21-grad.webp",
+      "bytes": 23072,
+      "sha256": "6a4a437bcedfbc8c9a6509faff7dd4537ca18c45859045d404e438ab340a9852"
+    },
+    {
+      "file": "public/assets/vehicles/bm-bulat.webp",
+      "bytes": 24896,
+      "sha256": "1bb216115b56ef9d25749551c9af1171130bec8ff42d4db4619f48260c3001f8"
+    },
+    {
+      "file": "public/assets/vehicles/bm-oplot.webp",
+      "bytes": 24450,
+      "sha256": "661553646e29713805639720c8f8d416b7171b7c187857df8e56bf7b03098ff5"
+    },
+    {
+      "file": "public/assets/vehicles/bmd-1.webp",
+      "bytes": 22580,
+      "sha256": "b0f7c4ce1a57dd75479481941b37a79402add3df11f8dfb699bab4ace4b6f0c9"
+    },
+    {
+      "file": "public/assets/vehicles/bmd-2.webp",
+      "bytes": 23448,
+      "sha256": "29175f2ccaaaf1bafd4f838649194b2a7f30bcc899d19c0ef88f7e3ecb839b6b"
+    },
+    {
+      "file": "public/assets/vehicles/bmd-4m.webp",
+      "bytes": 23338,
+      "sha256": "967b4d8b2def35a0c92aa47a05f131d7f56664fa87b3de7dc7a2b36147e8d54d"
+    },
+    {
+      "file": "public/assets/vehicles/bmp-1.webp",
+      "bytes": 23956,
+      "sha256": "37234ba238159c42583f244e32901bd39cc85d2c2c0f6eed783bdf0cbb50e36f"
+    },
+    {
+      "file": "public/assets/vehicles/bmp-1am.webp",
+      "bytes": 24516,
+      "sha256": "d509be6410850d2d297052285d0fc03e6e5df6d51c8996319ed3423da345b694"
+    },
+    {
+      "file": "public/assets/vehicles/bmp-1m-kliver.webp",
+      "bytes": 24220,
+      "sha256": "69d0f9f3f44f297513e78097d85fd7c187cc381f05c47cacc7e2dd323984a78a"
+    },
+    {
+      "file": "public/assets/vehicles/bmp-1ts.webp",
+      "bytes": 24318,
+      "sha256": "083ef8b5fa71b7d34665facf827a1f50109f09b742b190fc9303dde72b89dddb"
+    },
+    {
+      "file": "public/assets/vehicles/bmp-2.webp",
+      "bytes": 24478,
+      "sha256": "26bf7d2e5b65972b81d6e3535f829ace98324fbd3bef09686632d9c609e93047"
+    },
+    {
+      "file": "public/assets/vehicles/bmp-2m.webp",
+      "bytes": 24982,
+      "sha256": "87949d0bc898bf92018a28905a8054c8edea93220b770dec83c3c50144cf658d"
+    },
+    {
+      "file": "public/assets/vehicles/bmp-3-1987.webp",
+      "bytes": 23200,
+      "sha256": "ff397de8222f53ad4d11e9108414214a30dfeb5086a0b23ed0e9acf66a5946df"
+    },
+    {
+      "file": "public/assets/vehicles/bmp-3-2017.webp",
+      "bytes": 23754,
+      "sha256": "3f3b1bce084ea8e1cb369c3a6374ffadf5e2b8ea975d4b8a10cf7cd55ffd013d"
+    },
+    {
+      "file": "public/assets/vehicles/bmp-3m-arena.webp",
+      "bytes": 23904,
+      "sha256": "de5fdefbadf4b25a49d1d6c54e3ef22632e70d66e8e230f9ce11822cdbba05ed"
+    },
+    {
+      "file": "public/assets/vehicles/bmpt-spyridon.webp",
+      "bytes": 24838,
+      "sha256": "4b150e0aad7718e03a0b20820051fc5af3e729adf11f36c9ad4226118adb5ea3"
+    },
+    {
+      "file": "public/assets/vehicles/borsuk.webp",
+      "bytes": 22070,
+      "sha256": "ed2f01369be2196505c2fe01df25d63c43bc997c6fb5c7894d3a495be55af197"
+    },
+    {
+      "file": "public/assets/vehicles/brdm-2.webp",
+      "bytes": 20938,
+      "sha256": "81a6061ec5237bb22cf36053e5cdb271aa449a45b758d529313a5162d6662a5b"
+    },
+    {
+      "file": "public/assets/vehicles/bt-42.webp",
+      "bytes": 23594,
+      "sha256": "2c5eae1b3b0fff334f82f567330ff937bf0f13ab0a8a15bd160e93238356c9ec"
+    },
+    {
+      "file": "public/assets/vehicles/bt-5.webp",
+      "bytes": 23208,
+      "sha256": "f02978f085fda6cce6469ee036572044bf505db2e310744948bbfc8c1d767c5c"
+    },
+    {
+      "file": "public/assets/vehicles/btr-4.webp",
+      "bytes": 23648,
+      "sha256": "a86cf73ac44d18435000404f14cdb270dbf12bd2833b5800897d99acd89e4bbe"
+    },
+    {
+      "file": "public/assets/vehicles/btr-55.webp",
+      "bytes": 23488,
+      "sha256": "32904a91ae7befe9f60afd28daa4e189a6a5513b1c4f93c2ef2d9a292ea5a2a6"
+    },
+    {
+      "file": "public/assets/vehicles/btr-60pb.webp",
+      "bytes": 21308,
+      "sha256": "b34ecc6434d4e56bc7aa9d72d91bce1fceff93a4bef8284d479781804a218ddf"
+    },
+    {
+      "file": "public/assets/vehicles/btr-82a.webp",
+      "bytes": 23622,
+      "sha256": "e1c881d40e9669ec0c8ea5e55bcdfdab2a87bdd0c807c80b9bab70b4148ee356"
+    },
+    {
+      "file": "public/assets/vehicles/btr-90.webp",
+      "bytes": 23422,
+      "sha256": "7801a248e166e64a05281cc3be57a839727942e437e05018cee6f2099253565d"
+    },
+    {
+      "file": "public/assets/vehicles/bumpee.webp",
+      "bytes": 22640,
+      "sha256": "695ce92ffd36a5420669ee8a3d4c4a94f6202c24d085bde4f62e12b8747ca236"
+    },
+    {
+      "file": "public/assets/vehicles/burlak.webp",
+      "bytes": 24538,
+      "sha256": "eb17e81a162c4035857bbaf80c26da0b8104bbbc32e9e1747c157607f32f03a3"
+    },
+    {
+      "file": "public/assets/vehicles/cattb.webp",
+      "bytes": 22632,
+      "sha256": "3755a3d2973ac5d815e37a5798d8ac104d9ed5ea2a15b866de36b336f4e37e2c"
+    },
+    {
+      "file": "public/assets/vehicles/centurion-mk10.webp",
+      "bytes": 24164,
+      "sha256": "539ac158957465525fa213d816c4d3ead18a198be9d22bd0f32156c26ea887d0"
+    },
+    {
+      "file": "public/assets/vehicles/centurion-mk5-avre.webp",
+      "bytes": 24282,
+      "sha256": "0971280df5214e1c0fae207fe21cbb9fd5831243392d27a165db86b6899e68ff"
+    },
+    {
+      "file": "public/assets/vehicles/challenger-1.webp",
+      "bytes": 24552,
+      "sha256": "744818625f53115f251b5cd14f01410786c13d74bfa9b2afdca0f75845b76d2d"
+    },
+    {
+      "file": "public/assets/vehicles/challenger-2-medusa.webp",
+      "bytes": 24292,
+      "sha256": "2cc9cb8300178ae12c03d73b1128e0fbc7bdaac45bb994140a4921eb28063a6f"
+    },
+    {
+      "file": "public/assets/vehicles/challenger-2.webp",
+      "bytes": 23898,
+      "sha256": "4367f214d1ebb2b3e3903f767970543a9e6c9760a0edb9aac82e294373a20dbe"
+    },
+    {
+      "file": "public/assets/vehicles/challenger-falcon.webp",
+      "bytes": 23764,
+      "sha256": "577553b5b274cf573db477728c181819279697819d37ef058c45c1e8d11ce1b0"
+    },
+    {
+      "file": "public/assets/vehicles/cheonma-2.webp",
+      "bytes": 23204,
+      "sha256": "b5d30d9cd31a85f8d190bebcb683be69f486b550b186523cdd729611fc65b976"
+    },
+    {
+      "file": "public/assets/vehicles/chieftain-mk12.webp",
+      "bytes": 23424,
+      "sha256": "4e35a25558f6e95b78854fe6ede51ea1113742d5149c590c1f68be345dc151b3"
+    },
+    {
+      "file": "public/assets/vehicles/chieftain-mk5.webp",
+      "bytes": 23456,
+      "sha256": "c1261ec864a8b23c16dc16edcc67e2f4dcbd5d46325fe6c1f565fb3e6b9a11df"
+    },
+    {
+      "file": "public/assets/vehicles/chonma-20.webp",
+      "bytes": 23204,
+      "sha256": "b5d30d9cd31a85f8d190bebcb683be69f486b550b186523cdd729611fc65b976"
+    },
+    {
+      "file": "public/assets/vehicles/churchill-avre.webp",
+      "bytes": 22110,
+      "sha256": "8248faa3d1a6bee6b47c4f2d87fb014e1c18b094daa5511afa4545eec36cb0fe"
+    },
+    {
+      "file": "public/assets/vehicles/churchill-vii.webp",
+      "bytes": 22532,
+      "sha256": "1f3f99a28a3b514fa88a4fda366e45d9d6bf66394fca719f414282d93edb333a"
+    },
+    {
+      "file": "public/assets/vehicles/class-3p.webp",
+      "bytes": 22024,
+      "sha256": "a01098d75004d567feb8f1f6cae8a757839571138a3dc2152fe5589f7d2412c9"
+    },
+    {
+      "file": "public/assets/vehicles/comet-mk1.webp",
+      "bytes": 24230,
+      "sha256": "2a24b58526a2bbc99a5fd253a853cf7d1f83f1eb4f883e7643120a8e57ccc5af"
+    },
+    {
+      "file": "public/assets/vehicles/cromwell-v.webp",
+      "bytes": 23172,
+      "sha256": "8e767d57c9b9987003d2560c4a661955a1c08faa0bfd6994de7acaf6a11423aa"
+    },
+    {
+      "file": "public/assets/vehicles/cssa5.webp",
+      "bytes": 23276,
+      "sha256": "a42eef89ac38b4b6eb2fac09f2daee5a46e97cad5bd7c5bb5611bf15fcfa8d48"
+    },
+    {
+      "file": "public/assets/vehicles/cv-90120-t-ghost.webp",
+      "bytes": 20444,
+      "sha256": "a8c423709557ba3c27ba94a301907a8aa9de6be37a296e206a107bf9bb208144"
+    },
+    {
+      "file": "public/assets/vehicles/cv-90120-t.webp",
+      "bytes": 23498,
+      "sha256": "95a8a220030b1d9ce071b407d1e442cd36e6c554f4bade1612d89bd7858b726b"
+    },
+    {
+      "file": "public/assets/vehicles/cv-9040a.webp",
+      "bytes": 23302,
+      "sha256": "adfe52679501b25cc61d735ac154d6bc6c69517f45a22ac6e778dfa904459ea0"
+    },
+    {
+      "file": "public/assets/vehicles/cv-9040c.webp",
+      "bytes": 23436,
+      "sha256": "bed184b615787a0be4997af38dc7e9b200e29217702428992e50bfe412cc6023"
+    },
+    {
+      "file": "public/assets/vehicles/desert-warrior.webp",
+      "bytes": 24058,
+      "sha256": "0305223ae6878c782bcab81e29c00f3d3046773d1ce0cf9b0d1620bc707ca549"
+    },
+    {
+      "file": "public/assets/vehicles/e-100-henschelturm.webp",
+      "bytes": 23914,
+      "sha256": "2109546fc5efacd48d9b657635da4f07b995793450e39d5fcfab01efe3e9ac2e"
+    },
+    {
+      "file": "public/assets/vehicles/elc-bis.webp",
+      "bytes": 22454,
+      "sha256": "533e9508c97a0b112f7b9eba2e9cb6f56e93698c3e6162454bb5337719ab9b2c"
+    },
+    {
+      "file": "public/assets/vehicles/elefant.webp",
+      "bytes": 23608,
+      "sha256": "dc623231d0aa0b34ade211d806fe82d91ba2b3e9b9fddbcd8c3be3a0f1a5e1ac"
+    },
+    {
+      "file": "public/assets/vehicles/ersatz-m10.webp",
+      "bytes": 23400,
+      "sha256": "1843f74a38c16c6b0978f0ec1c839a030f103f4ae219de2b9d0f1901f11575aa"
+    },
+    {
+      "file": "public/assets/vehicles/fox-milan.webp",
+      "bytes": 23230,
+      "sha256": "fe5a4fb94455e85babe2f6bda16977222b56dddb2266eda36e3bc4f1c5a8d466"
+    },
+    {
+      "file": "public/assets/vehicles/fv4005.webp",
+      "bytes": 22778,
+      "sha256": "9f808bc42f4a4cccc9208a90baa80eadb93b7b253453c1f579155742c62aa191"
+    },
+    {
+      "file": "public/assets/vehicles/fv510-warrior.webp",
+      "bytes": 24080,
+      "sha256": "814550b61f4bba4ad3d7ab800d2ed6851ce722c606936b076335bb9533e67ed9"
+    },
+    {
+      "file": "public/assets/vehicles/fv721-fox.webp",
+      "bytes": 23836,
+      "sha256": "ffac38b8da6e6e7983179a61bb4212523d9277f2e5f92e786b93670ab66d8c3b"
+    },
+    {
+      "file": "public/assets/vehicles/gaz-tigr-m.webp",
+      "bytes": 23182,
+      "sha256": "7d66a31b0be28e56608d1f4b1a8fc304e0323e730ab244bca6c5506de8306b2d"
+    },
+    {
+      "file": "public/assets/vehicles/hetzer.webp",
+      "bytes": 21322,
+      "sha256": "b0a50c6262bd6f9ae31a3ab51347907fd5d2541b2166e5b51481818abf5c106a"
+    },
+    {
+      "file": "public/assets/vehicles/himag.webp",
+      "bytes": 24686,
+      "sha256": "63e23c84095c7daedb4c4d84bac3c52df5212f44dd1b46e70aef687f64e82d7d"
+    },
+    {
+      "file": "public/assets/vehicles/hstv-l.webp",
+      "bytes": 23656,
+      "sha256": "c78965624e7fda5672a901a0c5de31634eac6d7d252800f7e85f0fb5f48addf2"
+    },
+    {
+      "file": "public/assets/vehicles/humvee.webp",
+      "bytes": 23600,
+      "sha256": "4a23c1c730142511f077ff05e9ca1bdd879f7f76ad68f55f98591bbc06a4c4ec"
+    },
+    {
+      "file": "public/assets/vehicles/is-1.webp",
+      "bytes": 23038,
+      "sha256": "561c28f5e19677c6b6ed584bae01bccfc9536d1c0b37794562b45c45ca8bfae7"
+    },
+    {
+      "file": "public/assets/vehicles/is-2-1944.webp",
+      "bytes": 23422,
+      "sha256": "9db2db33445504e94cfce4dd79c859f4123890b95e9b7ecc55b122d3bb03e888"
+    },
+    {
+      "file": "public/assets/vehicles/is-3.webp",
+      "bytes": 23738,
+      "sha256": "3e73c9403f792ecb879025909da28118b6d99030108463e664089f54e4a3f098"
+    },
+    {
+      "file": "public/assets/vehicles/is-6.webp",
+      "bytes": 24034,
+      "sha256": "891127a45be093654d1ef52cd5f8dc132531f31508f6df3f4006d2e1046a1880"
+    },
+    {
+      "file": "public/assets/vehicles/is-7.webp",
+      "bytes": 24418,
+      "sha256": "8ed641de635e49453f1e357047e2c772ca1a92c8c1fcee658b19d467ff2112f3"
+    },
+    {
+      "file": "public/assets/vehicles/isu-152.webp",
+      "bytes": 23322,
+      "sha256": "40b43aa0fada183ff39708da29bd8e3a9fa539ac842277a43a1f61e762eedb72"
+    },
+    {
+      "file": "public/assets/vehicles/isu-152bm.webp",
+      "bytes": 23846,
+      "sha256": "1891dde98f072c1c639a37369c0aac55162a0ff2e52570604448d39bc9a9dae8"
+    },
+    {
+      "file": "public/assets/vehicles/it-1.webp",
+      "bytes": 23678,
+      "sha256": "e5820a2198e92567374d6d5d4963fba9e4f2a1f0b69d9ccf197b22764d1acab4"
+    },
+    {
+      "file": "public/assets/vehicles/jagdpanther.webp",
+      "bytes": 22372,
+      "sha256": "2f2818fbf01f5f0b58b07544b8772b053dbb5125cbc7e5d626c8dbc642ef5844"
+    },
+    {
+      "file": "public/assets/vehicles/jagdtiger.webp",
+      "bytes": 23072,
+      "sha256": "7e37ee5235e1042118e6bafcb6873edb2d8d0ae0464d25989b523fb513a85457"
+    },
+    {
+      "file": "public/assets/vehicles/joint-light-tactical-vehicle.webp",
+      "bytes": 24020,
+      "sha256": "23c504fe457b1d66562e2acc899e1d3e3765e7216d04b5ce4c8762b39eb19e4c"
+    },
+    {
+      "file": "public/assets/vehicles/k1.webp",
+      "bytes": 23878,
+      "sha256": "7275a2e8314fddc4d51ca27cb8d759fc125d18ebb329461c2b6fd26fa6a3655c"
+    },
+    {
+      "file": "public/assets/vehicles/k1a1.webp",
+      "bytes": 24072,
+      "sha256": "234b3f8d72d4ae116742bdbd25caae866f0827248c8d73d7b4d3a8b1a07cc857"
+    },
+    {
+      "file": "public/assets/vehicles/k2.webp",
+      "bytes": 24732,
+      "sha256": "03db31edd953dfbee0aef6f0546123893717ab7f0ed8691cb8beb3857bb56993"
+    },
+    {
+      "file": "public/assets/vehicles/ka-52m-alligator-m.webp",
+      "bytes": 24546,
+      "sha256": "a01818dc5faf7115aa188fc1f7074d88ed7963dd34772a1095de6fdf4298633c"
+    },
+    {
+      "file": "public/assets/vehicles/karl-gerat.webp",
+      "bytes": 12660,
+      "sha256": "11ffbf023b594de0f7626de0c64c2e9a897724933c0c221ce6c63abcea31c7d5"
+    },
+    {
+      "file": "public/assets/vehicles/kf41-lynx.webp",
+      "bytes": 22682,
+      "sha256": "a823a7224e12c413a3264b9a31e9fc788d5cfd62c7858809c9c2829f34fdec2b"
+    },
+    {
+      "file": "public/assets/vehicles/kf51-panther.webp",
+      "bytes": 23502,
+      "sha256": "82bf604d749c83647c6489f660d77e5e7f4c0f7cbb16e50509824b0b618cae6a"
+    },
+    {
+      "file": "public/assets/vehicles/kornet-d-bmd-4m.webp",
+      "bytes": 23940,
+      "sha256": "24dbc5ff4c8d8fc139721339ffe6ab3aa28092b898ff2d6ebb479f302bfd0229"
+    },
+    {
+      "file": "public/assets/vehicles/kornet-d-gaz-tigr.webp",
+      "bytes": 23162,
+      "sha256": "ad802beddac25a81a3b30fde304e2e4312c78453ae1006ba4dbff969bdb9ebe2"
+    },
+    {
+      "file": "public/assets/vehicles/kpz-70.webp",
+      "bytes": 23718,
+      "sha256": "7209c007ecee0736d775eb191410bc0f69b96f1f6efdd4c29fe724a092190108"
+    },
+    {
+      "file": "public/assets/vehicles/kurganets-25.webp",
+      "bytes": 22402,
+      "sha256": "ee144622fe91a188bf694b5dcffde2d20f7e4b98d1e54deb7be6efe9d94f6eb6"
+    },
+    {
+      "file": "public/assets/vehicles/kv-1e.webp",
+      "bytes": 23696,
+      "sha256": "4300a05b04bba6d799bae1c251fb474bd2272f869918082c5d6156950dc1fbeb"
+    },
+    {
+      "file": "public/assets/vehicles/kv-2-zis-6.webp",
+      "bytes": 24000,
+      "sha256": "1060d48cdd53f68ee1bfb2b45bff103363df6aab52c7a6fae145e5dfa079dec0"
+    },
+    {
+      "file": "public/assets/vehicles/kv-2.webp",
+      "bytes": 23588,
+      "sha256": "3060a65aceda5fc0959b1be1c3d7fc3ac052510d662eaabb38d1673385943bca"
+    },
+    {
+      "file": "public/assets/vehicles/kv-220.webp",
+      "bytes": 23656,
+      "sha256": "0742b8053a8cbcffcedf48df71882ae9ef2e85d65e5ea9015994654b1ed83ff2"
+    },
+    {
+      "file": "public/assets/vehicles/kv-5.webp",
+      "bytes": 22888,
+      "sha256": "b0e06e70b558d881ac78de56181df6c593e9d0ed0a17cc78b5454b7eedb6de70"
+    },
+    {
+      "file": "public/assets/vehicles/l335.webp",
+      "bytes": 22654,
+      "sha256": "0dbefbfd687909bfacef1f1cd7dcec567cfc8ed3ba388cf205cb737c713ebaca"
+    },
+    {
+      "file": "public/assets/vehicles/lada.webp",
+      "bytes": 21376,
+      "sha256": "967b041f7648a582188a67d9d5fa0ae728e17f5f4c0e7fa6550bd316cbb6080c"
+    },
+    {
+      "file": "public/assets/vehicles/lav-25.webp",
+      "bytes": 23074,
+      "sha256": "49abd45d00ffa785498cbfbef53ec3fa2d72bffb60e90efb5330f85d586e37e4"
+    },
+    {
+      "file": "public/assets/vehicles/lav-ad.webp",
+      "bytes": 22910,
+      "sha256": "d649549445ef12dcce71bf2d13f22ba617f52837230cb6da7224a2d0b1028d7d"
+    },
+    {
+      "file": "public/assets/vehicles/lav-at.webp",
+      "bytes": 22296,
+      "sha256": "ba35a3ae2bcc69e0e7c7fbeedf52525df104b9cce9dbe79b70023bd680d86826"
+    },
+    {
+      "file": "public/assets/vehicles/leclerc-s21.webp",
+      "bytes": 23038,
+      "sha256": "3715855ada1ae24e1e63a10c15315099a9f72fd420450808b88171446f994a51"
+    },
+    {
+      "file": "public/assets/vehicles/leopard-1a5.webp",
+      "bytes": 24176,
+      "sha256": "99014a3c97543b9cd22318027bc7f7d97411a077cffa8f847985e5ded7d6d87a"
+    },
+    {
+      "file": "public/assets/vehicles/leopard-2-giraffe.webp",
+      "bytes": 24450,
+      "sha256": "6c1370073089548f82a9dfc7efdaee38409fbaacf1fd03ba395ad98defef83bf"
+    },
+    {
+      "file": "public/assets/vehicles/leopard-2a4-140mm.webp",
+      "bytes": 24536,
+      "sha256": "f4497d617fe890e3fceaefa90c20dbccaba5c8c114ead60808b94eb31b42c827"
+    },
+    {
+      "file": "public/assets/vehicles/leopard-2a4-evolution.webp",
+      "bytes": 23264,
+      "sha256": "0aa24b255e6803c447f764eb035c6412aa9cc46db8b9beb8b8ad4dce54d0a0f9"
+    },
+    {
+      "file": "public/assets/vehicles/leopard-2a4.webp",
+      "bytes": 24098,
+      "sha256": "9a8d5cdfef74a558a8862d654bed579104a6ed4369d287fe35f6a76810832648"
+    },
+    {
+      "file": "public/assets/vehicles/leopard-2a6.webp",
+      "bytes": 24376,
+      "sha256": "50dddccf10f68abe300f6bb5fbab300ffd034f9183293cf5d890a1fcdd1b70e3"
+    },
+    {
+      "file": "public/assets/vehicles/leopard-2a7v.webp",
+      "bytes": 24400,
+      "sha256": "c17c420a32bb5bd153c26c1f9208f3e1b8c42dc3252ab6cb8f56e06c759835dc"
+    },
+    {
+      "file": "public/assets/vehicles/leopard-2a8dk.webp",
+      "bytes": 24386,
+      "sha256": "d4d0ac5785ff134348841c1246e578dfa367948841507de152dcda8606bd9eff"
+    },
+    {
+      "file": "public/assets/vehicles/leopard-2k-t11.webp",
+      "bytes": 23574,
+      "sha256": "8e734e166db90cfe0acb0b5cabf50ebf33b83da6d4d5daabd6a01a9badf34670"
+    },
+    {
+      "file": "public/assets/vehicles/losat-m8.webp",
+      "bytes": 20570,
+      "sha256": "95a12763717630cd4a3648e99184cdc041d0256de2ef4da83548c232c1bf58be"
+    },
+    {
+      "file": "public/assets/vehicles/lt-se.webp",
+      "bytes": 23456,
+      "sha256": "448db448a6dae638ac055bd7e8c771e6629b3972a2475ca3f7e4dda968bdac60"
+    },
+    {
+      "file": "public/assets/vehicles/lvt-6-gator.webp",
+      "bytes": 23634,
+      "sha256": "c8cc7866214851c3e0519ff9eeccb7d4195dea75e00c046572039634d38edc8b"
+    },
+    {
+      "file": "public/assets/vehicles/m1-abrams.webp",
+      "bytes": 23170,
+      "sha256": "018f6afee0096a76d354d9a3211b0d03cd2781c5508052b472596703f260f1a7"
+    },
+    {
+      "file": "public/assets/vehicles/m10-wolverine.webp",
+      "bytes": 24314,
+      "sha256": "9338cd19bf75ba618ee17aa43a7084b9f5bd4d0c3649fa36e4bcb26a81540bd4"
+    },
+    {
+      "file": "public/assets/vehicles/m109.webp",
+      "bytes": 23128,
+      "sha256": "414f4d3ef871a392f044548ef5a0f70250aa3393d6fa82d7ee8c19a7c45296aa"
+    },
+    {
+      "file": "public/assets/vehicles/m109a6.webp",
+      "bytes": 24038,
+      "sha256": "940c0890908eb0398ed8b9c13f37498026a2546994e3a3128fac4019d3e04257"
+    },
+    {
+      "file": "public/assets/vehicles/m1117-asv.webp",
+      "bytes": 22616,
+      "sha256": "3f532adeca98e5fffa3c33339d6778978c394a5a2cb51b095902d678b85f144c"
+    },
+    {
+      "file": "public/assets/vehicles/m1126.webp",
+      "bytes": 23900,
+      "sha256": "99d5a58e550bb4468bf1d750d369b284481655f21ba2a73d16a594892f45f041"
+    },
+    {
+      "file": "public/assets/vehicles/m1128-mgs.webp",
+      "bytes": 24376,
+      "sha256": "6c612bc2f145459492db9536950e5765a5f812f09e831f1c1450c765a69df703"
+    },
+    {
+      "file": "public/assets/vehicles/m113-hvms.webp",
+      "bytes": 22578,
+      "sha256": "336b3a5540ca3ee847670bb35111fcbc6e3333357e6ab4560121b3273d0417e2"
+    },
+    {
+      "file": "public/assets/vehicles/m113.webp",
+      "bytes": 22296,
+      "sha256": "e40c05273b4d3cd1eb7c11f42ebb5f86f5fc42e83671b1c01eb2337dd4350ddc"
+    },
+    {
+      "file": "public/assets/vehicles/m14-jacob.webp",
+      "bytes": 21726,
+      "sha256": "3e9008723a34115b986a44a01bcdd4227981c4f721bc589e3c0149b7b819c954"
+    },
+    {
+      "file": "public/assets/vehicles/m163.webp",
+      "bytes": 21554,
+      "sha256": "a44e7a6da1c65cbf973addf96b9e5872db5d71f0f640508501574b7f3afdcc93"
+    },
+    {
+      "file": "public/assets/vehicles/m17-whizbang.webp",
+      "bytes": 22318,
+      "sha256": "684efbf546b858cfea15bd787e412809c4dc00f3906b12f1639719422ba4e613"
+    },
+    {
+      "file": "public/assets/vehicles/m18-hellcat.webp",
+      "bytes": 23228,
+      "sha256": "20b46ec917ec67f29955706c6f45d82ecc6fa585e702103059edc95f5667deb4"
+    },
+    {
+      "file": "public/assets/vehicles/m1a1-sa.webp",
+      "bytes": 23292,
+      "sha256": "2062f6171fa7cbf01ef673c1e0a91b9f2f1b0d4a880e272f107f6b64a608442c"
+    },
+    {
+      "file": "public/assets/vehicles/m1a2-sep-v3.webp",
+      "bytes": 23240,
+      "sha256": "3d0d7d8012ad48b89226ef6ce4eff486a3e708bb2a100ea3a0891c4018d6a457"
+    },
+    {
+      "file": "public/assets/vehicles/m1a2-sep.webp",
+      "bytes": 23250,
+      "sha256": "6f543ee2dd583343eb7f5e03496996a9c872989bc7c6b6a279ecfca6063bd706"
+    },
+    {
+      "file": "public/assets/vehicles/m1ip.webp",
+      "bytes": 23764,
+      "sha256": "f30ee1e3f8d470dbbbcff821ad77551d1a9cea19dffd1872f6877bf4fc4569fe"
+    },
+    {
+      "file": "public/assets/vehicles/m26-pershing.webp",
+      "bytes": 23166,
+      "sha256": "e78ba90868768071818a4b1b82f4a290d0ec9aa5d7b1861f1de834e06b1dcc66"
+    },
+    {
+      "file": "public/assets/vehicles/m26-t99.webp",
+      "bytes": 25122,
+      "sha256": "236ab8f33645c9e61b6539038e2b28a281f14c1cf54cd874100146177bc220ad"
+    },
+    {
+      "file": "public/assets/vehicles/m270-mlrs.webp",
+      "bytes": 21836,
+      "sha256": "198ade11f146d178a0b5ec0e559d20ffb9e5e53858ec2d79afc7a64c77f523fe"
+    },
+    {
+      "file": "public/assets/vehicles/m2a1-bradley.webp",
+      "bytes": 23256,
+      "sha256": "d31dee14ec4d341f529fa5f8ee601616e097495e9d9510f5bfb17f2c000958c8"
+    },
+    {
+      "file": "public/assets/vehicles/m2a3.webp",
+      "bytes": 25030,
+      "sha256": "446d6b41cae73810c373c28ed0724e16f99c5156bb1fb7d930bbe64b56dff014"
+    },
+    {
+      "file": "public/assets/vehicles/m2a4e1.webp",
+      "bytes": 25620,
+      "sha256": "2cfbdc511c233286654d6ffb22c1cc15c7ca746c1b65f1c6c73dec9f8e2c74f3"
+    },
+    {
+      "file": "public/assets/vehicles/m3-gmc.webp",
+      "bytes": 22544,
+      "sha256": "33a729905f05681f9592dd1e24940172cb7cd34dad214efa91e0c50df67f8e00"
+    },
+    {
+      "file": "public/assets/vehicles/m3-lee.webp",
+      "bytes": 23604,
+      "sha256": "eade0a6ced29990e43bed4723546c88c4a879b47f6c2da46def362c4e5643fba"
+    },
+    {
+      "file": "public/assets/vehicles/m36-jackson.webp",
+      "bytes": 24232,
+      "sha256": "573113e3462a96dd6330624283982a85a011e39f0ce5e116a875410c3bd06a2f"
+    },
+    {
+      "file": "public/assets/vehicles/m36b2-jackson.webp",
+      "bytes": 24790,
+      "sha256": "de64ddbc54d4f8a46cbf1916004178ef0c1aaee25df5f88a70b91e1d01bbb069"
+    },
+    {
+      "file": "public/assets/vehicles/m38.webp",
+      "bytes": 23276,
+      "sha256": "237b575011b8b0296e2a1a32635f657fc7f6b241988b481294e3f0c4dab3c8da"
+    },
+    {
+      "file": "public/assets/vehicles/m3a1.webp",
+      "bytes": 21940,
+      "sha256": "932805e984ef6e79efe6003f5c1007d474951040728596ef34855297d30407f4"
+    },
+    {
+      "file": "public/assets/vehicles/m41a1.webp",
+      "bytes": 24254,
+      "sha256": "a0c2d8e998a38b9e4b7e641fcbcdedb2832c3df0064364309dc34923fd3d5b1e"
+    },
+    {
+      "file": "public/assets/vehicles/m48-pereh.webp",
+      "bytes": 24228,
+      "sha256": "3403de82f4848dcce9a0c0aae412051ab4eb34004d450598ad6dc0056033a3c3"
+    },
+    {
+      "file": "public/assets/vehicles/m48-super.webp",
+      "bytes": 22660,
+      "sha256": "a982eddb6a02a4ced8efd1cad43189976d541162a5216076dc6e200fabe8531f"
+    },
+    {
+      "file": "public/assets/vehicles/m48a3-patton.webp",
+      "bytes": 24430,
+      "sha256": "84d5fa9a9cbd183e2f3fad98d071463d68b5d191f05c76428df732351c576e50"
+    },
+    {
+      "file": "public/assets/vehicles/m4a1-76-sherman.webp",
+      "bytes": 23400,
+      "sha256": "4f977300d1141037ff2dbbfc476c0418d2bf6d869607c9a50427aa2571bad365"
+    },
+    {
+      "file": "public/assets/vehicles/m4a1-m17-whizbang.webp",
+      "bytes": 22318,
+      "sha256": "684efbf546b858cfea15bd787e412809c4dc00f3906b12f1639719422ba4e613"
+    },
+    {
+      "file": "public/assets/vehicles/m4a1-sherman.webp",
+      "bytes": 22656,
+      "sha256": "2403e7dc1cc45aa74b4c7181a80b2f9db7cf287b864ef70690f44006f5afdcdb"
+    },
+    {
+      "file": "public/assets/vehicles/m4a2-sherman.webp",
+      "bytes": 23204,
+      "sha256": "d1b175a42b64537b2d881178b722a66e3a5c02acf6fff6c5d33eeb0fc659d4d9"
+    },
+    {
+      "file": "public/assets/vehicles/m4a2-t34-calliope.webp",
+      "bytes": 24028,
+      "sha256": "3061a4b23ec05380a3943fbd14324021c66a46da7d991be577f6cbfab3cc26f5"
+    },
+    {
+      "file": "public/assets/vehicles/m4a3-105-sherman.webp",
+      "bytes": 22190,
+      "sha256": "bb581c18323b71c9fba2eea39834ae3aef64fc6fdcab724aed82568d05b235f0"
+    },
+    {
+      "file": "public/assets/vehicles/m4a3-105-zippo.webp",
+      "bytes": 22318,
+      "sha256": "0faaaf60bf011e13d81d0d5883f5e18ddd4808893ceec1cc7f0669f93a033cef"
+    },
+    {
+      "file": "public/assets/vehicles/m4a3-105.webp",
+      "bytes": 22190,
+      "sha256": "bb581c18323b71c9fba2eea39834ae3aef64fc6fdcab724aed82568d05b235f0"
+    },
+    {
+      "file": "public/assets/vehicles/m4a3e2-75-jumbo.webp",
+      "bytes": 23028,
+      "sha256": "c312e014b18dcd51006bb3885de82c2bea42bb9d7670cefd5a4b44694b20263f"
+    },
+    {
+      "file": "public/assets/vehicles/m4a3e2-76-jumbo.webp",
+      "bytes": 23324,
+      "sha256": "2a0a7997b403b909b58d7a6378f234d25ded8607e06de223f87753fdcb76c05b"
+    },
+    {
+      "file": "public/assets/vehicles/m4a3e8-sherman.webp",
+      "bytes": 24362,
+      "sha256": "7d66988c220e9247538081a4c9d4e358e855a6221c56296556e6a71ea05d26b7"
+    },
+    {
+      "file": "public/assets/vehicles/m50-ontos.webp",
+      "bytes": 24074,
+      "sha256": "f8deb2ef9f62cf9a22b436d89eab2f65c90eb9176d13514e90ea451750639d85"
+    },
+    {
+      "file": "public/assets/vehicles/m551-sheridan.webp",
+      "bytes": 24262,
+      "sha256": "b764e8cb78e613d7533be9e73334262e24fc095162958528344502c50b16c66f"
+    },
+    {
+      "file": "public/assets/vehicles/m60a1-add-on-stabilization.webp",
+      "bytes": 23672,
+      "sha256": "5c1557e518090fff62241c87259b63bd6b00ce6150f64273b593fb8e65cb9190"
+    },
+    {
+      "file": "public/assets/vehicles/m60a1-rise-passive.webp",
+      "bytes": 24690,
+      "sha256": "c63bb392782f61264873715c98f05277432bcb6bf7ac8375760043748475754e"
+    },
+    {
+      "file": "public/assets/vehicles/m60a2-starship.webp",
+      "bytes": 23780,
+      "sha256": "ce9eb11a7b09107d45f13d10266fcbf7c086e966e73f0a0b385a4143617ef042"
+    },
+    {
+      "file": "public/assets/vehicles/m60a3-tts.webp",
+      "bytes": 24374,
+      "sha256": "06ed3d5300e501edb04705a217d1118b7e65ac2dc9c792d134f7935267955dd5"
+    },
+    {
+      "file": "public/assets/vehicles/m6a2.webp",
+      "bytes": 22770,
+      "sha256": "0a189f5a1b8e9cf6146c551ada38a8531bb6ba8e22602f92276de5cd4f2d2473"
+    },
+    {
+      "file": "public/assets/vehicles/m7-priest.webp",
+      "bytes": 22726,
+      "sha256": "9b4b87a9c7fa2231390707d382ece72a7c727f7126e0b17057797ebfee294c7e"
+    },
+    {
+      "file": "public/assets/vehicles/m8-greyhound.webp",
+      "bytes": 22188,
+      "sha256": "54f8ac980ea72c6239556cb8c25a2e2e133782a6f5bdfa869965160908ab393e"
+    },
+    {
+      "file": "public/assets/vehicles/m901itv.webp",
+      "bytes": 22212,
+      "sha256": "8bd22e5a056595a0a22baff8b7e12612236585ad5166fa4e06d80374756dd32a"
+    },
+    {
+      "file": "public/assets/vehicles/m939.webp",
+      "bytes": 22464,
+      "sha256": "e6014dfb27097908b0f6e101ce621bf9cc16b5b9978e6e078c1937b56edd715b"
+    },
+    {
+      "file": "public/assets/vehicles/marder-1a3.webp",
+      "bytes": 23284,
+      "sha256": "09d5396fce0f7ca7129b5807ac4a7dd9027dba5290ed2ff3680a5503a588531c"
+    },
+    {
+      "file": "public/assets/vehicles/marder-a1.webp",
+      "bytes": 23024,
+      "sha256": "e2b9eaec781deb2c153595992054c90ee95a75d95dcd1fd834a1e7116215ca6e"
+    },
+    {
+      "file": "public/assets/vehicles/mark-iv.webp",
+      "bytes": 22108,
+      "sha256": "19f1d05cf67e190364dc5592f45add06411fe37298030cd85c582da18b006fb7"
+    },
+    {
+      "file": "public/assets/vehicles/maus.webp",
+      "bytes": 20742,
+      "sha256": "7f93b86284f003bf1a3ef0acc041ab53f09f543288bef8afe95936b430a5baec"
+    },
+    {
+      "file": "public/assets/vehicles/merkava-mk1b.webp",
+      "bytes": 23634,
+      "sha256": "a7b7491204c35f0633339316b2dfa878c98a55e8ca1d0eb4dad4be562e8a1e98"
+    },
+    {
+      "file": "public/assets/vehicles/merkava-mk4m.webp",
+      "bytes": 24462,
+      "sha256": "3fec306ab409cc8978d0af983a98a799cb7a7cd83e66c4faa367a8fc6eddeb1a"
+    },
+    {
+      "file": "public/assets/vehicles/mh-6-little-bird.webp",
+      "bytes": 24654,
+      "sha256": "d7439ff364393528171f746a26d6cb6b9630a0e3f45535d563aa1fc7397c49e6"
+    },
+    {
+      "file": "public/assets/vehicles/mh-60l-dap.webp",
+      "bytes": 23954,
+      "sha256": "d0f4c1b5e2f7b716c16a41a597d69db8f4f65a2ab50a5e5c146325eb6824d9a9"
+    },
+    {
+      "file": "public/assets/vehicles/mi-24v.webp",
+      "bytes": 23178,
+      "sha256": "cbbb1ea71d817ebd2e1716e60146a0c5324346b31c82df04df4103e2da720bdf"
+    },
+    {
+      "file": "public/assets/vehicles/mi-24vm.webp",
+      "bytes": 23188,
+      "sha256": "586ee8c4574d7071d9518961a7feb7244bc989b005c5ebc057932ea0291575c2"
+    },
+    {
+      "file": "public/assets/vehicles/mi-8amtsh.webp",
+      "bytes": 22302,
+      "sha256": "89913286f7f76abb1729aafc95419b3f9ca47d09a6184a82906f72aef6ed479e"
+    },
+    {
+      "file": "public/assets/vehicles/miki-truck-company-model-1-armoured.webp",
+      "bytes": 23584,
+      "sha256": "ea99de394b4b6c08a5c221ff0b82dc7c0188d9e32bfe844f8360adafd26c9026"
+    },
+    {
+      "file": "public/assets/vehicles/miki-truck-company-model-1.webp",
+      "bytes": 22016,
+      "sha256": "86df0b4ee178af4a78f874782269f60fcba5cf5241e926e70c085a8c1c17efeb"
+    },
+    {
+      "file": "public/assets/vehicles/miki-truck-company-model-2.webp",
+      "bytes": 21606,
+      "sha256": "4cc2e454623074fe626578062892cb350846e36afed143b9ffe1b0acb96d9ddf"
+    },
+    {
+      "file": "public/assets/vehicles/mowag-bofors.webp",
+      "bytes": 22902,
+      "sha256": "d6745701e95516fa99107186359442bf0495f55f2923632319e4417eab79d087"
+    },
+    {
+      "file": "public/assets/vehicles/mt-lb-aa.webp",
+      "bytes": 22816,
+      "sha256": "63d451e2adc1b2fe054fb02c24c122c8aab82d827da6c25a911866b8254e90ed"
+    },
+    {
+      "file": "public/assets/vehicles/mt-lb.webp",
+      "bytes": 22844,
+      "sha256": "0bda04d49e354a68dbdb78b8bc0dd9b76287db7a0b436d2c53a9e2da1ab569df"
+    },
+    {
+      "file": "public/assets/vehicles/mt-lebrams.webp",
+      "bytes": 21646,
+      "sha256": "696707eea09a883d5475a6b4876c703692298fc83051e86e300d0b5992a160bf"
+    },
+    {
+      "file": "public/assets/vehicles/namer-30.webp",
+      "bytes": 22822,
+      "sha256": "9836dc7fdc98ee4a2dc8a188994cc12c7e4a18b24534d328d0e863e258e11141"
+    },
+    {
+      "file": "public/assets/vehicles/namer-apc.webp",
+      "bytes": 21950,
+      "sha256": "30ca9a27b589972019a6b9bb0b3d502a2c66665b33a111202fb0469867b4cb72"
+    },
+    {
+      "file": "public/assets/vehicles/namer-tsrikhon.webp",
+      "bytes": 22016,
+      "sha256": "061035db9c9d9ccdc8d76a76d3016e2204ed8ef9d7b543e7b6162ffc61964e0b"
+    },
+    {
+      "file": "public/assets/vehicles/nashorn.webp",
+      "bytes": 22740,
+      "sha256": "7e36beb124a808dd2896452156520b9e03b1d18e414fe72cca9b8f60c766b537"
+    },
+    {
+      "file": "public/assets/vehicles/object-120.webp",
+      "bytes": 24184,
+      "sha256": "d41cb1e1b20fe6bbf4bbfb55951488d8d3b316adf6c84988758b0c149d8278f3"
+    },
+    {
+      "file": "public/assets/vehicles/object-166.webp",
+      "bytes": 23996,
+      "sha256": "d45a314bf977416dfb716f0cfbee6a4ddca02e33d1df1179c2aeab1b3244e06e"
+    },
+    {
+      "file": "public/assets/vehicles/object-195.webp",
+      "bytes": 25164,
+      "sha256": "d96b4c15ad8501a03b4ee70339d27295db8c94cc15098ed0b59678de4590b8a1"
+    },
+    {
+      "file": "public/assets/vehicles/object-279.webp",
+      "bytes": 23472,
+      "sha256": "4db8b19de80b219b879508f627862d61573b3b6779c57e60ac3a1e0743283bdf"
+    },
+    {
+      "file": "public/assets/vehicles/object-292.webp",
+      "bytes": 23708,
+      "sha256": "0c73f91ca8c457dd1703877c3283ae81b04dad1b6ed97c336f02c8d41baf3273"
+    },
+    {
+      "file": "public/assets/vehicles/object-450.webp",
+      "bytes": 22894,
+      "sha256": "7965b3f18986c9d53409db044376eeff560c1f97bde15cdbf95eb31513ef5375"
+    },
+    {
+      "file": "public/assets/vehicles/object-477.webp",
+      "bytes": 25162,
+      "sha256": "f6c37fa86f3a950cf1a827cf43a72a1ac01b57d3988aab21653e3df0140a168b"
+    },
+    {
+      "file": "public/assets/vehicles/object-478bem-1.webp",
+      "bytes": 24734,
+      "sha256": "9fed1ee2b5cd7f957b0c8e528c4984b38d00d63d362c6e2c8b608ae37e56fd63"
+    },
+    {
+      "file": "public/assets/vehicles/object-640-black-eagle.webp",
+      "bytes": 24230,
+      "sha256": "08dc2d53727e84f9a32d32a9e4d53c1e5784d6dfe7865784c07dc0a6187bef5e"
+    },
+    {
+      "file": "public/assets/vehicles/object-704.webp",
+      "bytes": 22944,
+      "sha256": "bac57f03a8661f8c87e6b7a81c95d16fae8111e5f45312842aeb07bae3662e96"
+    },
+    {
+      "file": "public/assets/vehicles/object-775.webp",
+      "bytes": 23838,
+      "sha256": "e32d754d7b04569617447b83d7cc5992298777420aee86100c5099b69a8456b7"
+    },
+    {
+      "file": "public/assets/vehicles/object-781.webp",
+      "bytes": 23540,
+      "sha256": "0efde4d44ad2f17580ceca0ca5bdbd0797772c0374c6650567a29322bc5ccb01"
+    },
+    {
+      "file": "public/assets/vehicles/object-906.webp",
+      "bytes": 23002,
+      "sha256": "e819e8fa3e18c1db577d41d485470928db007654a150b7ba33604224096ea9a5"
+    },
+    {
+      "file": "public/assets/vehicles/obt-2-super.webp",
+      "bytes": 27792,
+      "sha256": "cb56c60c368ad50aa2cc1fccada657a1046a049037a36698af5e9ffb514cb8ff"
+    },
+    {
+      "file": "public/assets/vehicles/ot-34-85.webp",
+      "bytes": 23954,
+      "sha256": "9abeaa532c369a1e5d1cef2d65b437fedba17c4774665f2b595822679082d6fe"
+    },
+    {
+      "file": "public/assets/vehicles/panther-d.webp",
+      "bytes": 22732,
+      "sha256": "c26d1f5e227d2079ceefcd3b7d5d54731335cdc4c515387201cbf0dadf3e9a4d"
+    },
+    {
+      "file": "public/assets/vehicles/panther-evo.webp",
+      "bytes": 23460,
+      "sha256": "38b871a63b0b862a4dcdfe80bfcbfcbad7ddee100802fcf93073a3b7985eb4dd"
+    },
+    {
+      "file": "public/assets/vehicles/panther-f.webp",
+      "bytes": 22396,
+      "sha256": "a4fce8aeb4ef3f9fbc3a457fb027751cba0fd6a715e43a8ed436975a5e402f95"
+    },
+    {
+      "file": "public/assets/vehicles/panther-g.webp",
+      "bytes": 22946,
+      "sha256": "0c8ed78d0d10fbb873d0bcccc8b745217f2a8c15352419b2b16cf751f7a7ac74"
+    },
+    {
+      "file": "public/assets/vehicles/panther-ii.webp",
+      "bytes": 22584,
+      "sha256": "f01882f6d8087c9e8bf3a5c31765b3cbbd91a485379c0330d1b918a4d0ac74c0"
+    },
+    {
+      "file": "public/assets/vehicles/plastun-sn.webp",
+      "bytes": 23432,
+      "sha256": "19cff2846debf98f7f6736e69433b4fa9b14b5a78c7736b3d5975dc29edca481"
+    },
+    {
+      "file": "public/assets/vehicles/porsche-tiger.webp",
+      "bytes": 24042,
+      "sha256": "1c2ad8cdf9b390033ab07826fa74b097e235c09a0771a5974cea6d64922ba338"
+    },
+    {
+      "file": "public/assets/vehicles/pt-76b.webp",
+      "bytes": 22624,
+      "sha256": "69ce39322cd751edee9746d61e22d3c6e9201483d6a707aab4ff0accd02c828c"
+    },
+    {
+      "file": "public/assets/vehicles/pt-76e.webp",
+      "bytes": 22850,
+      "sha256": "a423b9e1f4e8d5bdf3be08b8bdc99304b9b696326e4fa40c475724f4df15a3b8"
+    },
+    {
+      "file": "public/assets/vehicles/pt-91m2a1.webp",
+      "bytes": 23904,
+      "sha256": "5e0db44aab6109cca0d511d22b5d954d9cc7cc73c6491200adb4282825b4d20a"
+    },
+    {
+      "file": "public/assets/vehicles/pz-iv-ausf-1946.webp",
+      "bytes": 22018,
+      "sha256": "6339173fcb0391ea97ef3353e886a1054439748d72a4e07410f2cae7bb0c0cda"
+    },
+    {
+      "file": "public/assets/vehicles/pz-iv-h.webp",
+      "bytes": 23994,
+      "sha256": "ea9fafe89cd4d82480e1db9bbae626e23b89b4b6d749f660fcad915d4ccbe5a8"
+    },
+    {
+      "file": "public/assets/vehicles/pzh-2000.webp",
+      "bytes": 23804,
+      "sha256": "f54aa8709fc11d392706c87c5162a2b56d078ee932a1e03ab7733526fdc01058"
+    },
+    {
+      "file": "public/assets/vehicles/pziii-m.webp",
+      "bytes": 24572,
+      "sha256": "3e1ef2cc6a83543e8ef14bb31ce86c0afb785741d66617b20f8bfd18055de375"
+    },
+    {
+      "file": "public/assets/vehicles/pziv-h.webp",
+      "bytes": 23994,
+      "sha256": "ea9fafe89cd4d82480e1db9bbae626e23b89b4b6d749f660fcad915d4ccbe5a8"
+    },
+    {
+      "file": "public/assets/vehicles/pzw42.webp",
+      "bytes": 22680,
+      "sha256": "3ff9c837873c28a83f85e4a43ce53504971bb2d0b289d75321aee72e0d905d2f"
+    },
+    {
+      "file": "public/assets/vehicles/qn506.webp",
+      "bytes": 24298,
+      "sha256": "2177fbb1825a7edf5145045de8f4043b416405e421478bff5fe49c0f3a6bd6b9"
+    },
+    {
+      "file": "public/assets/vehicles/rbt-5.webp",
+      "bytes": 23276,
+      "sha256": "d5a47b8ccea17af05db865da788f57e5734408c27472ddf1363bea75b6f9b3cc"
+    },
+    {
+      "file": "public/assets/vehicles/rbu-6000-mt-lb.webp",
+      "bytes": 24492,
+      "sha256": "334bc3b9479718d6f31078e77464103a8f376b17865b47d18109d7bdc6c0a9c1"
+    },
+    {
+      "file": "public/assets/vehicles/rdflt.webp",
+      "bytes": 23818,
+      "sha256": "27d2809c8c0bea4aa09c5eab75c49baa360f149729685c478857fd7fcc24db1f"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-afv-16.webp",
+      "bytes": 9344,
+      "sha256": "5d0f3144c9f6ca1659854081847f2e3730e225648eb814577f212347d6639e71"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-apc-c.webp",
+      "bytes": 7786,
+      "sha256": "87d64673cf0dc7fcc38b3d3fee7ffb295d96340d32e5822a11fe8763c9f3e7c1"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-ariete-pso.webp",
+      "bytes": 7346,
+      "sha256": "ae9289f278790cb6ac46589d1e771a9ce1d2a06719495f2b8e615b6dfae2fe25"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-bmp-100.webp",
+      "bytes": 7330,
+      "sha256": "0894499bae898d6b2f024cb623bf8554f7695ffb624a5a3c40f483dc12e39ad8"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-bmp-2md.webp",
+      "bytes": 7754,
+      "sha256": "f163962f596aa0f171204d5a2afaead5bda08aba472f8371b67ca6d8ff24ec2d"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-bmp-30.webp",
+      "bytes": 7754,
+      "sha256": "f163962f596aa0f171204d5a2afaead5bda08aba472f8371b67ca6d8ff24ec2d"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-bmp-30m.webp",
+      "bytes": 7776,
+      "sha256": "87d1d57a73065d95f4c922e30cf0583ed8d635249381fecc1c3c8317451ebce0"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-bmp-73.webp",
+      "bytes": 8874,
+      "sha256": "c8e1da73ccea1e3962a7d0be5226346240638ff58bd5afb2e2bd7f30127c2929"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-bmt-aa.webp",
+      "bytes": 8430,
+      "sha256": "df39eab4b018dacbbbf6d3b02bfe829c7f0f21752a31e3dabb2acb0d12db7405"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-btr-2.webp",
+      "bytes": 8890,
+      "sha256": "47eaee26af3dddac189909aa93387af4064e07494897ae96229bb94a55cbf184"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-btr-2a.webp",
+      "bytes": 8980,
+      "sha256": "8bdf5b8beb8e4fafc92398e962bc1a731d0753e94a905a7e5f28a82ee5825924"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-daimler-mk1.webp",
+      "bytes": 8514,
+      "sha256": "73013b8e6c29554bc9424030a07adbd45dfb18784db80863bfe196aaca1a4f21"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-gtk-boxer-flw-200.webp",
+      "bytes": 8160,
+      "sha256": "657fcca56fa9e661993ed8cfb2491ca52858e53ff71254e1b08c64bcd83cab05"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-horse.webp",
+      "bytes": 8446,
+      "sha256": "373c1aa7cee97dd0ac13b8e461f0c098c761277ac7ffeb12987259e90a5e58bb"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-ifv-30.webp",
+      "bytes": 7424,
+      "sha256": "c633c78919d026ecd863df15fdfbe2d44c3d6717491d00ae605b9d33414c17c5"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-kettenkrad.webp",
+      "bytes": 9856,
+      "sha256": "d4a856ca02c6a5219fd222d189f6343d4c21b62a3c0cb8a59c7ce5c2690dd35d"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-lejgpz.webp",
+      "bytes": 8502,
+      "sha256": "d9e28a1eb84ef89be204d0dbb75a07272895b48c4d53cc742803f3965c883e96"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-luaz-672.webp",
+      "bytes": 10436,
+      "sha256": "6fc626b9c091ddc96bb0b78036ead26ffb75c1f4ed279f49b441e254dfb75a1f"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-lwv-30.webp",
+      "bytes": 7166,
+      "sha256": "e58a65b3fad78a140cd55635f3f8896f82ce77be379f85401cb0c2129adf97da"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-m1160-george.webp",
+      "bytes": 8252,
+      "sha256": "16dbed7e440a9356624fdaf515c99ed6f18107ceaced3981a81ecb621a6f9c8a"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-m24.webp",
+      "bytes": 9618,
+      "sha256": "957c09ce876241d3649bfed56d87c06da6b49dcdafceef55bbf8a5b9a529ec61"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-m42.webp",
+      "bytes": 8716,
+      "sha256": "4cd8af71bfd64af1af59df7a26664ce76d52914dceae1fed1205d486c96239f4"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-m60-ambt.webp",
+      "bytes": 9502,
+      "sha256": "2306ca0092bedfaf0dea94cfc1970bbe4ac42fb8af959a044e69ceb328fb4a57"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-maus-m.webp",
+      "bytes": 8334,
+      "sha256": "36c0e3f5d1a3826bddc3713ae09eeb8fdfc8fd973085ee88db4610a006f87a00"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-mbt-3.webp",
+      "bytes": 7178,
+      "sha256": "2fdc229a2a53b2013a4dcbd26765e4c8f30f4da284f8905ef47e45118e61b47d"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-mbt-3e.webp",
+      "bytes": 7116,
+      "sha256": "f5e5685255acb91fc5b50472405f1bc28fe90ede84df6cf6ee84ac234da4ce0a"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-mbt-3h.webp",
+      "bytes": 8012,
+      "sha256": "a48fc491ae514a4220f152b1937a3687fda9ee72471d8e3b920967707c8b111b"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-obt-2am.webp",
+      "bytes": 5866,
+      "sha256": "0409cee6e998fde8f762b2812b7cfaaa03430e64624b16acd3c0b523f4d27bb6"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-obt-2b.webp",
+      "bytes": 8056,
+      "sha256": "a646ff539c00918ebf4b12fee9f932489afb39a98560a90ede1741391955d584"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-obt-2bv.webp",
+      "bytes": 8284,
+      "sha256": "15fd2277a6a78950d548e0e21f4fecb5c7e29170d572963451f2e2125e3fb3f2"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-obt-2u.webp",
+      "bytes": 7374,
+      "sha256": "9aa045b5064dbc4ae8291bdad9f1f251de9ac04c50100f4148f1c1516f0825d1"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-obt-2um.webp",
+      "bytes": 9576,
+      "sha256": "4b203a6fb64a6cddb79a451ea6acab4a02acb7fc14ee4369605b7ad9ff62e9af"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-panther-a.webp",
+      "bytes": 7830,
+      "sha256": "64823c95a0ec2b5d0946eafd516cefee622829fdf7aea890f3a051b00ab9054a"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-puma-s0.webp",
+      "bytes": 8454,
+      "sha256": "d51f79c2a7e89ae76c65811f37bdf572a9825b68e5c35f29a409d062799096e8"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-pzsp.webp",
+      "bytes": 8514,
+      "sha256": "5931d51746c49cce55a0bbba80a57f2cffb6d94d88c4734b1ce92cc4488840f5"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-rosomak-l.webp",
+      "bytes": 8048,
+      "sha256": "2b1cb44ad92e7bd9a7c65b9dcca94c17bac1b4b7537910d449b15bff1acb54b5"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-rszo-2.webp",
+      "bytes": 8522,
+      "sha256": "ce1d1467c23102946e37a6719c9f894fc45f37d499ac0675b608c5fc2edc7e99"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-sau-2.webp",
+      "bytes": 8882,
+      "sha256": "356c0a76ba5c934b77dfa1e959b1de5df66e8051b3b5b818cd880d28ab104805"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-srk-1.webp",
+      "bytes": 7266,
+      "sha256": "d50efd81f3d4205bed5bcb7f4acbacb87596428c402ffe8c39e7cb0ba8916dc4"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-t26e2.webp",
+      "bytes": 7698,
+      "sha256": "176696bcf4f4ce3803cc5929cefc4262e679517ce50d857ee062ae20bbf22b6e"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-t26e5.webp",
+      "bytes": 8444,
+      "sha256": "b1d5596ee724624ad375be282a84f968d9ffd0e88d51a28f3bdeb7c7bf08d632"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-t32.webp",
+      "bytes": 8708,
+      "sha256": "2ad4e2f7beaeeb89d39732ba2327acfd40ee5ac33ff1441bc2fbd6c0f15c07fc"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-t32e1.webp",
+      "bytes": 9480,
+      "sha256": "e40abb2b2e55e3941a5ac35036643012ca68cf00bb81930e9193d39ac3dc3e73"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-t58.webp",
+      "bytes": 7840,
+      "sha256": "6205436aefb0b32abe5c45201c44e8032d55b6a1141330eb908b1c285abd0bf0"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-tiger-2a4.webp",
+      "bytes": 8808,
+      "sha256": "96f3c14226eed00ad1eb3a967ec6d23864bd579173b033294fc682dacaf4a257"
+    },
+    {
+      "file": "public/assets/vehicles/roblox-tp-2.webp",
+      "bytes": 7970,
+      "sha256": "065df8a126c228565a1e1e4cde8d7a84ccf084f81eb53663475f0df10a2d1363"
+    },
+    {
+      "file": "public/assets/vehicles/rosomak.webp",
+      "bytes": 21180,
+      "sha256": "d6c3d3b9f717407a5fd254281c5ea96c3201b04ee8b84be99b2e14a6179e1a19"
+    },
+    {
+      "file": "public/assets/vehicles/rszo-1.webp",
+      "bytes": 23446,
+      "sha256": "2551604fc5f87650f592566ee4b735c2561ba412ca96517f7214a40c53d72eda"
+    },
+    {
+      "file": "public/assets/vehicles/sd-kfz-251.webp",
+      "bytes": 20700,
+      "sha256": "5b4a501cc875f0bc73820c4955de7d20f18c590d3c50236b1344859fa9c17fce"
+    },
+    {
+      "file": "public/assets/vehicles/sdkfz2342-puma.webp",
+      "bytes": 22796,
+      "sha256": "3d5a977c0ced8021edbd1b25ad724827c1b1fcdb7e00b5a8898d9f45400bc80b"
+    },
+    {
+      "file": "public/assets/vehicles/sdkfz2344-pak-puma.webp",
+      "bytes": 22302,
+      "sha256": "c66a6e8a3c15345043f09cba96fd42802278657ff56162833bdba9a7d5f2bbaf"
+    },
+    {
+      "file": "public/assets/vehicles/sdkfz251.webp",
+      "bytes": 20700,
+      "sha256": "5b4a501cc875f0bc73820c4955de7d20f18c590d3c50236b1344859fa9c17fce"
+    },
+    {
+      "file": "public/assets/vehicles/sherman-firefly.webp",
+      "bytes": 23578,
+      "sha256": "b230e140914a54a2277e7994d4d12c2ce197f96659557d8d06d2f7fae41010e6"
+    },
+    {
+      "file": "public/assets/vehicles/sherman-vc-firefly.webp",
+      "bytes": 23578,
+      "sha256": "b230e140914a54a2277e7994d4d12c2ce197f96659557d8d06d2f7fae41010e6"
+    },
+    {
+      "file": "public/assets/vehicles/shturm-s.webp",
+      "bytes": 23320,
+      "sha256": "9f2b7ab73555e61134713a3401753c624a3fbee6ae5f08bdfc1744b14e804d7d"
+    },
+    {
+      "file": "public/assets/vehicles/soleiman-402.webp",
+      "bytes": 23950,
+      "sha256": "884d774261c0cbf023a0fd9007cf67668c9137f20d0b1bc44d50fd34f500a101"
+    },
+    {
+      "file": "public/assets/vehicles/sprut-sdm1.webp",
+      "bytes": 24128,
+      "sha256": "8f468c1f84c349d81ecaee95dd65078d2632f28f8298f0bfc88d036e6bcd6c41"
+    },
+    {
+      "file": "public/assets/vehicles/strela-10.webp",
+      "bytes": 24088,
+      "sha256": "6942eabd744328cbf62160a917d420df73a69a8b9b110b06d7627681f7769d86"
+    },
+    {
+      "file": "public/assets/vehicles/strela-mlrs.webp",
+      "bytes": 24102,
+      "sha256": "38bbe055352aac6d530752491c61296d9572f40b3b1f5a5068e054d2fac36109"
+    },
+    {
+      "file": "public/assets/vehicles/strv-103c.webp",
+      "bytes": 25664,
+      "sha256": "bf7489020b16650d872c14d15be2c165e4768e149bcb624f0444f89d315a9eb4"
+    },
+    {
+      "file": "public/assets/vehicles/stug-iii-g.webp",
+      "bytes": 23088,
+      "sha256": "f1bae98531f20a6db91b0ce5b1a320fb3346fa5560606b2a79a148f5196766fb"
+    },
+    {
+      "file": "public/assets/vehicles/sturmtiger.webp",
+      "bytes": 21660,
+      "sha256": "4cf1ffc53b7bd1cc6b664791cc2b2a611ee48169fd3adc4ef0270430aa4162b0"
+    },
+    {
+      "file": "public/assets/vehicles/su-100.webp",
+      "bytes": 23812,
+      "sha256": "14f0523e49698d8776ad393d5b526a3cfb9735dfb873f1869abaaf4d510447ff"
+    },
+    {
+      "file": "public/assets/vehicles/su-122p.webp",
+      "bytes": 24046,
+      "sha256": "e3a9a4920b6e19cc03f1fd1e5d3fee9da60bcec1cd910e06f5081f0f9e5f8104"
+    },
+    {
+      "file": "public/assets/vehicles/su-57.webp",
+      "bytes": 22514,
+      "sha256": "6752e33801d0ceab69f5f99f1b68be24e8b4ecf357bab050f62b20ba36ceb8b7"
+    },
+    {
+      "file": "public/assets/vehicles/su-85m.webp",
+      "bytes": 23174,
+      "sha256": "c8245f1f3cf12a263a91bc1067841036c8d8c882d574606e45c975aeee65ee76"
+    },
+    {
+      "file": "public/assets/vehicles/supply-truck.webp",
+      "bytes": 22200,
+      "sha256": "0b33293d0c0f66f56d166cd8504be4508204a9efa6696ea762dd5f14971c52c6"
+    },
+    {
+      "file": "public/assets/vehicles/t-10m.webp",
+      "bytes": 24188,
+      "sha256": "fa9eb6c5279311f3fc29a5337b4d7c269616e18e3305cf46c17b03be96a3cee1"
+    },
+    {
+      "file": "public/assets/vehicles/t-14-armata.webp",
+      "bytes": 23668,
+      "sha256": "2e783eda443aa40f32021384fd9885d1888486c83e125dd2f7d4734fc0e779b0"
+    },
+    {
+      "file": "public/assets/vehicles/t-15-armata.webp",
+      "bytes": 24134,
+      "sha256": "8c0ef406de57266190ede0b5d2c18c2b47595104cba6ddf4609448944c8486b1"
+    },
+    {
+      "file": "public/assets/vehicles/t-34-122.webp",
+      "bytes": 22404,
+      "sha256": "be83cfdbcf19d72ab9ddd44b274dabc5c5f11be6e1882534264c9609aaeb7581"
+    },
+    {
+      "file": "public/assets/vehicles/t-34-57.webp",
+      "bytes": 22526,
+      "sha256": "9eed86889e4b37748de2cceeb9f3c15841c2ff93a136c2e1b6ee3aa19ed8e1af"
+    },
+    {
+      "file": "public/assets/vehicles/t-34-85.webp",
+      "bytes": 23382,
+      "sha256": "e74f23caf1033de7a88e11277157ec2ab1f3847ff978a6ad1d01293d336afbc5"
+    },
+    {
+      "file": "public/assets/vehicles/t-34.webp",
+      "bytes": 22212,
+      "sha256": "b514fca79b8f46f5a97ceb5f4a3fa92e74814042d75e8bb6af34ab4b4396965e"
+    },
+    {
+      "file": "public/assets/vehicles/t-34e.webp",
+      "bytes": 23012,
+      "sha256": "40707ea0c4067505a7110f1f6f15042447ec8a4e1155aa148e36125bc76e8d7a"
+    },
+    {
+      "file": "public/assets/vehicles/t-44-100.webp",
+      "bytes": 23184,
+      "sha256": "c995f3d8eb32a522f6ec785ed323b4381b536e7d556b48f6c1df459dbdba25a9"
+    },
+    {
+      "file": "public/assets/vehicles/t-44.webp",
+      "bytes": 22682,
+      "sha256": "778711356fac64d1a7b0e185a69d1a1fbd26fbfb223cc2bdd6baab7c778f1678"
+    },
+    {
+      "file": "public/assets/vehicles/t-54-obr-1951.webp",
+      "bytes": 25012,
+      "sha256": "5312c9456038de4a2e4cf27460dfa6f77aaccf96aed57ec6b3e5d2655ce53a8e"
+    },
+    {
+      "file": "public/assets/vehicles/t-54m.webp",
+      "bytes": 24910,
+      "sha256": "bc1f6131c0e8a6b9d8f517c7b2bda6b581f4915bbb1336108e826e1d552a559f"
+    },
+    {
+      "file": "public/assets/vehicles/t-55.webp",
+      "bytes": 24534,
+      "sha256": "96f8cad179b7d6adc2979ea7e43365cf27230414d76dcb7475de08698d131dfa"
+    },
+    {
+      "file": "public/assets/vehicles/t-55ad-1.webp",
+      "bytes": 25248,
+      "sha256": "6c8930fe502fe9ecb94c2d9c4ea3a3e5c18614f2dbf4aee6c73de46300e321bf"
+    },
+    {
+      "file": "public/assets/vehicles/t-55am-1.webp",
+      "bytes": 25018,
+      "sha256": "7f91a5879181ba671a78dcc9c43273962356de0bc139f87b277b925238531390"
+    },
+    {
+      "file": "public/assets/vehicles/t-60.webp",
+      "bytes": 21148,
+      "sha256": "952c645a2114a42b10d752cc64bc56795519d90f9b1c5d72937291a64e257c8a"
+    },
+    {
+      "file": "public/assets/vehicles/t-62-berezhok.webp",
+      "bytes": 24436,
+      "sha256": "28cc6b8403c8fad767207788f0822d0da2b62da2ad0f28aabc73f069687541d7"
+    },
+    {
+      "file": "public/assets/vehicles/t-62.webp",
+      "bytes": 24060,
+      "sha256": "4d1d3e6054061587d195f108809d276e0be352162f860b65e5a1a92372f95d45"
+    },
+    {
+      "file": "public/assets/vehicles/t-62m-1.webp",
+      "bytes": 24656,
+      "sha256": "ac96bd9c91d82ce7efb79ce9978dbbc86ab752828ccd130536388f3f24c75531"
+    },
+    {
+      "file": "public/assets/vehicles/t-62m1.webp",
+      "bytes": 24656,
+      "sha256": "ac96bd9c91d82ce7efb79ce9978dbbc86ab752828ccd130536388f3f24c75531"
+    },
+    {
+      "file": "public/assets/vehicles/t-64a.webp",
+      "bytes": 24304,
+      "sha256": "a3289f9789c74eec0ea1a2dd135bf89fb1c2b7c4ff66ccf19f5a68944511f9ac"
+    },
+    {
+      "file": "public/assets/vehicles/t-64bv.webp",
+      "bytes": 25364,
+      "sha256": "928bc6d57b787a7acb6ac0a6d7c2860731f2354d71f6019fcf37cd6273447323"
+    },
+    {
+      "file": "public/assets/vehicles/t-64e.webp",
+      "bytes": 23980,
+      "sha256": "e8b57ccdfaa3691e8b722f52af01474b869204e6aef93ab8a959755a317c647c"
+    },
+    {
+      "file": "public/assets/vehicles/t-64r.webp",
+      "bytes": 23856,
+      "sha256": "b1a864cb94e8e514557e3325a164277130cdf088e28e4bf94984a61c1156e001"
+    },
+    {
+      "file": "public/assets/vehicles/t-72a.webp",
+      "bytes": 24596,
+      "sha256": "bfa288f71f28416420d87b3ac6221eaf582fb012a7b962c546c56b81c8c7f414"
+    },
+    {
+      "file": "public/assets/vehicles/t-72b-1989.webp",
+      "bytes": 24500,
+      "sha256": "c587dbc67e555ae3eebc980797b9e7814f7db8e32d10e9ed7e0252363ad8cfed"
+    },
+    {
+      "file": "public/assets/vehicles/t-72b.webp",
+      "bytes": 24962,
+      "sha256": "01e97a96701d15a2fdfb71b6a74576ef227217994fd54c61db15af3d7fb047d7"
+    },
+    {
+      "file": "public/assets/vehicles/t-72b1-2022.webp",
+      "bytes": 24700,
+      "sha256": "d17bc7fdc6ef777b531e75c87866e37d7a66a440c24007f5ad76d16b8189ea60"
+    },
+    {
+      "file": "public/assets/vehicles/t-72b3.webp",
+      "bytes": 24402,
+      "sha256": "989ed5abfd15edfb6d1e29333fb4117d6d8597a3000126818795d0530284024a"
+    },
+    {
+      "file": "public/assets/vehicles/t-72m2.webp",
+      "bytes": 25482,
+      "sha256": "7e35f756599ee414e2f4d184e32033d9e538bcc73753300955215f436e6e53a9"
+    },
+    {
+      "file": "public/assets/vehicles/t-72m2e.webp",
+      "bytes": 24608,
+      "sha256": "7f1f59e45fe030f19fc39f245d3e7f9da847141b7e46177aab3a9433a0dd3ace"
+    },
+    {
+      "file": "public/assets/vehicles/t-80b.webp",
+      "bytes": 25076,
+      "sha256": "0ba683992f98fc120bdd23d49aec3df862e53a2359d26880c5b361576fa704ce"
+    },
+    {
+      "file": "public/assets/vehicles/t-80bvm.webp",
+      "bytes": 24078,
+      "sha256": "7d4f7c587316bc7422a217c223d6b49c5bcc93c42d06cc2d80248828eb952a74"
+    },
+    {
+      "file": "public/assets/vehicles/t-80u-e1.webp",
+      "bytes": 24836,
+      "sha256": "572170d4825234a6f68b159329292d7561453541370f3820b8f4499efd66f628"
+    },
+    {
+      "file": "public/assets/vehicles/t-80u.webp",
+      "bytes": 24446,
+      "sha256": "2d330113789fb3bb6de1bb1f330927cdda9f9f13fc94053a33d3e76283873c2e"
+    },
+    {
+      "file": "public/assets/vehicles/t-80um-1-bars.webp",
+      "bytes": 24994,
+      "sha256": "83860a4be3193522c46b5cf485c78df3d91321f70731de6d696ba19e60cc545c"
+    },
+    {
+      "file": "public/assets/vehicles/t-84-120.webp",
+      "bytes": 24820,
+      "sha256": "c37d62c5b740650286280c997731a1b3ade51b29c59a4cf12d87056d4366ec62"
+    },
+    {
+      "file": "public/assets/vehicles/t-84.webp",
+      "bytes": 24668,
+      "sha256": "92d8a61e0733432354a3ce5a3ad4089f156e1153c453184cf306e4bd47464980"
+    },
+    {
+      "file": "public/assets/vehicles/t-90a.webp",
+      "bytes": 24748,
+      "sha256": "84f9ecc405744590eeb6ef1de7f30e1c3ca77fc613d6eea5b08613fd00343533"
+    },
+    {
+      "file": "public/assets/vehicles/t-90m.webp",
+      "bytes": 25200,
+      "sha256": "597ebf7fcecd025f6da6376661b4590dbfbd06485a899dd57711c9d6a251bfc1"
+    },
+    {
+      "file": "public/assets/vehicles/t-v.webp",
+      "bytes": 24870,
+      "sha256": "5ca4dbf6f48f59bd41c0b358efa6417db6429f15ce572d1f478c26afcc1042d7"
+    },
+    {
+      "file": "public/assets/vehicles/t1e1.webp",
+      "bytes": 22770,
+      "sha256": "0a189f5a1b8e9cf6146c551ada38a8531bb6ba8e22602f92276de5cd4f2d2473"
+    },
+    {
+      "file": "public/assets/vehicles/t26e4-super-pershing.webp",
+      "bytes": 24726,
+      "sha256": "ef904275b577e92697e8377045bdcee0fa61017170797a6f8cda8f4fb0e59a75"
+    },
+    {
+      "file": "public/assets/vehicles/t29.webp",
+      "bytes": 23830,
+      "sha256": "7cc35bea0e232015a956db52cfb248bed611fb94137ceac9aafbe77644d79ca0"
+    },
+    {
+      "file": "public/assets/vehicles/t34-calliope.webp",
+      "bytes": 24028,
+      "sha256": "3061a4b23ec05380a3943fbd14324021c66a46da7d991be577f6cbfab3cc26f5"
+    },
+    {
+      "file": "public/assets/vehicles/t48-gmc.webp",
+      "bytes": 22514,
+      "sha256": "6752e33801d0ceab69f5f99f1b68be24e8b4ecf357bab050f62b20ba36ceb8b7"
+    },
+    {
+      "file": "public/assets/vehicles/teledyne-ags.webp",
+      "bytes": 23194,
+      "sha256": "2367413db5d994ff71f3bc9f470e2415d7d09ffe82da533024ff1b51319ac7cd"
+    },
+    {
+      "file": "public/assets/vehicles/tiger-i.webp",
+      "bytes": 23716,
+      "sha256": "9a798ada1680c7532e527ba5c4d1d5d397913887bccbcb02ae65f1d8082831cf"
+    },
+    {
+      "file": "public/assets/vehicles/tiger-ii-105-cm-kwk.webp",
+      "bytes": 23568,
+      "sha256": "b66c8ef724ee002fbdc72a6df407775d8250499011cd808c2e0b20b912830c71"
+    },
+    {
+      "file": "public/assets/vehicles/tiger-ii.webp",
+      "bytes": 22960,
+      "sha256": "62b2cd0e30b4ff1b2fce2691459cfc28f68494d1b7618db597537b9566d1eace"
+    },
+    {
+      "file": "public/assets/vehicles/tos-1a-bm-1.webp",
+      "bytes": 24250,
+      "sha256": "7bebe3cf89d0953f5023ba7654554bbac6d25dafcf5adec5d2ff836e3a9fa9d5"
+    },
+    {
+      "file": "public/assets/vehicles/turm-iii.webp",
+      "bytes": 23668,
+      "sha256": "0220be3287581cd747bbbb2c1498c3fe6f453cc97b60d35c55b24c5e387aa973"
+    },
+    {
+      "file": "public/assets/vehicles/type-10.webp",
+      "bytes": 23912,
+      "sha256": "e4fd44617ef36d004cf9f0947a49b4f7e5931c94f468c2f7ad24aabd50ef5b5a"
+    },
+    {
+      "file": "public/assets/vehicles/type-16-mcv.webp",
+      "bytes": 23344,
+      "sha256": "28900d156f19cd829d9d3ae28fb4e7d053f1f66926c0cefac5024b34b30158cc"
+    },
+    {
+      "file": "public/assets/vehicles/type-87.webp",
+      "bytes": 23548,
+      "sha256": "49b75d748dcfb0c47601f2cc89731b8b451fdf5fa419587715f2141b5eba43f2"
+    },
+    {
+      "file": "public/assets/vehicles/type-89.webp",
+      "bytes": 23364,
+      "sha256": "8ddd0ad11b40a57a45cc6078bc21b197848d84380c251c789657e97cbb9340cd"
+    },
+    {
+      "file": "public/assets/vehicles/type-90.webp",
+      "bytes": 23182,
+      "sha256": "930de687ff7123cced7e8e1b2895dbd11d8ef6cf8e49d5c2479ddeb450e45a89"
+    },
+    {
+      "file": "public/assets/vehicles/uaz-3909.webp",
+      "bytes": 19374,
+      "sha256": "dbcf2be4a089a5abd14e32cb5a443d3077acc2a24c1e5c9d46641e49fb364613"
+    },
+    {
+      "file": "public/assets/vehicles/uaz-469.webp",
+      "bytes": 21550,
+      "sha256": "b222db63a83768685cc580171ccd1207e6ee95c0eaba007bd3c5cd76db22f14a"
+    },
+    {
+      "file": "public/assets/vehicles/uh-60m-blackhawk.webp",
+      "bytes": 23540,
+      "sha256": "94f97eb89c100bff7883a77a320de24f3d76a38e7e267047510721117bde84e3"
+    },
+    {
+      "file": "public/assets/vehicles/ural-375d.webp",
+      "bytes": 21986,
+      "sha256": "af4867d46dc31f91970c41884e716a3ce35ee224a734401648af2ef442bdc24f"
+    },
+    {
+      "file": "public/assets/vehicles/vk-1602-leopard.webp",
+      "bytes": 22084,
+      "sha256": "462bdd8a479437829a3640c95a6fd6af590174dad14e39ae0019e12999d6eb60"
+    },
+    {
+      "file": "public/assets/vehicles/vt1-2.webp",
+      "bytes": 22786,
+      "sha256": "925f87a3ca1c738dbadec3f5d4d511d0a062168c8806d97f06b5a73f99a97f7e"
+    },
+    {
+      "file": "public/assets/vehicles/vt4.webp",
+      "bytes": 24352,
+      "sha256": "d9239ce70c57ca39075c351a616a783ed07f39b3315f33c75c8bce2eed6c0dea"
+    },
+    {
+      "file": "public/assets/vehicles/wiesel-1a0.webp",
+      "bytes": 23434,
+      "sha256": "e409d899020ae1f129dbf80f3d4056f18a919bf77a23eb3db6437705a46ad268"
+    },
+    {
+      "file": "public/assets/vehicles/wiesel-1a2.webp",
+      "bytes": 23818,
+      "sha256": "17f64dafab1a118b96f9c792dc92e64a8f53ade46a6411560e0f1bfc24ca8761"
+    },
+    {
+      "file": "public/assets/vehicles/wiesel-1a4.webp",
+      "bytes": 23654,
+      "sha256": "c24b0105dd5cd8d138ee409dad13e5908269dfa32fb129582290dcf6fbb6c52b"
+    },
+    {
+      "file": "public/assets/vehicles/willys-mb.webp",
+      "bytes": 22770,
+      "sha256": "2f9235df61dac7da735a43f0d5c29bb6a47be2d84e9ea4b92aedcf9bd0368e2b"
+    },
+    {
+      "file": "public/assets/vehicles/wz-122.webp",
+      "bytes": 24488,
+      "sha256": "24a8e055bd15f4adf523bf6dc7eeb49a279d9aa055ec0cb52183bd2128b07416"
+    },
+    {
+      "file": "public/assets/vehicles/xm1069.webp",
+      "bytes": 23528,
+      "sha256": "5b67ce7d582ac4738da6b22035f9b15174a7cb582b0da64ff29b94b679d3d111"
+    },
+    {
+      "file": "public/assets/vehicles/xm8.webp",
+      "bytes": 23468,
+      "sha256": "7696186e7688a86eb7ca28c18ad293a0633580cabaea9deaeacaa699d65f719a"
+    },
+    {
+      "file": "public/assets/vehicles/zbd04a.webp",
+      "bytes": 23748,
+      "sha256": "7c0ec22fb438abe4e739e1a80b6f93e2b7bb6c4fe2532ec2710fa89bb35832c2"
+    },
+    {
+      "file": "public/assets/vehicles/zit-122.webp",
+      "bytes": 24614,
+      "sha256": "543c3cb645265da58e88c1a8c0b215f7ecd941cad9371fe21041e78e8efd3b2e"
+    },
+    {
+      "file": "public/assets/vehicles/zsu-57-2.webp",
+      "bytes": 24586,
+      "sha256": "39831700ff348dc3caa7587f2ee687b0af078e954a0fc36d824ce051aab6f310"
+    },
+    {
+      "file": "public/assets/vehicles/ztz96a.webp",
+      "bytes": 23248,
+      "sha256": "40966310791a83377e76d498022b71aad978871518a5c650116bb41514aeb9c1"
+    },
+    {
+      "file": "public/assets/vehicles/ztz99a.webp",
+      "bytes": 23492,
+      "sha256": "7a86f22a616ff2fb11f597e8e482453e3c6128cdb246d165521b0de7997bdcf8"
+    },
+    {
+      "file": "public/data/vehicle-info.json",
+      "bytes": 881426,
+      "sha256": "ed79c1ffaa6db3410428369f0b43cbd762cba3b4eb860856a6c8d15c5429f832"
+    },
+    {
+      "file": "public/favicon.ico",
+      "bytes": 1886,
+      "sha256": "eab0a692f62d904ce0460baff91c92e238fd3b2d2e9fe31d3b4b0e3ed5604dd2"
+    },
+    {
+      "file": "public/index.html",
+      "bytes": 467620,
+      "sha256": "6654dfbeb0e3efda66006b26f974bd2d78ba6ef6608c1083f9be67bde3197a6d"
+    },
+    {
+      "file": "public/loadout-io.js",
+      "bytes": 10028,
+      "sha256": "bd2f427022c6129ffafa3c0eb7a4167b86af830a063ee261770624c6c710d97a"
+    },
+    {
+      "file": "public/vehicle-hover.css",
+      "bytes": 6207,
+      "sha256": "8b1a1ab415d584fbb15cf227fe2295cc6165ee2d79bc8b4a73504fc178a137bf"
+    },
+    {
+      "file": "public/vehicle-hover.js",
+      "bytes": 16407,
+      "sha256": "6e1bf7aed00172b3955430fefd828caf09d67778897e882e118b3c0a12588068"
+    },
+    {
+      "file": "server.mjs",
+      "bytes": 4234,
+      "sha256": "b37deb3c4432dc40246d8f00b8e322db525b53532518c22b8efb22481861722c"
+    },
+    {
+      "file": "tests/security.test.mjs",
+      "bytes": 7135,
+      "sha256": "223ce479af6f30937d232d84783e9b9e9d275edb4f80ca6ebe462064572999e3"
+    },
+    {
+      "file": "tools/check-vehicle-info.mjs",
+      "bytes": 5589,
+      "sha256": "7c8a5f9e5dc452bd7095dc60b2a8b8cc0103842fb9be6b8a5ddc5bfa60e7b9c1"
+    },
+    {
+      "file": "tools/harden-build.mjs",
+      "bytes": 3922,
+      "sha256": "c885da9f32114d6b843f46ed1d7ddab8e3b5aabd91ae26b0ff10f1c3569eefff"
+    },
+    {
+      "file": "tools/install-vehicle-hover.mjs",
+      "bytes": 1369,
+      "sha256": "d76d137b2ca6cb9d5d5f2b0064d3f66cc51ecc642173e03548a7fbe5e8e842e0"
+    },
+    {
+      "file": "tools/lib/vehicle-modifications.mjs",
+      "bytes": 12515,
+      "sha256": "ce1cd115e5bdd9a9f49013fa1eb4d5b3044160aa362f0bde6cf8d942c2fd4792"
+    },
+    {
+      "file": "tools/mirror.mjs",
+      "bytes": 2663,
+      "sha256": "4466b355884b569426d2eeab71f470eae71dfe12dce92ed5ff9c4c66925a051b"
+    },
+    {
+      "file": "tools/patch-import.mjs",
+      "bytes": 6500,
+      "sha256": "5f2bf84eb229031bb820cc9039fe1286efbdb8d638863dff0067daa364d1e9ab"
+    },
+    {
+      "file": "tools/prepare-release.mjs",
+      "bytes": 3150,
+      "sha256": "aaf06a5efb6a81fba8052593fef923537c201125aa60ded73975a25fc004e88a"
+    },
+    {
+      "file": "tools/scan-secrets.mjs",
+      "bytes": 2338,
+      "sha256": "f9225050c33bfa59210cebf114408da3b02b76e4ae434a81cbd82bece726ac0b"
+    },
+    {
+      "file": "tools/sync-vehicle-info.mjs",
+      "bytes": 13551,
+      "sha256": "55adaa2c145d2965ce05cd355c10692160d086bc609b2c7db836c7953def4a5c"
+    },
+    {
+      "file": "tools/upstream/index.js",
+      "bytes": 78261,
+      "sha256": "9e71ab72fdc66ddea8f79eae4d9c186399a1009f9f82785f2d4f05c11a3ce874"
+    },
+    {
+      "file": "verification/VEHICLE-CARDS-CHECKS.md",
+      "bytes": 6987,
+      "sha256": "7736dcb2db7aa708993e01f67296d932db236482eebbca51d035190e814a5c1c"
+    },
+    {
+      "file": "verification/assets.json",
+      "bytes": 5424,
+      "sha256": "bf54ee727ea98ac1d5cca45b87d846855bd474a18d5b7e38ccb8e927f034ea3b"
+    },
+    {
+      "file": "verification/missing-vehicle-images.txt",
+      "bytes": 156,
+      "sha256": "a73f285b7e56b7c2d93fd492a8f3c221a3be212b5b4fd57051d04f4248994772"
+    },
+    {
+      "file": "verification/page-data.json",
+      "bytes": 771793,
+      "sha256": "3ac2e7f28326aefdc0bd1f1384db086e58923b1e945738b62485d60fe47836d1"
+    },
+    {
+      "file": "verification/vehicle-image-sources.json",
+      "bytes": 57260,
+      "sha256": "8358daadafc1ce1b1b25fe673da881af19b408c420c54c2841a5c1dc4fbc3649"
+    },
+    {
+      "file": "verification/vehicle-info-report.json",
+      "bytes": 1326,
+      "sha256": "9c9840586e46e149cbc38d35d3f2104020a8358dbe52edd767e1ee8746093a75"
+    },
+    {
+      "file": "verification/vehicle-source-data.json",
+      "bytes": 6511402,
+      "sha256": "59db149844b41b99fc4104b4f498172dc3970fd1f2402ee9a506698814a4a78c"
+    }
+  ],
+  "secretScan": {
+    "scanned": 47,
+    "findings": 0
+  },
+  "updatedAt": "2026-10-24T00:12:15.490701+00:00"
+}

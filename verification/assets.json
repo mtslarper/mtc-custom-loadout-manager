@@ -1,0 +1,142 @@
+[
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/css/6cbba9e26198f0b9.css",
+    "file": "_next/static/css/6cbba9e26198f0b9.css",
+    "bytes": 2927
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-cyrillic-ext-400-normal.2440d5f8.woff2",
+    "file": "_next/static/media/inter-cyrillic-ext-400-normal.2440d5f8.woff2",
+    "bytes": 10216
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-cyrillic-ext-400-normal.6e13bad4.woff",
+    "file": "_next/static/media/inter-cyrillic-ext-400-normal.6e13bad4.woff",
+    "bytes": 14188
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-cyrillic-400-normal.547767ef.woff2",
+    "file": "_next/static/media/inter-cyrillic-400-normal.547767ef.woff2",
+    "bytes": 7712
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-cyrillic-400-normal.4cc6e28c.woff",
+    "file": "_next/static/media/inter-cyrillic-400-normal.4cc6e28c.woff",
+    "bytes": 10136
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-greek-ext-400-normal.f8992900.woff2",
+    "file": "_next/static/media/inter-greek-ext-400-normal.f8992900.woff2",
+    "bytes": 5232
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-greek-ext-400-normal.f196e968.woff",
+    "file": "_next/static/media/inter-greek-ext-400-normal.f196e968.woff",
+    "bytes": 7144
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-greek-400-normal.573bacd1.woff2",
+    "file": "_next/static/media/inter-greek-400-normal.573bacd1.woff2",
+    "bytes": 7840
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-greek-400-normal.d6adbb78.woff",
+    "file": "_next/static/media/inter-greek-400-normal.d6adbb78.woff",
+    "bytes": 9960
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-vietnamese-400-normal.de4fc44f.woff2",
+    "file": "_next/static/media/inter-vietnamese-400-normal.de4fc44f.woff2",
+    "bytes": 4972
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-vietnamese-400-normal.1411920a.woff",
+    "file": "_next/static/media/inter-vietnamese-400-normal.1411920a.woff",
+    "bytes": 6684
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-latin-ext-400-normal.732723e2.woff2",
+    "file": "_next/static/media/inter-latin-ext-400-normal.732723e2.woff2",
+    "bytes": 30676
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-latin-ext-400-normal.d1f6a5a2.woff",
+    "file": "_next/static/media/inter-latin-ext-400-normal.d1f6a5a2.woff",
+    "bytes": 42876
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-latin-400-normal.360a94a9.woff2",
+    "file": "_next/static/media/inter-latin-400-normal.360a94a9.woff2",
+    "bytes": 23692
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/media/inter-latin-400-normal.38abad60.woff",
+    "file": "_next/static/media/inter-latin-400-normal.38abad60.woff",
+    "bytes": 31196
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "file": "_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "bytes": 112594
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/chunks/webpack-b4c0f9608a7d0640.js",
+    "file": "_next/static/chunks/webpack-b4c0f9608a7d0640.js",
+    "bytes": 1925
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/chunks/framework-82fce76e1725f96c.js",
+    "file": "_next/static/chunks/framework-82fce76e1725f96c.js",
+    "bytes": 139834
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/chunks/main-d6a78ce3f358332f.js",
+    "file": "_next/static/chunks/main-d6a78ce3f358332f.js",
+    "bytes": 134615
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/chunks/pages/_app-bed855ee4bf389c8.js",
+    "file": "_next/static/chunks/pages/_app-bed855ee4bf389c8.js",
+    "bytes": 65533
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/chunks/9180ddc8-1cf6451de3347a64.js",
+    "file": "_next/static/chunks/9180ddc8-1cf6451de3347a64.js",
+    "bytes": 45818
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/chunks/910-0ff685c2b5d74630.js",
+    "file": "_next/static/chunks/910-0ff685c2b5d74630.js",
+    "bytes": 314211
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/chunks/pages/index-211ecad247b1f53d.js",
+    "file": "_next/static/chunks/pages/index-211ecad247b1f53d.js",
+    "bytes": 78261
+  },
+  {
+    "url": "https://loadout-editor.multicrew.dev/assets/grid.svg",
+    "file": "assets/grid.svg",
+    "bytes": 4595
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/OQyeeP3xfvEDs6ZEPsTl_/_buildManifest.js",
+    "file": "_next/static/OQyeeP3xfvEDs6ZEPsTl_/_buildManifest.js",
+    "bytes": 652
+  },
+  {
+    "url": "https://cdn.astrid.ovh/c50318192d91/_next/static/OQyeeP3xfvEDs6ZEPsTl_/_ssgManifest.js",
+    "file": "_next/static/OQyeeP3xfvEDs6ZEPsTl_/_ssgManifest.js",
+    "bytes": 88
+  },
+  {
+    "url": "https://loadout-editor.multicrew.dev/favicon.ico",
+    "file": "favicon.ico",
+    "bytes": 1886
+  },
+  {
+    "url": "https://loadout-editor.multicrew.dev/assets/image.png",
+    "file": "assets/image.png",
+    "bytes": 162859
+  }
+]
