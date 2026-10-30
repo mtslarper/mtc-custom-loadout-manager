@@ -953,14 +953,6 @@
       ]
     },
     {
-      "id": "Burlak",
-      "displayName": "Burlak",
-      "places": [
-        "mtc",
-        "rv"
-      ]
-    },
-    {
       "id": "T-34-57",
       "displayName": "T-34-57",
       "places": [
@@ -2967,6 +2959,7 @@
       "id": "T32E1",
       "displayName": "T32E1",
       "places": [
+        "mtc",
         "rv"
       ]
     },
@@ -2974,6 +2967,7 @@
       "id": "T26E5",
       "displayName": "T26E5",
       "places": [
+        "mtc",
         "rv"
       ]
     },
@@ -2981,6 +2975,7 @@
       "id": "M24",
       "displayName": "M24 Chaffee",
       "places": [
+        "mtc",
         "rv"
       ]
     },
@@ -2988,6 +2983,7 @@
       "id": "GTK Boxer FLW 200",
       "displayName": "GTK Boxer FLW 200",
       "places": [
+        "mtc",
         "rv"
       ]
     },
@@ -2995,6 +2991,7 @@
       "id": "T26E2",
       "displayName": "T26E2",
       "places": [
+        "mtc",
         "rv"
       ]
     },
@@ -3002,6 +2999,7 @@
       "id": "M60 AMBT",
       "displayName": "M60 AMBT",
       "places": [
+        "mtc",
         "rv"
       ]
     },
@@ -3009,6 +3007,7 @@
       "id": "Panther A",
       "displayName": "Panther A",
       "places": [
+        "mtc",
         "rv"
       ]
     },
@@ -3016,6 +3015,7 @@
       "id": "Daimler Mk.1",
       "displayName": "Daimler Mk.1",
       "places": [
+        "mtc",
         "rv"
       ]
     },
@@ -3023,6 +3023,7 @@
       "id": "T32",
       "displayName": "T32",
       "places": [
+        "mtc",
         "rv"
       ]
     },
@@ -3030,6 +3031,7 @@
       "id": "T58",
       "displayName": "T58",
       "places": [
+        "mtc",
         "rv"
       ]
     },
@@ -3037,6 +3039,7 @@
       "id": "M42",
       "displayName": "M42",
       "places": [
+        "mtc",
         "rv"
       ]
     },
@@ -3051,6 +3054,23 @@
       "id": "Rosomak-L",
       "displayName": "Rosomak-L ZSSW-30",
       "places": [
+        "mtc",
+        "rv"
+      ]
+    },
+    {
+      "id": "Object 219M Burlak",
+      "displayName": "Object 219M Burlak",
+      "places": [
+        "mtc",
+        "rv"
+      ]
+    },
+    {
+      "id": "T-90A Burlak",
+      "displayName": "T-90A Burlak",
+      "places": [
+        "mtc",
         "rv"
       ]
     }
@@ -5311,30 +5331,6 @@
           },
           "columnIndex": 3,
           "tier": 3
-        },
-        "707887fc-68a9-40bf-8742-c9704ccaae4f": {
-          "id": "707887fc-68a9-40bf-8742-c9704ccaae4f",
-          "name": "Burlak",
-          "type": "vehicle",
-          "properties": {
-            "teamLimit": {
-              "name": "Team Limit",
-              "exportKey": "LimitPerTeam",
-              "type": "number"
-            },
-            "matchLimit": {
-              "name": "Match Limit",
-              "exportKey": "LimitPerMatch",
-              "type": "number"
-            },
-            "teamMatchLimit": {
-              "name": "Team Match Limit",
-              "exportKey": "LimitPerMatchTeam",
-              "type": "number"
-            }
-          },
-          "columnIndex": 1,
-          "tier": 5
         },
         "5c9622b9-b2b9-4e80-89bf-db2a408b9942": {
           "id": "5c9622b9-b2b9-4e80-89bf-db2a408b9942",
@@ -9790,6 +9786,126 @@
           "columnIndex": 3,
           "className": "Infantry",
           "tier": 4
+        },
+        "8f74cb5a-d7bf-44f7-bcaa-fe477564a59b": {
+          "id": "8f74cb5a-d7bf-44f7-bcaa-fe477564a59b",
+          "name": "M60 AMBT",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 2,
+          "tier": 1
+        },
+        "1288e08b-6f1e-42e0-a93a-9ef67883098f": {
+          "id": "1288e08b-6f1e-42e0-a93a-9ef67883098f",
+          "name": "Object 219M Burlak",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 1,
+          "tier": 5
+        },
+        "dc95f48b-5f4b-4ec7-b157-6fcca54d47e9": {
+          "id": "dc95f48b-5f4b-4ec7-b157-6fcca54d47e9",
+          "name": "T-90A Burlak",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 1,
+          "tier": 4
+        },
+        "daafc65e-43df-400b-9bfc-bcd8a48c40ce": {
+          "id": "daafc65e-43df-400b-9bfc-bcd8a48c40ce",
+          "name": "GTK Boxer FLW 200",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 3,
+          "tier": 2
+        },
+        "53ab3daa-3843-4e9b-9133-7c16bbcb961a": {
+          "id": "53ab3daa-3843-4e9b-9133-7c16bbcb961a",
+          "name": "Rosomak-L",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 3,
+          "tier": 4
         }
       }
     },
@@ -12527,6 +12643,78 @@
           "columnIndex": 1,
           "className": "Infantry",
           "tier": 3
+        },
+        "06a7fe99-cc62-4f30-a1f5-04be003d4413": {
+          "id": "06a7fe99-cc62-4f30-a1f5-04be003d4413",
+          "name": "M42",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 2,
+          "tier": 1
+        },
+        "24268d6b-a5ba-499c-8cd6-814e0d66837d": {
+          "id": "24268d6b-a5ba-499c-8cd6-814e0d66837d",
+          "name": "T32E1",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 2,
+          "tier": 1
+        },
+        "0b959b94-a817-4f4f-8c47-1216f371bf3b": {
+          "id": "0b959b94-a817-4f4f-8c47-1216f371bf3b",
+          "name": "T58",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 2,
+          "tier": 4
         }
       }
     },
@@ -15240,6 +15428,150 @@
           "columnIndex": 0,
           "className": "Engineer",
           "tier": 1
+        },
+        "7da6ca4d-9d2f-4a49-8b72-1f2b5748a11f": {
+          "id": "7da6ca4d-9d2f-4a49-8b72-1f2b5748a11f",
+          "name": "Daimler Mk.1",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 2,
+          "tier": 1
+        },
+        "787a5ce5-086e-4d4c-bee7-7cda211feb88": {
+          "id": "787a5ce5-086e-4d4c-bee7-7cda211feb88",
+          "name": "M24",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 2,
+          "tier": 1
+        },
+        "0454bfa2-059d-4a81-9e0b-1c2761f5dfc4": {
+          "id": "0454bfa2-059d-4a81-9e0b-1c2761f5dfc4",
+          "name": "T26E2",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 2,
+          "tier": 3
+        },
+        "cf66f9d3-c42d-4675-9daf-e899625d83dc": {
+          "id": "cf66f9d3-c42d-4675-9daf-e899625d83dc",
+          "name": "T26E5",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 2,
+          "tier": 5
+        },
+        "9a4a4236-5b94-40da-8473-1f490d4ce351": {
+          "id": "9a4a4236-5b94-40da-8473-1f490d4ce351",
+          "name": "T32",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 2,
+          "tier": 6
+        },
+        "18181f79-460a-4db4-b968-c26c28634df8": {
+          "id": "18181f79-460a-4db4-b968-c26c28634df8",
+          "name": "Panther A",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 3,
+          "tier": 4
         }
       }
     },
@@ -17185,30 +17517,6 @@
           },
           "columnIndex": 3,
           "tier": 3
-        },
-        "867a7196-428b-489e-974c-f5eac890ea35": {
-          "id": "867a7196-428b-489e-974c-f5eac890ea35",
-          "name": "Burlak",
-          "type": "vehicle",
-          "properties": {
-            "teamLimit": {
-              "name": "Team Limit",
-              "exportKey": "LimitPerTeam",
-              "type": "number"
-            },
-            "matchLimit": {
-              "name": "Match Limit",
-              "exportKey": "LimitPerMatch",
-              "type": "number"
-            },
-            "teamMatchLimit": {
-              "name": "Team Match Limit",
-              "exportKey": "LimitPerMatchTeam",
-              "type": "number"
-            }
-          },
-          "columnIndex": 1,
-          "tier": 5
         },
         "c766298f-3a30-4dc2-b1e7-56b8832ee2a4": {
           "id": "c766298f-3a30-4dc2-b1e7-56b8832ee2a4",
@@ -21639,6 +21947,54 @@
           },
           "columnIndex": 3,
           "className": "Infantry",
+          "tier": 4
+        },
+        "73215e35-aae5-4cb0-8329-34d4def84ded": {
+          "id": "73215e35-aae5-4cb0-8329-34d4def84ded",
+          "name": "Object 219M Burlak",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 1,
+          "tier": 5
+        },
+        "74ec744c-149e-49c0-870d-531449863ac3": {
+          "id": "74ec744c-149e-49c0-870d-531449863ac3",
+          "name": "T-90A Burlak",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 1,
           "tier": 4
         }
       }
