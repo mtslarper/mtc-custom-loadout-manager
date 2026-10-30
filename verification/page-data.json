@@ -953,14 +953,6 @@
       ]
     },
     {
-      "id": "Burlak",
-      "displayName": "Burlak",
-      "places": [
-        "mtc",
-        "rv"
-      ]
-    },
-    {
       "id": "T-34-57",
       "displayName": "T-34-57",
       "places": [
@@ -3061,6 +3053,22 @@
     {
       "id": "Rosomak-L",
       "displayName": "Rosomak-L ZSSW-30",
+      "places": [
+        "mtc",
+        "rv"
+      ]
+    },
+    {
+      "id": "Object 219M Burlak",
+      "displayName": "Object 219M Burlak",
+      "places": [
+        "mtc",
+        "rv"
+      ]
+    },
+    {
+      "id": "T-90A Burlak",
+      "displayName": "T-90A Burlak",
       "places": [
         "mtc",
         "rv"
@@ -17510,30 +17518,6 @@
           "columnIndex": 3,
           "tier": 3
         },
-        "867a7196-428b-489e-974c-f5eac890ea35": {
-          "id": "867a7196-428b-489e-974c-f5eac890ea35",
-          "name": "Burlak",
-          "type": "vehicle",
-          "properties": {
-            "teamLimit": {
-              "name": "Team Limit",
-              "exportKey": "LimitPerTeam",
-              "type": "number"
-            },
-            "matchLimit": {
-              "name": "Match Limit",
-              "exportKey": "LimitPerMatch",
-              "type": "number"
-            },
-            "teamMatchLimit": {
-              "name": "Team Match Limit",
-              "exportKey": "LimitPerMatchTeam",
-              "type": "number"
-            }
-          },
-          "columnIndex": 1,
-          "tier": 5
-        },
         "c766298f-3a30-4dc2-b1e7-56b8832ee2a4": {
           "id": "c766298f-3a30-4dc2-b1e7-56b8832ee2a4",
           "name": "BTR-82A",
@@ -21963,6 +21947,54 @@
           },
           "columnIndex": 3,
           "className": "Infantry",
+          "tier": 4
+        },
+        "73215e35-aae5-4cb0-8329-34d4def84ded": {
+          "id": "73215e35-aae5-4cb0-8329-34d4def84ded",
+          "name": "Object 219M Burlak",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 1,
+          "tier": 5
+        },
+        "74ec744c-149e-49c0-870d-531449863ac3": {
+          "id": "74ec744c-149e-49c0-870d-531449863ac3",
+          "name": "T-90A Burlak",
+          "type": "vehicle",
+          "properties": {
+            "teamLimit": {
+              "name": "Team Limit",
+              "exportKey": "LimitPerTeam",
+              "type": "number"
+            },
+            "matchLimit": {
+              "name": "Match Limit",
+              "exportKey": "LimitPerMatch",
+              "type": "number"
+            },
+            "teamMatchLimit": {
+              "name": "Team Match Limit",
+              "exportKey": "LimitPerMatchTeam",
+              "type": "number"
+            }
+          },
+          "columnIndex": 1,
           "tier": 4
         }
       }
