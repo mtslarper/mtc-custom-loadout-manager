@@ -47,7 +47,7 @@
     'Invalid or oversized share link': 'Некорректная или слишком длинная ссылка', 'Share data exceeds 4 MiB': 'Данные ссылки превышают 4 МиБ',
     'Invalid shared preset': 'Некорректный набор по ссылке', 'Invalid shared item': 'Некорректный элемент по ссылке',
     'Invalid shared property': 'Некорректный параметр по ссылке',
-    'Vehicle information': 'Информация о технике', 'Vehicle': 'Техника',
+    'Vehicle information': 'Информация о технике', 'Vehicle images': 'Картинки', 'Hide vehicle images': 'Скрыть картинки техники', 'Show vehicle images': 'Показать картинки техники', 'Vehicle': 'Техника',
     'Main Battle Tank': 'Основной боевой танк', 'Prototype Main Battle Tank': 'Опытный основной танк',
     'Heavy Tank': 'Тяжёлый танк', 'Super Heavy Tank': 'Сверхтяжёлый танк', 'Medium Tank': 'Средний танк',
     'Light Tank': 'Лёгкий танк', 'Tankette': 'Танкетка', 'Tank Destroyer': 'Истребитель танков', 'Assault Gun': 'Штурмовое орудие',

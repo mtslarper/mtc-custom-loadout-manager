@@ -79,3 +79,17 @@
 #vehicle-hover-card .vh-empty { font-size: 12px; color: #bdcde0; padding: 14px 0; }
 @keyframes vh-appear { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
 @media (prefers-reduced-motion: reduce) { #vehicle-hover-card { animation: none; } }
+
+/* Vehicle picture under the name in team columns. */
+[data-vehicle-id]:has(> .vh-thumb) { flex-direction: column; height: auto !important; gap: 4px; padding-bottom: 6px; }
+[data-vehicle-id] > .vh-thumb {
+  display: block;
+  /* Fixed size so the natural 640 px image never widens the column. */
+  width: 160px;
+  height: 90px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: radial-gradient(ellipse at 50% 60%, #3a4654, #202833 60%, #171c25);
+  pointer-events: none;
+  user-select: none;
+}

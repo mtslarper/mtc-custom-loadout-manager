@@ -264,4 +264,60 @@
   window.addEventListener('resize', hide);
   window.addEventListener('blur', hide);
   new MutationObserver(() => { if (anchor && !anchor.isConnected) hide(); }).observe(document.body, { childList: true, subtree: true });
+
+  // Picture under the name of every vehicle placed in a team column. Pure DOM decoration: editor state is never modified.
+  let thumbsOn = true;
+  try { thumbsOn = localStorage.getItem('vehicle-thumbs') !== 'off'; } catch {}
+  function thumbSource(id) {
+    const places = catalog?.vehicles?.[id]?.places || {};
+    return (places[branch]?.image ? places[branch] : Object.values(places).find(place => place.image))?.image || null;
+  }
+  function decorate(node) {
+    let image = node.querySelector(':scope > img.vh-thumb');
+    const src = thumbsOn && node.dataset.vehicleColumn !== '-1' ? thumbSource(node.dataset.vehicleId) : null;
+    if (!src) { image?.remove(); return; }
+    if (!image) {
+      image = el('img', 'vh-thumb');
+      image.alt = '';
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      image.draggable = false;
+      image.addEventListener('error', () => image.remove());
+      node.append(image);
+    }
+    if (image.getAttribute('src') !== src) image.src = src;
+  }
+  function syncToggle() {
+    const language = document.getElementById('loadout-language-toggle');
+    if (!language) return;
+    let button = document.getElementById('vehicle-thumbs-toggle');
+    if (!button) {
+      button = document.createElement('button');
+      button.id = 'vehicle-thumbs-toggle';
+      button.type = 'button';
+      button.className = language.className;
+      button.addEventListener('click', () => {
+        thumbsOn = !thumbsOn;
+        try { localStorage.setItem('vehicle-thumbs', thumbsOn ? 'on' : 'off'); } catch {}
+        syncToggle();
+        decorateAll();
+      });
+      language.after(button);
+    }
+    button.textContent = tr('Vehicle images');
+    button.setAttribute('aria-pressed', String(thumbsOn));
+    button.title = tr(thumbsOn ? 'Hide vehicle images' : 'Show vehicle images');
+    button.style.opacity = thumbsOn ? '1' : '0.55';
+  }
+  let thumbFrame = 0;
+  function decorateAll() {
+    thumbFrame = 0;
+    syncToggle();
+    for (const node of document.querySelectorAll('[data-vehicle-id]')) decorate(node);
+  }
+  function scheduleDecorate() { if (!thumbFrame) thumbFrame = requestAnimationFrame(decorateAll); }
+  new MutationObserver(scheduleDecorate).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['data-vehicle-id', 'data-vehicle-column'] });
+  ready.then(scheduleDecorate);
+  window.addEventListener('loadout-language-change', scheduleDecorate);
+  scheduleDecorate();
 })();
