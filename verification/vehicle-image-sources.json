@@ -1370,5 +1370,13 @@
   "t48-gmc": {
     "local": "/assets/vehicles/t48-gmc.webp",
     "source": "https://img.astrid.ovh/public-stats-images/su-57/perspective.png?w=640&q=80"
+  },
+  "object-219m-burlak": {
+    "local": "/assets/vehicles/object-219m-burlak.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/object-219m-burlak/perspective.png?w=640&q=80"
+  },
+  "t-90a-burlak": {
+    "local": "/assets/vehicles/t-90a-burlak.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t-90a-burlak/perspective.png?w=640&q=80"
   }
 }
