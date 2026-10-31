@@ -361,6 +361,7 @@
       }
       head.dataset.tierKey = key;
       head.dataset.count = String(body.querySelectorAll('[data-vehicle-id]').length);
+      if (head.firstElementChild) head.firstElementChild.dataset.count = head.dataset.count;
       head.setAttribute('aria-expanded', String(!collapsed));
       head.title = tr(collapsed ? 'Expand tier' : 'Collapse tier');
       body.classList.add('vh-tier-body');
