@@ -265,28 +265,129 @@
   window.addEventListener('blur', hide);
   new MutationObserver(() => { if (anchor && !anchor.isConnected) hide(); }).observe(document.body, { childList: true, subtree: true });
 
-  // Picture under the name of every vehicle placed in a team column. Pure DOM decoration: editor state is never modified.
+  // Picture under the name of every vehicle placed in a team column, a large view of it, and collapsible tiers.
+  // Pure DOM decoration: editor state is never modified.
   let thumbsOn = true;
   try { thumbsOn = localStorage.getItem('vehicle-thumbs') !== 'off'; } catch {}
   function thumbSource(id) {
     const places = catalog?.vehicles?.[id]?.places || {};
     return (places[branch]?.image ? places[branch] : Object.values(places).find(place => place.image))?.image || null;
   }
+  let lightbox;
+  function closeLightbox() { if (lightbox) lightbox.hidden = true; }
+  function openLightbox(id, src) {
+    if (!lightbox) {
+      lightbox = el('div', 'vh-lightbox');
+      lightbox.hidden = true;
+      lightbox.setAttribute('role', 'dialog');
+      lightbox.append(el('img', 'vh-lightbox-image'), el('div', 'vh-lightbox-caption'));
+      lightbox.addEventListener('click', closeLightbox);
+      document.body.append(lightbox);
+    }
+    const image = lightbox.querySelector('img');
+    image.alt = '';
+    image.src = src;
+    lightbox.querySelector('.vh-lightbox-caption').textContent = catalog?.vehicles?.[id]?.displayName || id;
+    lightbox.setAttribute('aria-label', tr('Vehicle image'));
+    lightbox.hidden = false;
+  }
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') closeLightbox(); });
   function decorate(node) {
-    let image = node.querySelector(':scope > img.vh-thumb');
+    let wrap = node.querySelector(':scope > .vh-thumb-wrap');
     const src = thumbsOn && node.dataset.vehicleColumn !== '-1' ? thumbSource(node.dataset.vehicleId) : null;
-    if (!src) { image?.remove(); return; }
-    if (!image) {
-      image = el('img', 'vh-thumb');
+    if (!src) { wrap?.remove(); return; }
+    if (!wrap) {
+      wrap = el('span', 'vh-thumb-wrap');
+      const image = el('img', 'vh-thumb');
       image.alt = '';
       image.loading = 'lazy';
       image.decoding = 'async';
       image.draggable = false;
-      image.addEventListener('error', () => image.remove());
-      node.append(image);
+      image.addEventListener('error', () => wrap.remove());
+      wrap.append(image, el('span', 'vh-thumb-zoom', '⤢'));
+      // A plain click enlarges the picture instead of selecting the item; dragging still moves the item.
+      let pressed = null;
+      wrap.addEventListener('mousedown', event => { pressed = [event.clientX, event.clientY]; });
+      wrap.addEventListener('click', event => {
+        event.stopPropagation();
+        if (pressed && Math.hypot(event.clientX - pressed[0], event.clientY - pressed[1]) > 5) return; // the end of a drag, not a click
+        event.preventDefault();
+        hide();
+        openLightbox(node.dataset.vehicleId, wrap.firstChild.getAttribute('src'));
+      });
+      node.append(wrap);
     }
+    wrap.title = tr('Enlarge image');
+    const image = wrap.firstChild;
     if (image.getAttribute('src') !== src) image.src = src;
   }
+
+  // Vehicle tiers can be folded; a folded cell keeps its drop area.
+  const collapsedTiers = new Set();
+  try { for (const key of JSON.parse(localStorage.getItem('vehicle-tiers-collapsed') || '[]')) collapsedTiers.add(String(key)); } catch {}
+  function saveTiers() { try { localStorage.setItem('vehicle-tiers-collapsed', JSON.stringify([...collapsedTiers])); } catch {} }
+  const tierPattern = /^(?:Tier|Тир)\s*(\d+)$/;
+  function vehicleTierHeaders() {
+    const headers = [];
+    const editor = document.querySelector('.loadout-editor');
+    if (!editor) return headers;
+    for (const label of editor.querySelectorAll('p')) {
+      const text = label.textContent.trim();
+      const head = label.parentElement;
+      if (label.children.length || !tierPattern.test(text) || !head?.nextElementSibling || head.children.length !== 1) continue;
+      if (head.closest('.MuiAccordionGroup-root, .MuiAccordion-root')) continue; // weapon tiers live inside class accordions
+      let column = head;
+      while (column.parentElement && column.parentElement.parentElement !== editor) column = column.parentElement;
+      const key = Array.prototype.indexOf.call(column.parentElement?.children || [], column) + '-' + text.match(tierPattern)[1];
+      headers.push({ head, body: head.nextElementSibling, key });
+    }
+    return headers;
+  }
+  function toggleTier(key) {
+    if (collapsedTiers.has(key)) collapsedTiers.delete(key); else collapsedTiers.add(key);
+    saveTiers();
+    syncTiers();
+  }
+  function syncTiers() {
+    const headers = vehicleTierHeaders();
+    for (const { head, body, key } of headers) {
+      const collapsed = collapsedTiers.has(key);
+      if (!head.classList.contains('vh-tier-head')) {
+        head.classList.add('vh-tier-head');
+        head.setAttribute('role', 'button');
+        head.tabIndex = 0;
+        head.addEventListener('click', () => toggleTier(head.dataset.tierKey));
+        head.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggleTier(head.dataset.tierKey); } });
+      }
+      head.dataset.tierKey = key;
+      head.dataset.count = String(body.querySelectorAll('[data-vehicle-id]').length);
+      head.setAttribute('aria-expanded', String(!collapsed));
+      head.title = tr(collapsed ? 'Expand tier' : 'Collapse tier');
+      body.classList.add('vh-tier-body');
+      body.classList.toggle('vh-collapsed', collapsed);
+    }
+    let all = document.getElementById('vehicle-tiers-toggle');
+    const anchorButton = document.getElementById('vehicle-thumbs-toggle');
+    if (!headers.length || !anchorButton) { all?.remove(); return; }
+    if (!all) {
+      all = document.createElement('button');
+      all.id = 'vehicle-tiers-toggle';
+      all.type = 'button';
+      all.className = anchorButton.className;
+      all.addEventListener('click', () => {
+        const current = vehicleTierHeaders();
+        const anyOpen = current.some(({ key }) => !collapsedTiers.has(key));
+        for (const { key } of current) { if (anyOpen) collapsedTiers.add(key); else collapsedTiers.delete(key); }
+        saveTiers();
+        syncTiers();
+      });
+      anchorButton.after(all);
+    }
+    const anyOpen = headers.some(({ key }) => !collapsedTiers.has(key));
+    all.textContent = tr(anyOpen ? 'Collapse tiers' : 'Expand tiers');
+    all.title = tr(anyOpen ? 'Fold all vehicle tiers' : 'Unfold all vehicle tiers');
+  }
+
   function syncToggle() {
     const language = document.getElementById('loadout-language-toggle');
     if (!language) return;
@@ -314,6 +415,7 @@
     thumbFrame = 0;
     syncToggle();
     for (const node of document.querySelectorAll('[data-vehicle-id]')) decorate(node);
+    syncTiers();
   }
   function scheduleDecorate() { if (!thumbFrame) thumbFrame = requestAnimationFrame(decorateAll); }
   new MutationObserver(scheduleDecorate).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['data-vehicle-id', 'data-vehicle-column'] });

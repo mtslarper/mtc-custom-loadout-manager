@@ -135,6 +135,8 @@ Hover over a vehicle in the list on the right or in a team column. Its card open
 
 Vehicles placed in team columns also show their picture under the name. Use the **Vehicle images** button next to **EN / RU** to hide or show the pictures; the choice is remembered in your browser. The list on the right stays compact.
 
+Click a picture to open a large view (click or **Esc** closes it); dragging by the picture still moves the vehicle. Click a **Tier** heading in a team column to fold or unfold that tier: the heading shows how many vehicles it holds and a folded tier still accepts drops. **Collapse tiers / Expand tiers** next to the image button folds or unfolds all vehicle tiers. Folded tiers are remembered in your browser. Weapon tiers are not affected.
+
 Use **MTC / RV** to switch between available data versions. Some vehicles also have an era selector. In the **Modifications (Модификации)** tab, click a modification name to expand its cost, explanation, and changes.
 
 Stats describe the in-game base configuration. Missing values are not filled in with guesses. Modification explanations identify their source: an in-game description, published module changes, or an interpretation of the name. **Viewing modifications does not apply them to the exported JSON.**
