@@ -2,7 +2,7 @@
   "covered": 384,
   "withImages": 380,
   "total": 385,
-  "downloadedImages": 345,
+  "downloadedImages": 357,
   "records": 752,
   "missing": [
     {
@@ -60,19 +60,7 @@
     "obt-2bv",
     "bmp-100",
     "90-mm-gmc-super-hellcat",
-    "daimler-mk1",
-    "gtk-boxer-flw-200",
-    "m24-chaffee",
-    "m3a1-half-track",
-    "m42",
-    "m60-ambt",
-    "panther-a",
-    "rosomak-l-zssw-30",
-    "t26e5",
-    "t26e2",
-    "t32",
-    "t32e1",
-    "t58"
+    "m3a1-half-track"
   ],
   "errors": []
 }
