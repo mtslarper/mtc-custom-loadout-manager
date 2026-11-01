@@ -133,7 +133,7 @@ Share links created locally contain `localhost`. The recipient needs to run thei
 
 Hover over a vehicle in the list on the right or in a team column. Its card opens after a short delay. Move the pointer onto the card to scroll its contents. Press **Esc** to close it. Cards also open when a vehicle receives keyboard focus.
 
-Vehicles placed in team columns also show their picture under the name. Use the **Vehicle images** button next to **EN / RU** to hide or show the pictures; the choice is remembered in your browser. The list on the right stays compact.
+Vehicles placed in team columns also show their picture under the name. Use the **Vehicle images** button next to **EN / RU** to fold or unfold all pictures at once; when it is off, the chevron on each vehicle still unfolds that vehicle's picture. The choice is remembered in your browser. The list on the right stays compact.
 
 Click a picture to open a large view (click or **Esc** closes it); dragging by the picture still moves the vehicle. The chevron in the top-right corner of every vehicle hides or shows that vehicle's picture; the choice is remembered per column, tier and vehicle. Click a **Tier** heading in a team column to fold or unfold that tier: the heading shows how many vehicles it holds and a folded tier still accepts drops. **Collapse tiers / Expand tiers** next to the image button folds or unfolds all vehicle tiers. Folded tiers are remembered in your browser. Weapon tiers are not affected.
 

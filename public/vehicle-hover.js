@@ -293,9 +293,16 @@
   }
   document.addEventListener('keydown', event => { if (event.key === 'Escape') closeLightbox(); });
   // Each vehicle in a tier can fold its own picture; the choice is kept per column, tier and vehicle.
-  const foldedPictures = new Set();
-  try { for (const key of JSON.parse(localStorage.getItem('vehicle-pictures-folded') || '[]')) foldedPictures.add(String(key)); } catch {}
+  // The "Vehicle images" button folds or unfolds every picture; a vehicle's own chevron overrides it for that vehicle.
+  const pictureOverrides = new Map();
+  try {
+    const stored = JSON.parse(localStorage.getItem('vehicle-pictures-folded') || '{}');
+    if (Array.isArray(stored)) for (const key of stored) pictureOverrides.set(String(key), true);
+    else for (const [key, folded] of Object.entries(stored)) pictureOverrides.set(key, Boolean(folded));
+  } catch {}
   const pictureKey = node => [node.dataset.vehicleColumn, node.dataset.vehicleTier, node.dataset.vehicleId].join('|');
+  const isFolded = node => pictureOverrides.has(pictureKey(node)) ? pictureOverrides.get(pictureKey(node)) : !thumbsOn;
+  function savePictures() { try { localStorage.setItem('vehicle-pictures-folded', JSON.stringify(Object.fromEntries(pictureOverrides))); } catch {} }
   function toggleButton(node) {
     let button = node.querySelector(':scope > .vh-pic-toggle');
     if (button) return button;
@@ -307,9 +314,9 @@
       event.stopPropagation();
       event.preventDefault();
       if (pressed && Math.hypot(event.clientX - pressed[0], event.clientY - pressed[1]) > 5) return; // the end of a drag, not a click
-      const key = pictureKey(node);
-      if (foldedPictures.has(key)) foldedPictures.delete(key); else foldedPictures.add(key);
-      try { localStorage.setItem('vehicle-pictures-folded', JSON.stringify([...foldedPictures])); } catch {}
+      const key = pictureKey(node), next = !isFolded(node);
+      if (next === !thumbsOn) pictureOverrides.delete(key); else pictureOverrides.set(key, next);
+      savePictures();
       hide();
       scheduleDecorate();
     });
@@ -318,7 +325,7 @@
   }
   function decorate(node) {
     let wrap = node.querySelector(':scope > .vh-thumb-wrap');
-    const src = thumbsOn && node.dataset.vehicleColumn !== '-1' ? thumbSource(node.dataset.vehicleId) : null;
+    const src = node.dataset.vehicleColumn !== '-1' ? thumbSource(node.dataset.vehicleId) : null;
     if (!src) { wrap?.remove(); node.querySelector(':scope > .vh-pic-toggle')?.remove(); node.classList.remove('vh-pic-folded'); return; }
     if (!wrap) {
       wrap = el('span', 'vh-thumb-wrap');
@@ -342,7 +349,7 @@
       node.append(wrap);
     }
     wrap.title = tr('Enlarge image');
-    const folded = foldedPictures.has(pictureKey(node));
+    const folded = isFolded(node);
     node.classList.toggle('vh-pic-folded', folded);
     const toggle = toggleButton(node);
     toggle.setAttribute('aria-expanded', String(!folded));
@@ -427,6 +434,8 @@
       button.className = language.className;
       button.addEventListener('click', () => {
         thumbsOn = !thumbsOn;
+        pictureOverrides.clear();
+        savePictures();
         try { localStorage.setItem('vehicle-thumbs', thumbsOn ? 'on' : 'off'); } catch {}
         syncToggle();
         decorateAll();
@@ -435,7 +444,7 @@
     }
     button.textContent = tr('Vehicle images');
     button.setAttribute('aria-pressed', String(thumbsOn));
-    button.title = tr(thumbsOn ? 'Hide vehicle images' : 'Show vehicle images');
+    button.title = tr(thumbsOn ? 'Fold all pictures' : 'Unfold all pictures');
     button.style.opacity = thumbsOn ? '1' : '0.55';
   }
   let thumbFrame = 0;
