@@ -1378,5 +1378,53 @@
   "t-90a-burlak": {
     "local": "/assets/vehicles/t-90a-burlak.webp",
     "source": "https://img.astrid.ovh/public-stats-images/t-90a-burlak/perspective.png?w=640&q=80"
+  },
+  "t32e1": {
+    "local": "/assets/vehicles/t32e1.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t32e1/perspective.png?w=640&q=80"
+  },
+  "t26e5": {
+    "local": "/assets/vehicles/t26e5.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t26e5/perspective.png?w=640&q=80"
+  },
+  "gtk-boxer-flw-200": {
+    "local": "/assets/vehicles/gtk-boxer-flw-200.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/gtk-boxer-flw-200/perspective.png?w=640&q=80"
+  },
+  "t26e2": {
+    "local": "/assets/vehicles/t26e2.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t26e2/perspective.png?w=640&q=80"
+  },
+  "m60-ambt": {
+    "local": "/assets/vehicles/m60-ambt.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/m60-ambt/perspective.png?w=640&q=80"
+  },
+  "panther-a": {
+    "local": "/assets/vehicles/panther-a.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/panther-a/perspective.png?w=640&q=80"
+  },
+  "daimler-mk1": {
+    "local": "/assets/vehicles/daimler-mk1.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/daimler-mk1/perspective.png?w=640&q=80"
+  },
+  "t32": {
+    "local": "/assets/vehicles/t32.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t32/perspective.png?w=640&q=80"
+  },
+  "t58": {
+    "local": "/assets/vehicles/t58.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/t58/perspective.png?w=640&q=80"
+  },
+  "m42": {
+    "local": "/assets/vehicles/m42.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/m42/perspective.png?w=640&q=80"
+  },
+  "m24-chaffee": {
+    "local": "/assets/vehicles/m24-chaffee.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/m24/perspective.png?w=640&q=80"
+  },
+  "rosomak-l-zssw-30": {
+    "local": "/assets/vehicles/rosomak-l-zssw-30.webp",
+    "source": "https://img.astrid.ovh/public-stats-images/rosomak-l/perspective.png?w=640&q=80"
   }
 }
