@@ -81,7 +81,7 @@
 @media (prefers-reduced-motion: reduce) { #vehicle-hover-card { animation: none; } }
 
 /* Vehicle picture under the name in team columns. */
-[data-vehicle-id]:has(> .vh-thumb-wrap) { flex-direction: column; height: auto !important; gap: 4px; padding-bottom: 6px; }
+[data-vehicle-id]:has(> .vh-thumb-wrap), [data-weapon-id]:has(> .vh-thumb-wrap) { flex-direction: column; height: auto !important; gap: 4px; padding-bottom: 6px; }
 .vh-thumb-wrap {
   position: relative;
   display: block;
@@ -140,4 +140,4 @@
 .vh-pic-toggle:hover { background: #ffffff1a; }
 .vh-pic-toggle:hover::after { background: #f2f2f3; }
 .vh-pic-folded > .vh-thumb-wrap { display: none; }
-[data-vehicle-id].vh-pic-folded:has(> .vh-thumb-wrap) { padding-bottom: 0; gap: 0; }
+[data-vehicle-id].vh-pic-folded:has(> .vh-thumb-wrap), [data-weapon-id].vh-pic-folded:has(> .vh-thumb-wrap) { padding-bottom: 0; gap: 0; }

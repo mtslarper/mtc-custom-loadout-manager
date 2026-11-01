@@ -12,6 +12,7 @@
     "scan:secrets": "node tools/scan-secrets.mjs",
     "prepare:release": "node tools/prepare-release.mjs",
     "sync:vehicles": "node tools/sync-vehicle-info.mjs",
+    "sync:weapons": "node tools/sync-weapon-info.mjs",
     "check:vehicles": "node tools/check-vehicle-info.mjs",
     "patch": "node tools/patch-import.mjs"
   },

@@ -20,6 +20,10 @@
     return response.json();
   }).then(value => { catalog = value; }).catch(() => { loadingError = true; });
 
+  // Weapon and placeable pictures from the wiki, keyed by the item name used in the editor.
+  let weaponCatalog;
+  const weaponsReady = fetch('/data/weapon-info.json').then(response => (response.ok ? response.json() : null)).then(value => { weaponCatalog = value; }).catch(() => {});
+
   function el(tag, className, text) {
     const node = document.createElement(tag);
     if (className) node.className = className;
@@ -267,15 +271,22 @@
 
   // Picture under the name of every vehicle placed in a team column, a large view of it, and collapsible tiers.
   // Pure DOM decoration: editor state is never modified.
-  let thumbsOn = true;
-  try { thumbsOn = localStorage.getItem('vehicle-thumbs') !== 'off'; } catch {}
-  function thumbSource(id) {
+  const thumbsBy = { vehicle: true, weapon: true };
+  try {
+    thumbsBy.vehicle = localStorage.getItem('vehicle-thumbs') !== 'off';
+    thumbsBy.weapon = localStorage.getItem('weapon-thumbs') !== 'off';
+  } catch {}
+  const kindOf = node => (node.dataset.weaponId !== undefined ? 'weapon' : 'vehicle');
+  const idOf = node => node.dataset.weaponId ?? node.dataset.vehicleId;
+  let activeKind = 'vehicle';
+  function thumbSource(kind, id) {
+    if (kind === 'weapon') return weaponCatalog?.items?.[id]?.image || null;
     const places = catalog?.vehicles?.[id]?.places || {};
     return (places[branch]?.image ? places[branch] : Object.values(places).find(place => place.image))?.image || null;
   }
   let lightbox;
   function closeLightbox() { if (lightbox) lightbox.hidden = true; }
-  function openLightbox(id, src) {
+  function openLightbox(kind, id, src) {
     if (!lightbox) {
       lightbox = el('div', 'vh-lightbox');
       lightbox.hidden = true;
@@ -287,21 +298,23 @@
     const image = lightbox.querySelector('img');
     image.alt = '';
     image.src = src;
-    lightbox.querySelector('.vh-lightbox-caption').textContent = catalog?.vehicles?.[id]?.displayName || id;
-    lightbox.setAttribute('aria-label', tr('Vehicle image'));
+    lightbox.querySelector('.vh-lightbox-caption').textContent = (kind === 'weapon' ? weaponCatalog?.items?.[id]?.displayName : catalog?.vehicles?.[id]?.displayName) || id;
+    lightbox.setAttribute('aria-label', tr(kind === 'weapon' ? 'Weapon image' : 'Vehicle image'));
     lightbox.hidden = false;
   }
   document.addEventListener('keydown', event => { if (event.key === 'Escape') closeLightbox(); });
-  // Each vehicle in a tier can fold its own picture; the choice is kept per column, tier and vehicle.
-  // The "Vehicle images" button folds or unfolds every picture; a vehicle's own chevron overrides it for that vehicle.
+  // Each vehicle or weapon can fold its own picture; the choice is kept per column, tier and item.
+  // The "Vehicle images" / "Weapon images" button folds or unfolds every picture of its tab; an item's own chevron overrides it.
   const pictureOverrides = new Map();
   try {
     const stored = JSON.parse(localStorage.getItem('vehicle-pictures-folded') || '{}');
     if (Array.isArray(stored)) for (const key of stored) pictureOverrides.set(String(key), true);
     else for (const [key, folded] of Object.entries(stored)) pictureOverrides.set(key, Boolean(folded));
   } catch {}
-  const pictureKey = node => [node.dataset.vehicleColumn, node.dataset.vehicleTier, node.dataset.vehicleId].join('|');
-  const isFolded = node => pictureOverrides.has(pictureKey(node)) ? pictureOverrides.get(pictureKey(node)) : !thumbsOn;
+  const pictureKey = node => (kindOf(node) === 'weapon'
+    ? ['w', node.dataset.vehicleColumn, node.dataset.weaponClass || '', node.dataset.vehicleTier, node.dataset.weaponId]
+    : [node.dataset.vehicleColumn, node.dataset.vehicleTier, node.dataset.vehicleId]).join('|');
+  const isFolded = node => pictureOverrides.has(pictureKey(node)) ? pictureOverrides.get(pictureKey(node)) : !thumbsBy[kindOf(node)];
   function savePictures() { try { localStorage.setItem('vehicle-pictures-folded', JSON.stringify(Object.fromEntries(pictureOverrides))); } catch {} }
   function toggleButton(node) {
     let button = node.querySelector(':scope > .vh-pic-toggle');
@@ -315,7 +328,7 @@
       event.preventDefault();
       if (pressed && Math.hypot(event.clientX - pressed[0], event.clientY - pressed[1]) > 5) return; // the end of a drag, not a click
       const key = pictureKey(node), next = !isFolded(node);
-      if (next === !thumbsOn) pictureOverrides.delete(key); else pictureOverrides.set(key, next);
+      if (next === !thumbsBy[kindOf(node)]) pictureOverrides.delete(key); else pictureOverrides.set(key, next);
       savePictures();
       hide();
       scheduleDecorate();
@@ -325,7 +338,8 @@
   }
   function decorate(node) {
     let wrap = node.querySelector(':scope > .vh-thumb-wrap');
-    const src = node.dataset.vehicleColumn !== '-1' ? thumbSource(node.dataset.vehicleId) : null;
+    const kind = kindOf(node);
+    const src = node.dataset.vehicleColumn !== '-1' ? thumbSource(kind, idOf(node)) : null;
     if (!src) { wrap?.remove(); node.querySelector(':scope > .vh-pic-toggle')?.remove(); node.classList.remove('vh-pic-folded'); return; }
     if (!wrap) {
       wrap = el('span', 'vh-thumb-wrap');
@@ -344,7 +358,7 @@
         if (pressed && Math.hypot(event.clientX - pressed[0], event.clientY - pressed[1]) > 5) return; // the end of a drag, not a click
         event.preventDefault();
         hide();
-        openLightbox(node.dataset.vehicleId, wrap.firstChild.getAttribute('src'));
+        openLightbox(kind, idOf(node), wrap.firstChild.getAttribute('src'));
       });
       node.append(wrap);
     }
@@ -433,30 +447,31 @@
       button.type = 'button';
       button.className = language.className;
       button.addEventListener('click', () => {
-        thumbsOn = !thumbsOn;
-        pictureOverrides.clear();
+        thumbsBy[activeKind] = !thumbsBy[activeKind];
+        for (const key of [...pictureOverrides.keys()]) if ((key.startsWith('w|') ? 'weapon' : 'vehicle') === activeKind) pictureOverrides.delete(key);
         savePictures();
-        try { localStorage.setItem('vehicle-thumbs', thumbsOn ? 'on' : 'off'); } catch {}
-        syncToggle();
+        try { localStorage.setItem(activeKind + '-thumbs', thumbsBy[activeKind] ? 'on' : 'off'); } catch {}
         decorateAll();
       });
       language.after(button);
     }
-    button.textContent = tr('Vehicle images');
-    button.setAttribute('aria-pressed', String(thumbsOn));
-    button.title = tr(thumbsOn ? 'Fold all pictures' : 'Unfold all pictures');
-    button.style.opacity = thumbsOn ? '1' : '0.55';
+    activeKind = document.querySelector('[data-weapon-id]') ? 'weapon' : 'vehicle';
+    button.textContent = tr(activeKind === 'weapon' ? 'Weapon images' : 'Vehicle images');
+    button.setAttribute('aria-pressed', String(thumbsBy[activeKind]));
+    button.title = tr(thumbsBy[activeKind] ? 'Fold all pictures' : 'Unfold all pictures');
+    button.style.opacity = thumbsBy[activeKind] ? '1' : '0.55';
   }
   let thumbFrame = 0;
   function decorateAll() {
     thumbFrame = 0;
     syncToggle();
-    for (const node of document.querySelectorAll('[data-vehicle-id]')) decorate(node);
+    for (const node of document.querySelectorAll('[data-vehicle-id], [data-weapon-id]')) decorate(node);
     syncTiers();
   }
   function scheduleDecorate() { if (!thumbFrame) thumbFrame = requestAnimationFrame(decorateAll); }
-  new MutationObserver(scheduleDecorate).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['data-vehicle-id', 'data-vehicle-column'] });
+  new MutationObserver(scheduleDecorate).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['data-vehicle-id', 'data-weapon-id', 'data-vehicle-column'] });
   ready.then(scheduleDecorate);
+  weaponsReady.then(scheduleDecorate);
   window.addEventListener('loadout-language-change', scheduleDecorate);
   scheduleDecorate();
 })();
