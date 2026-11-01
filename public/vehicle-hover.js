@@ -292,10 +292,34 @@
     lightbox.hidden = false;
   }
   document.addEventListener('keydown', event => { if (event.key === 'Escape') closeLightbox(); });
+  // Each vehicle in a tier can fold its own picture; the choice is kept per column, tier and vehicle.
+  const foldedPictures = new Set();
+  try { for (const key of JSON.parse(localStorage.getItem('vehicle-pictures-folded') || '[]')) foldedPictures.add(String(key)); } catch {}
+  const pictureKey = node => [node.dataset.vehicleColumn, node.dataset.vehicleTier, node.dataset.vehicleId].join('|');
+  function toggleButton(node) {
+    let button = node.querySelector(':scope > .vh-pic-toggle');
+    if (button) return button;
+    button = el('span', 'vh-pic-toggle');
+    button.setAttribute('role', 'button');
+    let pressed = null;
+    button.addEventListener('mousedown', event => { pressed = [event.clientX, event.clientY]; });
+    button.addEventListener('click', event => {
+      event.stopPropagation();
+      event.preventDefault();
+      if (pressed && Math.hypot(event.clientX - pressed[0], event.clientY - pressed[1]) > 5) return; // the end of a drag, not a click
+      const key = pictureKey(node);
+      if (foldedPictures.has(key)) foldedPictures.delete(key); else foldedPictures.add(key);
+      try { localStorage.setItem('vehicle-pictures-folded', JSON.stringify([...foldedPictures])); } catch {}
+      hide();
+      scheduleDecorate();
+    });
+    node.append(button);
+    return button;
+  }
   function decorate(node) {
     let wrap = node.querySelector(':scope > .vh-thumb-wrap');
     const src = thumbsOn && node.dataset.vehicleColumn !== '-1' ? thumbSource(node.dataset.vehicleId) : null;
-    if (!src) { wrap?.remove(); return; }
+    if (!src) { wrap?.remove(); node.querySelector(':scope > .vh-pic-toggle')?.remove(); node.classList.remove('vh-pic-folded'); return; }
     if (!wrap) {
       wrap = el('span', 'vh-thumb-wrap');
       const image = el('img', 'vh-thumb');
@@ -318,6 +342,11 @@
       node.append(wrap);
     }
     wrap.title = tr('Enlarge image');
+    const folded = foldedPictures.has(pictureKey(node));
+    node.classList.toggle('vh-pic-folded', folded);
+    const toggle = toggleButton(node);
+    toggle.setAttribute('aria-expanded', String(!folded));
+    toggle.title = tr(folded ? 'Show picture' : 'Hide picture');
     const image = wrap.firstChild;
     if (image.getAttribute('src') !== src) image.src = src;
   }
