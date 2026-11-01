@@ -2,6 +2,7 @@
 
 - Исходный интерфейс и браузерная сборка: https://loadout-editor.multicrew.dev/ — локальный снимок от 19 октября 2026 года. Исходные React/TypeScript-файлы не входят в проект.
 - Игровые данные и изображения: официальная https://multicrew.wiki/. В выгрузке указана лицензия [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Исходные ссылки сохранены в каталоге и манифесте изображений; карточки содержат атрибуцию. Русские пояснения модификаций получены из опубликованных изменений модулей или явно помечены как пояснения по названию.
+- Изображения оружия и устанавливаемых объектов (`public/assets/weapons`, `public/assets/placeables`): страницы https://multicrew.wiki/mtc/weapons и https://multicrew.wiki/mtc/placeables, лицензия вики CC BY-NC 4.0. Адреса и названия предметов — в `public/data/weapon-info.json`, воспроизведение — `npm run sync:weapons`.
 - В сборку входят сторонние React, Next.js, MUI/Emotion и другие библиотеки. Сохранены имеющиеся в файлах уведомления. Полная исходная ведомость зависимостей отсутствует.
 - Шрифт Inter: https://github.com/rsms/inter, SIL Open Font License 1.1.
 

@@ -133,6 +133,12 @@ Share links created locally contain `localhost`. The recipient needs to run thei
 
 Hover over a vehicle in the list on the right or in a team column. Its card opens after a short delay. Move the pointer onto the card to scroll its contents. Press **Esc** to close it. Cards also open when a vehicle receives keyboard focus.
 
+Vehicles placed in team columns also show their picture under the name. Use the **Vehicle images** button next to **EN / RU** to fold or unfold all pictures at once; when it is off, the chevron on each vehicle still unfolds that vehicle's picture. The choice is remembered in your browser. The list on the right stays compact.
+
+The **Weapons** tab works the same way: weapons and placeables in team columns show their wiki picture under the name (about 100 items have one; tools such as Radio or Flag do not). The button next to **EN / RU** reads **Weapon images** on that tab and has its own state, and every item has its own chevron. Pictures are listed in `public/data/weapon-info.json`; `npm run sync:weapons` rebuilds the list and downloads the images (needs internet).
+
+Click a picture to open a large view (click or **Esc** closes it); dragging by the picture still moves the vehicle. The chevron in the top-right corner of every vehicle hides or shows that vehicle's picture; the choice is remembered per column, tier and vehicle. Click a **Tier** heading in a team column to fold or unfold that tier: the heading shows how many vehicles it holds and a folded tier still accepts drops. **Collapse tiers / Expand tiers** next to the image button folds or unfolds all vehicle tiers. Folded tiers are remembered in your browser. The **Weapons** tab has the same tier headings (inside each class section) and its own **Collapse tiers / Expand tiers** button.
+
 Use **MTC / RV** to switch between available data versions. Some vehicles also have an era selector. In the **Modifications (Модификации)** tab, click a modification name to expand its cost, explanation, and changes.
 
 Stats describe the in-game base configuration. Missing values are not filled in with guesses. Modification explanations identify their source: an in-game description, published module changes, or an interpretation of the name. **Viewing modifications does not apply them to the exported JSON.**

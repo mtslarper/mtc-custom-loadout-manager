@@ -13,6 +13,15 @@ if (!chunk.includes(marker)) {
   chunk = chunk.replace(anchor, 'return(0,r.jsxs)(W.A,{ref:c,' + marker + ',"data-vehicle-tier":t.tier,"data-vehicle-column":t.columnIndex,onClick:');
   writeFileSync(filename, chunk);
 }
+// Weapon items get the same stable markers so the pictures can be attached to them.
+const weaponMarker = '"data-weapon-id":"weapon"===t.type?t.name:void 0,"data-weapon-class":t.className,';
+chunk = readFileSync(filename, 'utf8');
+if (!chunk.includes(weaponMarker)) {
+  const anchor = '"data-vehicle-column":t.columnIndex,onClick:';
+  if (chunk.split(anchor).length !== 2) throw new Error('Weapon item anchor changed; refusing to patch a different component.');
+  chunk = chunk.replace(anchor, '"data-vehicle-column":t.columnIndex,' + weaponMarker + 'onClick:');
+  writeFileSync(filename, chunk);
+}
 const htmlPath = path.join(root, 'public/index.html');
 let html = readFileSync(htmlPath, 'utf8');
 if (!html.includes('href="/vehicle-hover.css"')) html = html.replace('</head>', '<link rel="stylesheet" href="/vehicle-hover.css"/></head>');
