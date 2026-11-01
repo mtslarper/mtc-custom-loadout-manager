@@ -372,12 +372,26 @@
     if (image.getAttribute('src') !== src) image.src = src;
   }
 
-  // Vehicle tiers can be folded; a folded cell keeps its drop area.
-  const collapsedTiers = new Set();
-  try { for (const key of JSON.parse(localStorage.getItem('vehicle-tiers-collapsed') || '[]')) collapsedTiers.add(String(key)); } catch {}
-  function saveTiers() { try { localStorage.setItem('vehicle-tiers-collapsed', JSON.stringify([...collapsedTiers])); } catch {} }
+  // Tiers of the Vehicles and Weapons tabs can be folded; a folded cell keeps its drop area.
+  // The "Collapse tiers" button sets the default of the tab that is on screen; a tier's own heading overrides it.
+  const tierOverrides = new Map();
+  const tierDefaults = { vehicle: false, weapon: false };
+  try {
+    const stored = JSON.parse(localStorage.getItem('vehicle-tiers-collapsed') || '[]');
+    if (Array.isArray(stored)) for (const key of stored) tierOverrides.set(String(key), true);
+    else {
+      tierDefaults.vehicle = Boolean(stored.vehicle?.folded);
+      tierDefaults.weapon = Boolean(stored.weapon?.folded);
+      for (const [key, folded] of Object.entries(stored.overrides || {})) tierOverrides.set(key, Boolean(folded));
+    }
+  } catch {}
+  function saveTiers() {
+    try { localStorage.setItem('vehicle-tiers-collapsed', JSON.stringify({ vehicle: { folded: tierDefaults.vehicle }, weapon: { folded: tierDefaults.weapon }, overrides: Object.fromEntries(tierOverrides) })); } catch {}
+  }
+  const tierKind = key => (key.startsWith('w-') ? 'weapon' : 'vehicle');
+  const isTierCollapsed = key => (tierOverrides.has(key) ? tierOverrides.get(key) : tierDefaults[tierKind(key)]);
   const tierPattern = /^(?:Tier|Тир)\s*(\d+)$/;
-  function vehicleTierHeaders() {
+  function tierHeaders() {
     const headers = [];
     const editor = document.querySelector('.loadout-editor');
     if (!editor) return headers;
@@ -385,23 +399,29 @@
       const text = label.textContent.trim();
       const head = label.parentElement;
       if (label.children.length || !tierPattern.test(text) || !head?.nextElementSibling || head.children.length !== 1) continue;
-      if (head.closest('.MuiAccordionGroup-root, .MuiAccordion-root')) continue; // weapon tiers live inside class accordions
       let column = head;
       while (column.parentElement && column.parentElement.parentElement !== editor) column = column.parentElement;
-      const key = Array.prototype.indexOf.call(column.parentElement?.children || [], column) + '-' + text.match(tierPattern)[1];
-      headers.push({ head, body: head.nextElementSibling, key });
+      const columnIndex = Array.prototype.indexOf.call(column.parentElement?.children || [], column);
+      const tier = text.match(tierPattern)[1];
+      const section = head.closest('.MuiAccordion-root');
+      // Weapon tiers live inside the class sections (Infantry, Crewman, Engineer) of a column.
+      const key = section
+        ? 'w-' + columnIndex + '-' + Array.prototype.indexOf.call(section.parentElement?.children || [], section) + '-' + tier
+        : columnIndex + '-' + tier;
+      headers.push({ head, body: head.nextElementSibling, key, kind: section ? 'weapon' : 'vehicle' });
     }
     return headers;
   }
   function toggleTier(key) {
-    if (collapsedTiers.has(key)) collapsedTiers.delete(key); else collapsedTiers.add(key);
+    const next = !isTierCollapsed(key);
+    if (next === tierDefaults[tierKind(key)]) tierOverrides.delete(key); else tierOverrides.set(key, next);
     saveTiers();
     syncTiers();
   }
   function syncTiers() {
-    const headers = vehicleTierHeaders();
-    for (const { head, body, key } of headers) {
-      const collapsed = collapsedTiers.has(key);
+    const all = tierHeaders();
+    for (const { head, body, key } of all) {
+      const collapsed = isTierCollapsed(key);
       if (!head.classList.contains('vh-tier-head')) {
         head.classList.add('vh-tier-head');
         head.setAttribute('role', 'button');
@@ -415,26 +435,28 @@
       body.classList.add('vh-tier-body');
       body.classList.toggle('vh-collapsed', collapsed);
     }
-    let all = document.getElementById('vehicle-tiers-toggle');
+    const headers = all.filter(header => header.kind === activeKind);
+    let button = document.getElementById('vehicle-tiers-toggle');
     const anchorButton = document.getElementById('vehicle-thumbs-toggle');
-    if (!headers.length || !anchorButton) { all?.remove(); return; }
-    if (!all) {
-      all = document.createElement('button');
-      all.id = 'vehicle-tiers-toggle';
-      all.type = 'button';
-      all.className = anchorButton.className;
-      all.addEventListener('click', () => {
-        const current = vehicleTierHeaders();
-        const anyOpen = current.some(({ key }) => !collapsedTiers.has(key));
-        for (const { key } of current) { if (anyOpen) collapsedTiers.add(key); else collapsedTiers.delete(key); }
+    if (!headers.length || !anchorButton) { button?.remove(); return; }
+    if (!button) {
+      button = document.createElement('button');
+      button.id = 'vehicle-tiers-toggle';
+      button.type = 'button';
+      button.className = anchorButton.className;
+      button.addEventListener('click', () => {
+        const current = tierHeaders().filter(header => header.kind === activeKind);
+        const anyOpen = current.some(({ key }) => !isTierCollapsed(key));
+        tierDefaults[activeKind] = anyOpen;
+        for (const key of [...tierOverrides.keys()]) if (tierKind(key) === activeKind) tierOverrides.delete(key);
         saveTiers();
         syncTiers();
       });
-      anchorButton.after(all);
+      anchorButton.after(button);
     }
-    const anyOpen = headers.some(({ key }) => !collapsedTiers.has(key));
-    all.textContent = tr(anyOpen ? 'Collapse tiers' : 'Expand tiers');
-    all.title = tr(anyOpen ? 'Fold all vehicle tiers' : 'Unfold all vehicle tiers');
+    const anyOpen = headers.some(({ key }) => !isTierCollapsed(key));
+    button.textContent = tr(anyOpen ? 'Collapse tiers' : 'Expand tiers');
+    button.title = tr(activeKind === 'weapon' ? (anyOpen ? 'Fold all weapon tiers' : 'Unfold all weapon tiers') : (anyOpen ? 'Fold all vehicle tiers' : 'Unfold all vehicle tiers'));
   }
 
   function syncToggle() {

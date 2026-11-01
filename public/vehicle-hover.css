@@ -124,7 +124,7 @@
 }
 .vh-tier-head:hover::after { background: #f2f2f3; }
 .vh-tier-head[aria-expanded="true"]::after { transform: rotate(180deg); }
-.vh-tier-body.vh-collapsed > [data-vehicle-id] { display: none; }
+.vh-tier-body.vh-collapsed > [data-vehicle-id], .vh-tier-body.vh-collapsed > [data-weapon-id] { display: none; }
 
 /* Per-vehicle fold of the picture. */
 .vh-pic-toggle {
